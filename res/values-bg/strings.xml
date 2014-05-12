@@ -192,7 +192,6 @@
     <string name="quick_settings_volume">Обем</string>
     <string name="quick_settings_usage">Използване на данни</string>
     <string name="quick_settings_sync_all">Синхронизация на всички</string>
-    <string name="quick_settings_ringtone">Мелодия на звънене</string>
     <string name="quick_settings_auto_sync">Автоматична синхронизация</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Потребителска карта</string>
@@ -208,9 +207,11 @@
     <string name="quick_settings_music_channel">Музикален канал</string>
     <string name="quick_settings_do_not_disturb">Не ме безпокойте</string>
     <string name="quick_settings_fingerprint_scan">Сканиране на пръстов отпечатък</string>
+    <string name="quick_settings_power_saver_ex">Супер икономичен режим</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi точка за достъп</string>
-    <string name="quick_settings_wifi_hotspot_us">Мобилна точка за достъп</string>
     <string name="quick_settings_wifi_hotspot_jp">Връзка с интернет чрез USB</string>
+    <string name="quick_settings_wifi_hotspot_us">Мобилна точка за достъп</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Мобилна точка за достъп</string>
     <string name="quick_settings_apn">Име на точка за достъп</string>
     <string name="quick_settings_prefer_network">Предпочитана мрежа</string>
     <string name="quick_settings_network_selection">Избор на мрежа</string>
@@ -234,6 +235,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">Не показвай това съобщение повече</string>
     <string name="quick_settings_power_saver_dialog_message">"Връзка за данни в Режим за икономия на енергия е ВКЛ. Ако е ВКЛ., прехвърлянето на данни, като например получаване на имейли, не може да се извърши, докато дисплеят е изключен.
 (Прехвърлянето на данни е възможно по време на зареждане, независимо от тази настройка.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Не показвай това съобщение повече</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi е изкл., когато настройката USB тетъринг или Мобилна точка за достъп е активна. Ако включите Wi-Fi, изключете USB тетъринг или мобилна точка за достъп.</string>
     <string name="quick_tips_edit_button">Натиснете, за да добавите и премахнете Бързи настройки</string>
     <string name="quick_tips_more_button">Натиснете и задръжте елемент, за да го отворите в неговата страница с Настройки</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN точка за достъп</string>
@@ -264,4 +267,68 @@
     <string name="battery_low_charging_not_enough_title">Предупреждение</string>
     <string name="battery_low_charging_not_enough_ac_title">Неуспешно зареждане</string>
     <string name="battery_low_charging_not_enough_ac">Телефонът не може да се зареди, защото използва прекалено много енергия. За да решите проблема, намалете консумацията на енергия като изключите телефона, затворите приложенията, които не използвате, или изключите екрана.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Супер икономичен режим</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Включването на супер икономичен режим удължава живота на батерията като:
+-Намалява употребата на централния процесор.
+-Намалява яркостта на екрана.
+-Изключва обратната връзка чрез вибрация.
+-Изключва връзката за данни, когато екранът е изключен.
+-Позволява изпълнението само на важните приложения.
+-Изключва крачкомера."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Включването на супер икономичен режим удължава живота на батерията като:
+-Намалява употребата на централния процесор.
+-Намалява яркостта на екрана.
+-Изключва обратната връзка чрез вибрация.
+-Изключва връзката за данни, когато екранът е изключен.
+-Позволява изпълнението само на важните приложения."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Супер икономичен режим</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Включването на супер икономичен режим удължава живота на батерията като:
+-Намалява употребата на централния процесор.
+-Намалява яркостта на екрана.
+-Изключва обратната връзка чрез вибрация.
+-Изключва връзката за данни, когато екранът е изключен.
+-Позволява изпълнението само на важните приложения."</string>
+    <string name="extreme_auto_power_saver_ask_title">Максимална икономия на енергия</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Включването на режим за максимална икономия на енергия удължава живота на батерията като:
+-Намалява употребата на централния процесор.
+-Намалява яркостта на екрана.
+-Изключва обратната връзка чрез вибрация.
+-Изключва връзката за данни, когато екранът е изключен.
+-Позволява изпълнението само на важните приложения."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Режим на готовност</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Включването на режима на готовност удължава живота на батерията като:
+-Намалява употребата на централния процесор.
+-Намалява яркостта на екрана.
+-Изключва обратната връзка чрез вибрация.
+-Изключва връзката за данни, когато екранът е изключен.
+-Позволява изпълнението само на важните приложения."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Режим на спешни повиквания</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Включването на режима за спешни повиквания удължава живота на батерията като:
+-Намалява употребата на централния процесор.
+-Намалява яркостта на екрана.
+-Изключва обратната връзка чрез вибрация.
+-Изключва връзката за данни, когато екранът е изключен.
+-Позволява изпълнението само на важните приложения."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Режим за ниска консумация на енергия</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Включването на режима за ниска консумация на енергия удължава живота на батерията като:
+-Намалява употребата на централния процесор.
+-Намалява яркостта на екрана.
+-Изключва обратната връзка чрез вибрация.
+-Изключва връзката за данни, когато екранът е изключен.
+-Позволява изпълнението само на важните приложения."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Режим за пестене на енергия</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Включването на режима за пестене на енергия удължава живота на батерията като:
+-Намалява употребата на централния процесор.
+-Намалява яркостта на екрана.
+-Изключва обратната връзка чрез вибрация.
+-Изключва връзката за данни, когато екранът е изключен.
+-Позволява изпълнението само на важните приложения."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Интелигентен икономичен режим</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Включването на интелигентен икономичен режим удължава живота на батерията като:
+-Намалява употребата на централния процесор.
+-Намалява яркостта на екрана.
+-Изключва обратната връзка чрез вибрация.
+-Изключва връзката за данни, когато екранът е изключен.
+-Позволява изпълнението само на важните приложения."</string>
+    <string name="quick_settings_ringtone">Мелодия на звънене</string>
 </resources>

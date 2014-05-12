@@ -21,11 +21,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/statusbar/phone/QuickSettings;Landroid/os/Handler;)V
     .locals 0
-    .parameter
-    .parameter "x0"
 
-    .prologue
-    .line 1208
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/QuickSettings$2;->this$0:Lcom/android/systemui/statusbar/phone/QuickSettings;
 
     invoke-direct {p0, p2}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
@@ -37,11 +33,7 @@
 # virtual methods
 .method public onChange(ZLandroid/net/Uri;)V
     .locals 4
-    .parameter "selfChange"
-    .parameter "uri"
 
-    .prologue
-    .line 1212
     const-string v1, "QuickSettings"
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -85,7 +77,6 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1216
     iget-object v1, p0, Lcom/android/systemui/statusbar/phone/QuickSettings$2;->this$0:Lcom/android/systemui/statusbar/phone/QuickSettings;
 
     #getter for: Lcom/android/systemui/statusbar/phone/QuickSettings;->qsMode:I
@@ -97,16 +88,12 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 1226
     :goto_0
     return-void
 
-    .line 1219
     :cond_0
     const/4 v0, 0x0
 
-    .line 1222
-    .local v0, qsInitialList:[I
     iget-object v1, p0, Lcom/android/systemui/statusbar/phone/QuickSettings$2;->this$0:Lcom/android/systemui/statusbar/phone/QuickSettings;
 
     #calls: Lcom/android/systemui/statusbar/phone/QuickSettings;->refreshQSSettingConfiguration([I)[I
@@ -114,7 +101,6 @@
 
     move-result-object v0
 
-    .line 1225
     iget-object v1, p0, Lcom/android/systemui/statusbar/phone/QuickSettings$2;->this$0:Lcom/android/systemui/statusbar/phone/QuickSettings;
 
     iget-object v2, p0, Lcom/android/systemui/statusbar/phone/QuickSettings$2;->this$0:Lcom/android/systemui/statusbar/phone/QuickSettings;

@@ -190,7 +190,6 @@ være overvåket"</string>
     <string name="quick_settings_volume">Volum</string>
     <string name="quick_settings_usage">Dataforbruk</string>
     <string name="quick_settings_sync_all">Synkroniser alle</string>
-    <string name="quick_settings_ringtone">Ringetone</string>
     <string name="quick_settings_auto_sync">Autosynk</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Brukerkort</string>
@@ -206,9 +205,11 @@ være overvåket"</string>
     <string name="quick_settings_music_channel">Musikkanal</string>
     <string name="quick_settings_do_not_disturb">Ikke forstyrr</string>
     <string name="quick_settings_fingerprint_scan">Fingeravtrykksskanning</string>
+    <string name="quick_settings_power_saver_ex">Ekstrem strømsparingsmodus</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi Hotspot</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobilt tilgangspunkt</string>
     <string name="quick_settings_wifi_hotspot_jp">Tilknytning</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Foretrukket nettverk</string>
     <string name="quick_settings_network_selection">Nettverksvalg</string>
@@ -232,8 +233,10 @@ være overvåket"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Ikke vis denne meldingen igjen</string>
     <string name="quick_settings_power_saver_dialog_message">"Datatilkobling i strømsparing er slått PÅ. Hvis dette er slått PÅ, er dataoverføring, f.eks. mottak av e-post, kanskje ikke mulig når skjermen er slått av.
 (Dataoverføring er mulig under lading uavhengig av denne innstillingen.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Ikke vis denne meldingen igjen</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi er slått av når USB-tilknytning eller Mobile Hotspot er aktivt. Hvis du vil slå på Wi-Fi, slår du av USB-tilknytning eller Mobile Hotspot.</string>
     <string name="quick_tips_edit_button">Klikk for å legge til og fjerne Hurtiginnstillinger</string>
-    <string name="quick_tips_more_button">Trykk på og hold et element for å åpne dets innstillingsside</string>
+    <string name="quick_tips_more_button">Trykk på og hold et element for å åpne Innstillinger</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN-hotspot</string>
     <string name="quick_setting_wifi_hotspot_ct">WLAN-hotspot</string>
     <string name="qs_mobile_roaming_title">Viktig</string>
@@ -262,4 +265,68 @@ være overvåket"</string>
     <string name="battery_low_charging_not_enough_title">Advarsel</string>
     <string name="battery_low_charging_not_enough_ac_title">Kan ikke lade</string>
     <string name="battery_low_charging_not_enough_ac">Kan ikke lade telefonen fordi den bruker for mye strøm. Du løser dette problemet ved å redusere strømforbruket eller ved å slå av telefonen, lukke eventuelle apper du ikke bruker, eller ved å slå av skjermen.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Ekstrem strømsparingsmodus</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Ekstrem strømsparingsmodus forlenger batteriets levetid ved å:
+-Bevare CPU-forbruk.
+-Redusere skjermens lysstyrke.
+-Slå av vibrasjonstilbakemelding.
+-Slå av datatilkobling når skjermen er av.
+-Bare tillate viktige apper å kjøre.
+-Slå av pedometer."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Ekstrem strømsparingsmodus forlenger batteriets levetid ved å:
+-Bevare CPU-forbruk.
+-Redusere skjermens lysstyrke.
+-Slå av vibrasjonstilbakemelding.
+-Slå av datatilkobling når skjermen er av.
+-Bare tillate viktige apper å kjøre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Ekstrem strømsparing</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Ekstrem strømsparing forlenger batteriets levetid ved å:
+-Bevare CPU-forbruk.
+-Redusere skjermens lysstyrke.
+-Slå av vibrasjonstilbakemelding.
+-Slå av datatilkobling når skjermen er av.
+-Bare tillate viktige apper å kjøre."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maksimal strømsparing</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Maksimal strømsparing forlenger batteriets levetid ved å:
+-Bevare CPU-forbruk.
+-Redusere skjermens lysstyrke.
+-Slå av vibrasjonstilbakemelding.
+-Slå av datatilkobling når skjermen er av.
+-Bare tillate viktige apper å kjøre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Standbymodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Standbymodus forlenger batteriets levetid ved å:
+-Bevare CPU-forbruk.
+-Redusere skjermens lysstyrke.
+-Slå av vibrasjonstilbakemelding.
+-Slå av datatilkobling når skjermen er av.
+-Bare tillate viktige apper å kjøre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Nødmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Nødmodus forlenger batteriets levetid ved å:
+-Bevare CPU-forbruk.
+-Redusere skjermens lysstyrke.
+-Slå av vibrasjonstilbakemelding.
+-Slå av datatilkobling når skjermen er av.
+-Bare tillate viktige apper å kjøre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Lav strømmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Lav strømmodus forlenger batteriets levetid ved å:
+-Bevare CPU-forbruk.
+-Redusere skjermens lysstyrke.
+-Slå av vibrasjonstilbakemelding.
+-Slå av datatilkobling når skjermen er av.
+-Bare tillate viktige apper å kjøre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Strømbevaringsmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Strømbevaringsmodus forlenger batteriets levetid ved å:
+-Bevare CPU-forbruk.
+-Redusere skjermens lysstyrke.
+-Slå av vibrasjonstilbakemelding.
+-Slå av datatilkobling når skjermen er av.
+-Bare tillate viktige apper å kjøre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Smart strømsparingsmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Smart strømsparingsmodus forlenger batteriets levetid ved å:
+-Bevare CPU-forbruk.
+-Redusere skjermens lysstyrke.
+-Slå av vibrasjonstilbakemelding.
+-Slå av datatilkobling når skjermen er av.
+-Bare tillate viktige apper å kjøre."</string>
+    <string name="quick_settings_ringtone">Ringetone</string>
 </resources>

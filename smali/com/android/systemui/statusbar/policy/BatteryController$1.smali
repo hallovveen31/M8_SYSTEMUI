@@ -21,11 +21,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/statusbar/policy/BatteryController;Landroid/os/Handler;)V
     .locals 0
-    .parameter
-    .parameter "x0"
 
-    .prologue
-    .line 227
     iput-object p1, p0, Lcom/android/systemui/statusbar/policy/BatteryController$1;->this$0:Lcom/android/systemui/statusbar/policy/BatteryController;
 
     invoke-direct {p0, p2}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
@@ -37,15 +33,11 @@
 # virtual methods
 .method public onChange(ZLandroid/net/Uri;)V
     .locals 6
-    .parameter "selfChange"
-    .parameter "uri"
 
-    .prologue
     const/4 v2, 0x1
 
     const/4 v3, 0x0
 
-    .line 231
     iget-object v1, p0, Lcom/android/systemui/statusbar/policy/BatteryController$1;->this$0:Lcom/android/systemui/statusbar/policy/BatteryController;
 
     #getter for: Lcom/android/systemui/statusbar/policy/BatteryController;->mContext:Landroid/content/Context;
@@ -63,8 +55,6 @@
 
     move-result v0
 
-    .line 234
-    .local v0, visible:I
     const-string v4, "StatusBar.BatteryController"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -98,7 +88,6 @@
 
     invoke-static {v4, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 236
     iget-object v1, p0, Lcom/android/systemui/statusbar/policy/BatteryController$1;->this$0:Lcom/android/systemui/statusbar/policy/BatteryController;
 
     if-eqz v0, :cond_1
@@ -107,18 +96,15 @@
     #calls: Lcom/android/systemui/statusbar/policy/BatteryController;->updateBatteryTextVisible(Z)V
     invoke-static {v1, v2}, Lcom/android/systemui/statusbar/policy/BatteryController;->access$100(Lcom/android/systemui/statusbar/policy/BatteryController;Z)V
 
-    .line 237
     return-void
 
     :cond_0
     move v1, v3
 
-    .line 234
     goto :goto_0
 
     :cond_1
     move v2, v3
 
-    .line 236
     goto :goto_1
 .end method

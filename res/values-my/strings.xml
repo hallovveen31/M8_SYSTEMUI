@@ -190,7 +190,6 @@
     <string name="quick_settings_volume">အသံပမာဏ</string>
     <string name="quick_settings_usage">ေဒတာသုံးစြဲမႈ</string>
     <string name="quick_settings_sync_all">အားလံုး စည္းညႇိ</string>
-    <string name="quick_settings_ringtone">ဖုန္းျမည္သံ</string>
     <string name="quick_settings_auto_sync">ေအာ္တို ထပ္တူျပဳ</string>
     <string name="quick_settings_bluetooth">ဘလူးတု</string>
     <string name="quick_settings_user_card">အသံုးျပဳသူ ကဒ္</string>
@@ -206,9 +205,11 @@
     <string name="quick_settings_music_channel">သီခ်င္းခ်ာနယ္</string>
     <string name="quick_settings_do_not_disturb">မေႏွာက္ယွက္ပါႏွင့္</string>
     <string name="quick_settings_fingerprint_scan">လက္ေဗြ ရိုက္မွတ္သည္</string>
+    <string name="quick_settings_power_saver_ex">အလြန္အမင္း ပါဝါေခၽြတာသည့္မုဒ္</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi လႊင့္စက္ငယ္</string>
-    <string name="quick_settings_wifi_hotspot_us">မိုဘိုင္းလ္ </string>
     <string name="quick_settings_wifi_hotspot_jp">လံထားျခင္း</string>
+    <string name="quick_settings_wifi_hotspot_us">မိုဘိုင္း Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">မိုဘိုင္း ေဟာ့ထ္စေပါ့</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">ပိုမိုႏွစ္သက္သည့္ကြန္ယက္</string>
     <string name="quick_settings_network_selection">ကြန္ယက္ေရြးခ်ယ္ျခင္း</string>
@@ -232,6 +233,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">ဤမက္ေဆ့ခ်္အား ကၽြႏ္ုပ္ကို ထပ္မျပပါႏွင့္</string>
     <string name="quick_settings_power_saver_dialog_message">"ပါဝါေခၽြတာမႈတြင္ ေဒတာ ခ်ိတ္ဆက္ျခင္း ကို ဖြင့္ထား။ အကယ္၍ ၎ကုိဖြင့္ပါက၊ ျမင္ကြင္းသည္ ပိတ္ထားေသာအခါ အီးေမးလ္လက္ခံျခင္းကဲ့သို႔ေသာ ေဒတာလႊဲေျပာင္းျခင္းကို လုပ္ႏုိင္မည္မဟုတ္။
 (ဤခ်ိန္ညႇိခ်က္တြင္ ေငြကုန္က်မႈကို ဂ႐ုမထားဘဲ ေဒတာလႊဲေျပာင္းျခင္းရႏိုင္သည္။)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">ဤမက္ေဆ့ခ်္အား ကၽြႏ္ုပ္ကို ထပ္မျပပါႏွင့္</string>
+    <string name="quick_settings_hotspot_dialog_message">USB လႊင့္ျခင္း သို႔မဟုတ္ မိုဘိုင္း ေဟာ့ထ္စေပါ့ ဖြင့္ထားေသာအခါ Wi-Fi ကို ပိတ္ပါ။ Wi-Fi ကိုဖြင့္ရန္၊ ေက်းဇူးျပဳ၍ USB လႊင့္ျခင္း သို႔မဟုတ္ မိုဘိုင္း ေဟာ့ထ္စေပါ့ ကို ပိတ္ပါ။</string>
     <string name="quick_tips_edit_button">လ်င္ျမန္ေသာ ခ်ိန္ညႇိခ်က္မ်ားကို ထည့္ရန္ ႏွင့္ ဖယ္ရွားရန္ အသာပုတ္ပါ</string>
     <string name="quick_tips_more_button">အရာတစ္ခု၏ ခ်ိန္ညႇိခ်က္စာမ်က္ႏွာကို ဖြင့္ရန္ ထုိအရာကို ႏွိပ္၍ကိုင္ထားပါ</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN လႊင့္စက္ငယ္</string>
@@ -262,4 +265,68 @@
     <string name="battery_low_charging_not_enough_title"></string>
     <string name="battery_low_charging_not_enough_ac_title"></string>
     <string name="battery_low_charging_not_enough_ac">ဖုန္းသည္ ပါဝါသုံးစြဲမႈမ်ားလြန္းသျဖင့္ ၎ကို အားမသြင္းႏုိင္ပါ။ ဤျပႆနာကို ေျဖရွင္းရန္အတြက္ သင့္ဖုန္းကိုပိတ္ျခင္း၊ မသုံးေနေသာ အက္ပ္မ်ားကို ပိတ္ျခင္း သို႔မဟုတ္ မ်က္ႏွာျပင္ပိတ္ျခင္းတုိ႔ျဖင့္ ပါဝါသုံးစြဲမႈကို ေလ်ာ့ခ်ပါ။</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">အလြန္အမင္း ပါဝါေခၽြတာသည့္မုဒ္</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"အလြန္အမင္း ပါဝါေခၽြတာသည့္မုဒ္ဖြင့္ျခင္းသည္ ဘက္ထရီသက္တမ္းကို ၾကာရွည္ေစသည္။ အေၾကာင္းမွာ-
+-CPU သုံးစြဲမႈ ထိန္းသိမ္းျခင္း။
+-မ်က္ႏွာျပင္ ေတာက္ပမႈေလွ်ာ့ခ်ျခင္း။
+-တုန္ခါျခင္းတုံ႔ျပန္မႈ ပိတ္ျခင္း။
+-မ်က္ႏွာျပင္ပိတ္ထားစဥ္ ေဒတာခ်ိတ္ဆက္မႈ ပိတ္ျခင္း။
+-အဓိကက်ေသာ အက္ပမ်ားကိုသာ လုပ္ေဆာင္မႈျပဳျခင္း။
+-ေျခလွမ္း ေရတြက္တိုင္းတာရန္ စက္ပိတ္ျခင္း။"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"အလြန္အမင္း ပါဝါေခၽြတာသည့္မုဒ္ဖြင့္ျခင္းသည္ ဘက္ထရီသက္တမ္းကို ၾကာရွည္ေစသည္။ အေၾကာင္းမွာ-
+-CPU သုံးစြဲမႈ ထိန္းသိမ္းျခင္း။
+-မ်က္ႏွာျပင္ ေတာက္ပမႈေလွ်ာ့ခ်ျခင္း။
+-တုန္ခါျခင္းတုံ႔ျပန္မႈ ပိတ္ျခင္း။
+-မ်က္ႏွာျပင္ပိတ္ထားစဥ္ ေဒတာခ်ိတ္ဆက္မႈ ပိတ္ျခင္း။
+-အဓိကက်ေသာ အက္ပမ်ားကိုသာ လုပ္ေဆာင္မႈျပဳျခင္း။"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">အလြန္အမင္း ပါဝါေခၽြတာမႈ</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"အလြန္အမင္း ပါဝါေခၽြတာမႈဖြင့္ျခင္းသည္ ဘက္ထရီသက္တမ္းကို ၾကာရွည္ေစသည္။ အေၾကာင္းမွာ-
+-CPU သုံးစြဲမႈ ထိန္းသိမ္းျခင္း။
+-မ်က္ႏွာျပင္ ေတာက္ပမႈေလွ်ာ့ခ်ျခင္း။
+-တုန္ခါျခင္းတုံ႔ျပန္မႈ ပိတ္ျခင္း။
+-မ်က္ႏွာျပင္ပိတ္ထားစဥ္ ေဒတာခ်ိတ္ဆက္မႈ ပိတ္ျခင္း။
+-အဓိကက်ေသာ အက္ပမ်ားကိုသာ လုပ္ေဆာင္မႈျပဳျခင္း။"</string>
+    <string name="extreme_auto_power_saver_ask_title">အမ်ားဆုံး ပါဝါေခၽြတာမႈ</string>
+    <string name="extreme_auto_power_saver_ask_msg">"အမ်ားဆုံး ပါဝါေခၽြတာမႈဖြင့္ျခင္းသည္ ဘက္ထရီသက္တမ္းကို ၾကာရွည္ေစသည္။ အေၾကာင္းမွာ-
+-CPU သုံးစြဲမႈ ထိန္းသိမ္းျခင္း။
+-မ်က္ႏွာျပင္ ေတာက္ပမႈေလွ်ာ့ခ်ျခင္း။
+-တုန္ခါျခင္းတုံ႔ျပန္မႈ ပိတ္ျခင္း။
+-မ်က္ႏွာျပင္ပိတ္ထားစဥ္ ေဒတာခ်ိတ္ဆက္မႈ ပိတ္ျခင္း။
+-အဓိကက်ေသာ အက္ပမ်ားကိုသာ လုပ္ေဆာင္မႈျပဳျခင္း။"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">အဆင္သင့္မုဒ္</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"အဆင္သင့္မုဒ္ဖြင့္ျခင္းသည္ ဘက္ထရီသက္တမ္းကို ၾကာရွည္ေစသည္။ အေၾကာင္းမွာ-
+-CPU သုံးစြဲမႈ ထိန္းသိမ္းျခင္း။
+-မ်က္ႏွာျပင္ ေတာက္ပမႈေလွ်ာ့ခ်ျခင္း။
+-တုန္ခါျခင္းတုံ႔ျပန္မႈ ပိတ္ျခင္း။
+-မ်က္ႏွာျပင္ပိတ္ထားစဥ္ ေဒတာခ်ိတ္ဆက္မႈ ပိတ္ျခင္း။
+-အဓိကက်ေသာ အက္ပမ်ားကိုသာ လုပ္ေဆာင္မႈျပဳျခင္း။"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">အေရးေပၚစနစ္</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"အေရးေပၚမုဒ္ဖြင့္ျခင္းသည္ ဘက္ထရီသက္တမ္းကို ၾကာရွည္ေစသည္။ အေၾကာင္းမွာ-
+-CPU သုံးစြဲမႈ ထိန္းသိမ္းျခင္း။
+-မ်က္ႏွာျပင္ ေတာက္ပမႈေလွ်ာ့ခ်ျခင္း။
+-တုန္ခါျခင္းတုံ႔ျပန္မႈ ပိတ္ျခင္း။
+-မ်က္ႏွာျပင္ပိတ္ထားစဥ္ ေဒတာခ်ိတ္ဆက္မႈ ပိတ္ျခင္း။
+-အဓိကက်ေသာ အက္ပမ်ားကိုသာ လုပ္ေဆာင္မႈျပဳျခင္း။"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">ပါဝါနည္းမုဒ္</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"ပါဝါနည္းမုဒ္သည္ ဘက္ထရီသက္တမ္းကို ၾကာရွည္ေစသည္။ အေၾကာင္းမွာ-
+-CPU သုံးစြဲမႈ ထိန္းသိမ္းျခင္း။
+-မ်က္ႏွာျပင္ ေတာက္ပမႈေလွ်ာ့ခ်ျခင္း။
+-တုန္ခါျခင္းတုံ႔ျပန္မႈ ပိတ္ျခင္း။
+-မ်က္ႏွာျပင္ပိတ္ထားစဥ္ ေဒတာခ်ိတ္ဆက္မႈ ပိတ္ျခင္း။
+-အဓိကက်ေသာ အက္ပမ်ားကိုသာ လုပ္ေဆာင္မႈျပဳျခင္း။"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">ပါဝါထိန္းသိမ္းျခင္းမုဒ္</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"ပါဝါထိန္းသိမ္းျခင္းမုဒ္သည္ ဘက္ထရီသက္တမ္းကို ၾကာရွည္ေစသည္။ အေၾကာင္းမွာ-
+-CPU သုံးစြဲမႈ ထိန္းသိမ္းျခင္း။
+-မ်က္ႏွာျပင္ ေတာက္ပမႈေလွ်ာ့ခ်ျခင္း။
+-တုန္ခါျခင္းတုံ႔ျပန္မႈ ပိတ္ျခင္း။
+-မ်က္ႏွာျပင္ပိတ္ထားစဥ္ ေဒတာခ်ိတ္ဆက္မႈ ပိတ္ျခင္း။
+-အဓိကက်ေသာ အက္ပမ်ားကိုသာ လုပ္ေဆာင္မႈျပဳျခင္း။"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">စမတ္ပါဝါေခၽြတာသည့္မုဒ္</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"စမတ္ပါဝါေခၽြတာသည့္မုဒ္သည္ ဘက္ထရီသက္တမ္းကို ၾကာရွည္ေစသည္။ အေၾကာင္းမွာ-
+-CPU သုံးစြဲမႈ ထိန္းသိမ္းျခင္း။
+-မ်က္ႏွာျပင္ ေတာက္ပမႈေလွ်ာ့ခ်ျခင္း။
+-တုန္ခါျခင္းတုံ႔ျပန္မႈ ပိတ္ျခင္း။
+-မ်က္ႏွာျပင္ပိတ္ထားစဥ္ ေဒတာခ်ိတ္ဆက္မႈ ပိတ္ျခင္း။
+-အဓိကက်ေသာ အက္ပမ်ားကိုသာ လုပ္ေဆာင္မႈျပဳျခင္း။"</string>
+    <string name="quick_settings_ringtone">ဖုန္းျမည္သံ</string>
 </resources>

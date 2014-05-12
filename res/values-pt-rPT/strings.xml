@@ -190,7 +190,6 @@ ser monitorizada"</string>
     <string name="quick_settings_volume">Volume</string>
     <string name="quick_settings_usage">Utilização de dados</string>
     <string name="quick_settings_sync_all">Sincronizar tudo</string>
-    <string name="quick_settings_ringtone">Toque</string>
     <string name="quick_settings_auto_sync">Sincronização automática</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Cartão de utilizador</string>
@@ -206,9 +205,11 @@ ser monitorizada"</string>
     <string name="quick_settings_music_channel">Canal Música</string>
     <string name="quick_settings_do_not_disturb">Não incomodar</string>
     <string name="quick_settings_fingerprint_scan">Análise de impressão digital</string>
+    <string name="quick_settings_power_saver_ex">Modo de poupança extrema de energia</string>
     <string name="quick_settings_wifi_hotspot">Hotspot Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Hotspot Móvel</string>
     <string name="quick_settings_wifi_hotspot_jp">Ligação ponto a ponto</string>
+    <string name="quick_settings_wifi_hotspot_us">Hotspot Móvel</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Hotspot Móvel</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Preferir Rede</string>
     <string name="quick_settings_network_selection">Selecção de Rede</string>
@@ -232,6 +233,8 @@ ser monitorizada"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Não mostrar esta mensagem novamente</string>
     <string name="quick_settings_power_saver_dialog_message">"Ligação de dados na Poupança de energia está LIGADA. Se estiver LIGADA, a transmissão de dados como a recepção de um email poderá não ser realizada quando o ecrã está desligado.
 (Transmissão de dados é possível enquanto carrega, independentemente desta definição.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Não mostrar esta mensagem novamente</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi está desligado quando a ligação ponto a ponto USB ou Hotspot Móvel estão activos. Para ligar Wi-Fi, desligue a ligação ponto a ponto USB ou Hotspot Móvel.</string>
     <string name="quick_tips_edit_button">Toque para adicionar e remover Definições Rápidas</string>
     <string name="quick_tips_more_button">Prima longamente um item para abrir a página de Definições</string>
     <string name="quick_settings_wifi_hotspot_cn">Hotspot WLAN</string>
@@ -262,4 +265,68 @@ ser monitorizada"</string>
     <string name="battery_low_charging_not_enough_title">Atenção</string>
     <string name="battery_low_charging_not_enough_ac_title">Não é possível carregar</string>
     <string name="battery_low_charging_not_enough_ac">Não foi carregar o seu telefone porque está a usar demasiada energia. Para corrigir este problema, pode reduzir o consumo de energia, desligando o seu telefone, encerrando quaisquer aplicações inactivas ou desligando o ecrã.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Modo de poupança extrema de energia</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Ligar o modo de poupança extrema de energia prolonga a vida da bateria da seguinte forma:
+-Conservação da utilização da CPU.
+-Redução da luminosidade do ecrã.
+-Desligar do feedback por vibração.
+-Desligar a ligação de dados quando o ecrã está desligado.
+-Permitir apenas executar aplicações essenciais.
+-Desligar o pedómetro."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Ligar o modo de poupança extrema de energia prolonga a vida da bateria da seguinte forma:
+-Conservação da utilização da CPU.
+-Redução da luminosidade do ecrã.
+-Desligar do feedback por vibração.
+-Desligar a ligação de dados quando o ecrã está desligado.
+-Permitir apenas executar aplicações essenciais."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Poupança extrema de energia</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Ligar a poupança extrema de energia prolonga a vida da bateria da seguinte forma:
+-Conservação da utilização da CPU.
+-Redução da luminosidade do ecrã.
+-Desligar do feedback por vibração.
+-Desligar a ligação de dados quando o ecrã está desligado.
+-Permitir apenas executar aplicações essenciais."</string>
+    <string name="extreme_auto_power_saver_ask_title">Poupança máxima de energia</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Ligar a poupança máxima de energia prolonga a vida da bateria da seguinte forma:
+-Conservação da utilização da CPU.
+-Redução da luminosidade do ecrã.
+-Desligar do feedback por vibração.
+-Desligar a ligação de dados quando o ecrã está desligado.
+-Permitir apenas executar aplicações essenciais."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Modo de espera</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Ligar o modo de espera prolonga a vida da bateria da seguinte forma:
+-Conservação da utilização da CPU.
+-Redução da luminosidade do ecrã.
+-Desligar do feedback por vibração.
+-Desligar a ligação de dados quando o ecrã está desligado.
+-Permitir apenas executar aplicações essenciais."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Modo de emergência</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Ligar o modo de de emergência prolonga a vida da bateria da seguinte forma:
+-Conservação da utilização da CPU.
+-Redução da luminosidade do ecrã.
+-Desligar do feedback por vibração.
+-Desligar a ligação de dados quando o ecrã está desligado.
+-Permitir apenas executar aplicações essenciais."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Modo de potência baixa</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Ligar o modo de potência baixa prolonga a vida da bateria da seguinte forma:
+-Conservação da utilização da CPU.
+-Redução da luminosidade do ecrã.
+-Desligar do feedback por vibração.
+-Desligar a ligação de dados quando o ecrã está desligado.
+-Permitir apenas executar aplicações essenciais."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Modo de conservação de energia</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Ligar o modo de conservação de energia prolonga a vida da bateria da seguinte forma:
+-Conservação da utilização da CPU.
+-Redução da luminosidade do ecrã.
+-Desligar do feedback por vibração.
+-Desligar a ligação de dados quando o ecrã está desligado.
+-Permitir apenas executar aplicações essenciais."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Modo de poupança inteligente de energia</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Ligar o modo de poupança inteligente de energia prolonga a vida da bateria da seguinte forma:
+-Conservação da utilização da CPU.
+-Redução da luminosidade do ecrã.
+-Desligar do feedback por vibração.
+-Desligar a ligação de dados quando o ecrã está desligado.
+-Permitir apenas executar aplicações essenciais."</string>
+    <string name="quick_settings_ringtone">Toque</string>
 </resources>

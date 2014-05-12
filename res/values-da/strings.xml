@@ -190,7 +190,6 @@ være overvåget"</string>
     <string name="quick_settings_volume">Lydstyrke</string>
     <string name="quick_settings_usage">Databrug</string>
     <string name="quick_settings_sync_all">Synkroniser alt</string>
-    <string name="quick_settings_ringtone">Ringetone</string>
     <string name="quick_settings_auto_sync">Automatisk synkronisering</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Brugerkort</string>
@@ -206,9 +205,11 @@ være overvåget"</string>
     <string name="quick_settings_music_channel">Musikkanal</string>
     <string name="quick_settings_do_not_disturb">Forstyr ikke</string>
     <string name="quick_settings_fingerprint_scan">Fingeraftryksscanning</string>
+    <string name="quick_settings_power_saver_ex">Ekstrem strømbesparelsestilstand</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi Hotspot</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobil Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Tethering</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobil Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobilt Hotspot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Foretrukket netværk</string>
     <string name="quick_settings_network_selection">Netværksvalg</string>
@@ -232,6 +233,8 @@ være overvåget"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Vis ikke denne meddelelse igen</string>
     <string name="quick_settings_power_saver_dialog_message">"Dataforbindelse i Strømbesparelse er slået TIL. Hvis dette er slået TIL, vil dataoverførsler som f.eks. modtagelse af e-mail muligvis ikke blive foretaget, når skærmen er slået fra.
 (Dataoverførsel er mulig under opladning uanset denne indstilling)."</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Vis ikke denne meddelelse igen</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi er slået fra, når USB tethering eller Mobilt HotSpot er aktivt. Hvis du vil slå Wi-Fi til, skal du slå USB-tethering og Mobilt Hotspot fra.</string>
     <string name="quick_tips_edit_button">Tryk for at tilføje eller fjerne Hurtigindstillinger</string>
     <string name="quick_tips_more_button">Tryk og hold på et emne for at åbne emnets side for indstillinger</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN-hotspot</string>
@@ -262,4 +265,68 @@ være overvåget"</string>
     <string name="battery_low_charging_not_enough_title">Advarsel</string>
     <string name="battery_low_charging_not_enough_ac_title">Kan ikke oplade</string>
     <string name="battery_low_charging_not_enough_ac">Kan ikke oplade telefonen, da den bruger for meget strøm. Hvis du vil løse dette problem, kan du mindske strømforbruget ved at slukke for telefonen, lukke programmer, du ikke bruger, eller slå skærmen fra.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Ekstrem strømbesparelsestilstand</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Slår du ekstrem strømbesparelsestilstand til, forlænger det batteriets levetid ved at:
+-Spare på CPU'ens brug.
+-Reducere skærmens lysstyrke.
+-Slå vibrationsfeedback fra.
+-Slå dataforbindelsen fra, når skærmen er slukket.
+-Kun at tillade de mest nødvendige programmer at køre.
+-Slå skridttælleren fra."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Slår du ekstrem strømbesparelsestilstand til, forlænger det batteriets levetid ved at:
+-Spare på CPU'ens brug.
+-Reducere skærmens lysstyrke.
+-Slå vibrationsfeedback fra.
+-Slå dataforbindelsen fra, når skærmen er slukket.
+-Kun at tillade de mest nødvendige programmer at køre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Ekstrem strømbesparelse</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Slår du ekstrem strømbesparelse til, forlænger det batteriets levetid ved at:
+-Spare på CPU'ens brug.
+-Reducere skærmens lysstyrke.
+-Slå vibrationsfeedback fra.
+-Slå dataforbindelsen fra, når skærmen er slukket.
+-Kun at tillade de mest nødvendige programmer at køre."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maksimal strømbesparelse</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Slår du maks. strømbesparelse til, forlænger det batteriets levetid ved at:
+-Spare på CPU'ens brug.
+-Reducere skærmens lysstyrke.
+-Slå vibrationsfeedback fra.
+-Slå dataforbindelsen fra, når skærmen er slukket.
+-Kun at tillade de mest nødvendige programmer at køre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Standby-tilstand</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Slår du standby-tilstand til, forlænger det batteriets levetid ved at:
+-Spare på CPU'ens brug.
+-Reducere skærmens lysstyrke.
+-Slå vibrationsfeedback fra.
+-Slå dataforbindelsen fra, når skærmen er slukket.
+-Kun at tillade de mest nødvendige programmer at køre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Nødopkald-tilstand</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Slår du nødopkald-tilstand til, forlænger det batteriets levetid ved at:
+-Spare på CPU'ens brug.
+-Reducere skærmens lysstyrke.
+-Slå vibrationsfeedback fra.
+-Slå dataforbindelsen fra, når skærmen er slukket.
+-Kun at tillade de mest nødvendige programmer at køre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Lavt strømforbrug-tilstand</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Slår du lavt strømforbrug-tilstand til, forlænger det batteriets levetid ved at:
+-Spare på CPU'ens brug.
+-Reducere skærmens lysstyrke.
+-Slå vibrationsfeedback fra.
+-Slå dataforbindelsen fra, når skærmen er slukket.
+-Kun at tillade de mest nødvendige programmer at køre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Strømbesparende tilstand</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Slår du strømbesparende tilstand til, forlænger det batteriets levetid ved at:
+-Spare på CPU'ens brug.
+-Reducere skærmens lysstyrke.
+-Slå vibrationsfeedback fra.
+-Slå dataforbindelsen fra, når skærmen er slukket.
+-Kun at tillade de mest nødvendige programmer at køre."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Intelligent strømstyring</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Slår du intelligent strømstyring til, forlænger det batteriets levetid ved at:
+-Spare på CPU'ens brug.
+-Reducere skærmens lysstyrke.
+-Slå vibrationsfeedback fra.
+-Slå dataforbindelsen fra, når skærmen er slukket.
+-Kun at tillade de mest nødvendige programmer at køre."</string>
+    <string name="quick_settings_ringtone">Ringetone</string>
 </resources>

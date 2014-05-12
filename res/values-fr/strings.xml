@@ -190,7 +190,6 @@ Si vous réactivez les données, vous pourrez être facturé par l'opérateur."<
     <string name="quick_settings_volume">Volume</string>
     <string name="quick_settings_usage">Utilisation internet mobile</string>
     <string name="quick_settings_sync_all">Synchroniser tout</string>
-    <string name="quick_settings_ringtone">Sonnerie</string>
     <string name="quick_settings_auto_sync">Synchro automatique</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Carte utilisateur</string>
@@ -206,9 +205,11 @@ Si vous réactivez les données, vous pourrez être facturé par l'opérateur."<
     <string name="quick_settings_music_channel">Musique en mode plein écran</string>
     <string name="quick_settings_do_not_disturb">Ne pas déranger</string>
     <string name="quick_settings_fingerprint_scan">"Lecture d'empreinte"</string>
+    <string name="quick_settings_power_saver_ex">"Mode éco d'énergie extrême"</string>
     <string name="quick_settings_wifi_hotspot">"Point d'accès Wi-Fi"</string>
-    <string name="quick_settings_wifi_hotspot_us">"Point d'accès mobile"</string>
     <string name="quick_settings_wifi_hotspot_jp">Partage de connexion</string>
+    <string name="quick_settings_wifi_hotspot_us">"Point d'accès mobile"</string>
+    <string name="quick_settings_wifi_hotspot_tmo">"Point d'accès mobile"</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Réseau préféré</string>
     <string name="quick_settings_network_selection">Sélection du réseau</string>
@@ -221,7 +222,7 @@ Si vous réactivez les données, vous pourrez être facturé par l'opérateur."<
     <string name="quick_settings_accessibility_auto">auto</string>
     <string name="quick_settings_accessibility_more">plus</string>
     <string name="quick_settings_accessibility_level">niveau</string>
-    <string name="accessibility_desc_quick_settings_edit">Modifier les paramètres rapides</string>
+    <string name="accessibility_desc_quick_settings_edit">Modifier les raccourcis Paramètres</string>
     <string name="quick_settings_kid_mode">Mode enfant</string>
     <string name="quick_setting_launch_kid_fail">"Aucun point d'accès Mode enfant installé."</string>
     <string name="quick_settings_reorder_title">Modifier les Paramètres rapides</string>
@@ -232,6 +233,8 @@ Si vous réactivez les données, vous pourrez être facturé par l'opérateur."<
     <string name="quick_settings_power_saver_dialog_chkbox">Ne plus afficher ce message</string>
     <string name="quick_settings_power_saver_dialog_message">"Connexion de données en éco d'énergie est activée. Si elle est activée, la transmission de données comme la réception d'e-mails peut ne pas être effectuée lorsque l'affichage est éteint.
 (La transmission de données est possible pendant la charge indépendamment de ce paramètre.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Ne plus afficher ce message</string>
+    <string name="quick_settings_hotspot_dialog_message">"Le Wi-Fi est désactivé quand le partage de connexion USB ou le point d'accès mobile est actif. Pour activer le Wi-Fi, veuillez désactiver le partage de connexion USB ou le point d'accès mobile."</string>
     <string name="quick_tips_edit_button">Appuyer pour ajouter et supprimer des Paramètres rapides</string>
     <string name="quick_tips_more_button">Appuyer et maintenir un élément pour accéder aux Paramètres</string>
     <string name="quick_settings_wifi_hotspot_cn">"Point d'accès réseau sans fil"</string>
@@ -262,4 +265,68 @@ Si vous réactivez les données, vous pourrez être facturé par l'opérateur."<
     <string name="battery_low_charging_not_enough_title">Avertissement</string>
     <string name="battery_low_charging_not_enough_ac_title">Impossible de charger</string>
     <string name="battery_low_charging_not_enough_ac">"Impossible de charger votre téléphone car il utilise trop d'énergie. Pour résoudre ce problème, réduisez la consommation électrique ou éteignez votre téléphone, fermez les applis que vous n'utilisez pas ou éteignez l'écran."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">"Mode éco d'énergie extrême"</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Activer le mode éco d'énergie extrême prolonge l'autonomie de la batterie en:
+-Conservant l'utilisation du processeur.
+-Réduisant la luminosité de l'écran.
+-Désactivant le retour de vibration.
+-Désactivant la connexion de données lorsque l'écran est éteint.
+-Permettant uniquement l'exécution des applis essentielles.
+-Désactivant le pédomètre."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Activer le mode éco d'énergie extrême prolonge l'autonomie de la batterie en:
+-Conservant l'utilisation du processeur.
+-Réduisant la luminosité de l'écran.
+-Désactivant le retour de vibration.
+-Désactivant la connexion de données lorsque l'écran est éteint.
+-Permettant uniquement l'exécution des applis essentielles."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">"Éco d'énergie extrême"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Activer l'éco d'énergie extrême prolonge l'autonomie de la batterie en:
+-Conservant l'utilisation du processeur.
+-Réduisant la luminosité de l'écran.
+-Désactivant le retour de vibration.
+-Désactivant la connexion de données lorsque l'écran est éteint.
+-Permettant uniquement l'exécution des applis essentielles."</string>
+    <string name="extreme_auto_power_saver_ask_title">"Éco d'énergie maximum"</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Activer l'éco d'énergie maximum prolonge l'autonomie de la batterie en:
+-Conservant l'utilisation du processeur.
+-Réduisant la luminosité de l'écran.
+-Désactivant le retour de vibration.
+-Désactivant la connexion de données lorsque l'écran est éteint.
+-Permettant uniquement l'exécution des applis essentielles."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Mode veille</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Activer le mode veille prolonge l'autonomie de la batterie en:
+-Conservant l'utilisation du processeur.
+-Réduisant la luminosité de l'écran.
+-Désactivant le retour de vibration.
+-Désactivant la connexion de données lorsque l'écran est éteint.
+-Permettant uniquement l'exécution des applis essentielles."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">"Mode d'urgence"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Activer le mode d'urgence prolonge l'autonomie de la batterie en:
+-Conservant l'utilisation du processeur.
+-Réduisant la luminosité de l'écran.
+-Désactivant le retour de vibration.
+-Désactivant la connexion de données lorsque l'écran est éteint.
+-Permettant uniquement l'exécution des applis essentielles."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Mode basse consommation</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Activer le mode basse consommation prolonge l'autonomie de la batterie en:
+-Conservant l'utilisation du processeur.
+-Réduisant la luminosité de l'écran.
+-Désactivant le retour de vibration.
+-Désactivant la connexion de données lorsque l'écran est éteint.
+-Permettant uniquement l'exécution des applis essentielles."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">"Mode conservation d'énergie"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Activer le mode conservation d'énergie prolonge l'autonomie de la batterie en:
+-Conservant l'utilisation du processeur.
+-Réduisant la luminosité de l'écran.
+-Désactivant le retour de vibration.
+-Désactivant la connexion de données lorsque l'écran est éteint.
+-Permettant uniquement l'exécution des applis essentielles."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">"Mode éco d'énergie intelligente"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Activer le mode éco d'énergie intelligente prolonge l'autonomie de la batterie en:
+-Conservant l'utilisation du processeur.
+-Réduisant la luminosité de l'écran.
+-Désactivant le retour de vibration.
+-Désactivant la connexion de données lorsque l'écran est éteint.
+-Permettant uniquement l'exécution des applis essentielles."</string>
+    <string name="quick_settings_ringtone">Sonnerie</string>
 </resources>

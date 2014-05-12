@@ -190,7 +190,6 @@ essere monitorata"</string>
     <string name="quick_settings_volume">Volume</string>
     <string name="quick_settings_usage">Utilizzo dati</string>
     <string name="quick_settings_sync_all">Sincronizza tutto</string>
-    <string name="quick_settings_ringtone">Suoneria</string>
     <string name="quick_settings_auto_sync">Sincronizzazione automatica</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Scheda utente</string>
@@ -206,9 +205,11 @@ essere monitorata"</string>
     <string name="quick_settings_music_channel">Music Channel</string>
     <string name="quick_settings_do_not_disturb">Non disturbare</string>
     <string name="quick_settings_fingerprint_scan">Scansione impronta digitale</string>
+    <string name="quick_settings_power_saver_ex">Modalità risparmio energia estremo</string>
     <string name="quick_settings_wifi_hotspot">Hotspot Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Hotspot Mobile</string>
     <string name="quick_settings_wifi_hotspot_jp">Tethering</string>
+    <string name="quick_settings_wifi_hotspot_us">Hotspot Mobile</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Hotspot mobile</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Rete preferita</string>
     <string name="quick_settings_network_selection">Selezione rete</string>
@@ -232,6 +233,8 @@ essere monitorata"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Non mostrare di nuovo questo messaggio</string>
     <string name="quick_settings_power_saver_dialog_message">"Connessione dati in Risparmio energia attivo. Se attiva, la trasmissione dei dati, ad esempio la ricezione delle e-mail, potrebbe non essere eseguita quando lo schermo è disattivo.
 (La trasmissione dei dati è possibile durante la carica senza considerare questa impostazione.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Non mostrare di nuovo questo messaggio</string>
+    <string name="quick_settings_hotspot_dialog_message">"Il Wi-Fi è disattivo quando il tethering USB o Hotspot mobile è attivo. Per attivare il Wi-Fi, disattivare il tethering USB o l'Hotspot mobile."</string>
     <string name="quick_tips_edit_button">Toccare per aggiungere o rimuovere le Impostazioni rapide</string>
     <string name="quick_tips_more_button">Tenere premuto un elemento per aprire la pagina Impostazioni</string>
     <string name="quick_settings_wifi_hotspot_cn">Hotspot WLAN</string>
@@ -262,4 +265,68 @@ essere monitorata"</string>
     <string name="battery_low_charging_not_enough_title">Avviso</string>
     <string name="battery_low_charging_not_enough_ac_title">Impossibile caricare</string>
     <string name="battery_low_charging_not_enough_ac">Impossibile caricare il telefono perché sta utilizzando troppa alimentazione. Per correggere il problema, ridurre il consumo energetico spegnendo il telefono, chiudendo le applicazioni in uso o disattivando lo schermo.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Modalità risparmio energia estremo</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"L'attivazione della modalità risparmio energia estremo estende la durata della batteria:
+-Conservando l'utilizzo della CPU.
+-Riducendo la luminosità dello schermo.
+-Disattivando il feedback vibrazione.
+-Disattivando la connessione dati quando lo schermo è spento.
+-Consentendo solamente l'esecuzione delle applicazioni importanti.
+-Disattivando il contapassi."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"L'attivazione della modalità risparmio energia estremo estende la durata della batteria:
+-Conservando l'utilizzo della CPU.
+-Riducendo la luminosità dello schermo.
+-Disattivando il feedback vibrazione.
+-Disattivando la connessione dati quando lo schermo è spento.
+-Consentendo solamente l'esecuzione delle applicazioni importanti."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Risparmio energia estremo</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"L'attivazione del risparmio energia estremo estende la durata della batteria:
+-Conservando l'utilizzo della CPU.
+-Riducendo la luminosità dello schermo.
+-Disattivando il feedback vibrazione.
+-Disattivando la connessione dati quando lo schermo è spento.
+-Consentendo solamente l'esecuzione delle applicazioni importanti."</string>
+    <string name="extreme_auto_power_saver_ask_title">Risparmio energia massimo</string>
+    <string name="extreme_auto_power_saver_ask_msg">"L'attivazione del risparmio energia massimo estende la durata della batteria:
+-Conservando l'utilizzo della CPU.
+-Riducendo la luminosità dello schermo.
+-Disattivando il feedback vibrazione.
+-Disattivando la connessione dati quando lo schermo è spento.
+-Consentendo solamente l'esecuzione delle applicazioni importanti."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Modalità standby</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"L'attivazione della modalità standby estende la durata della batteria:
+-Conservando l'utilizzo della CPU.
+-Riducendo la luminosità dello schermo.
+-Disattivando il feedback vibrazione.
+-Disattivando la connessione dati quando lo schermo è spento.
+-Consentendo solamente l'esecuzione delle applicazioni importanti."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Modalità emergenza</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"L'attivazione della modalità emergenza estende la durata della batteria:
+-Conservando l'utilizzo della CPU.
+-Riducendo la luminosità dello schermo.
+-Disattivando il feedback vibrazione.
+-Disattivando la connessione dati quando lo schermo è spento.
+-Consentendo solamente l'esecuzione delle applicazioni importanti."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Modalità alimentazione bassa</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"L'attivazione della modalità alimentazione bassa estende la durata della batteria:
+-Conservando l'utilizzo della CPU.
+-Riducendo la luminosità dello schermo.
+-Disattivando il feedback vibrazione.
+-Disattivando la connessione dati quando lo schermo è spento.
+-Consentendo solamente l'esecuzione delle applicazioni importanti."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Modalità conservazione alimentazione</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"L'attivazione della modalità conservazione alimentazione estende la durata della batteria:
+-Conservando l'utilizzo della CPU.
+-Riducendo la luminosità dello schermo.
+-Disattivando il feedback vibrazione.
+-Disattivando la connessione dati quando lo schermo è spento.
+-Consentendo solamente l'esecuzione delle applicazioni importanti."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Modalità risparmio energetico intelligente</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"L'attivazione della modalità risparmio energetico intelligente estende la durata della batteria:
+-Conservando l'utilizzo della CPU.
+-Riducendo la luminosità dello schermo.
+-Disattivando il feedback vibrazione.
+-Disattivando la connessione dati quando lo schermo è spento.
+-Consentendo solamente l'esecuzione delle applicazioni importanti."</string>
+    <string name="quick_settings_ringtone">Suoneria</string>
 </resources>

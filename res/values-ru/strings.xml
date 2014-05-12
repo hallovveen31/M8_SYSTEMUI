@@ -190,14 +190,13 @@
     <string name="quick_settings_volume">Громкость</string>
     <string name="quick_settings_usage">Передача данных</string>
     <string name="quick_settings_sync_all">Синхронизировать все</string>
-    <string name="quick_settings_ringtone">Мелодия звонка</string>
     <string name="quick_settings_auto_sync">Автосинхронизация</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
-    <string name="quick_settings_user_card">Карта пользователя</string>
+    <string name="quick_settings_user_card">Моя визитка</string>
     <string name="quick_settings_mini_lite">HTC Mini+</string>
     <string name="quick_settings_home_mode">Режим главного экрана</string>
     <string name="quick_settings_screenshot">Снимок экрана</string>
-    <string name="quick_settings_timeout">Время до отключения экрана</string>
+    <string name="quick_settings_timeout">Таймаут экрана</string>
     <string name="quick_settings_mobile_data">Моб. интернет</string>
     <string name="quick_settings_power_saver">Энергосбережение</string>
     <string name="quick_settings_data_roaming">Данные в роуминге</string>
@@ -206,9 +205,11 @@
     <string name="quick_settings_music_channel">Музыкальный канал</string>
     <string name="quick_settings_do_not_disturb">Не беспокоить</string>
     <string name="quick_settings_fingerprint_scan">Сканирование отпечатка пальца</string>
+    <string name="quick_settings_power_saver_ex">Критический режим энергосбережения</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi роутер</string>
-    <string name="quick_settings_wifi_hotspot_us">Точка доступа к мобильному Интернету</string>
     <string name="quick_settings_wifi_hotspot_jp">Общий модем</string>
+    <string name="quick_settings_wifi_hotspot_us">Точка доступа к мобильному Интернету</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Точка доступа к мобильному Интернету</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Предпочитаемая сеть</string>
     <string name="quick_settings_network_selection">Выбор сети</string>
@@ -221,17 +222,19 @@
     <string name="quick_settings_accessibility_auto">авто</string>
     <string name="quick_settings_accessibility_more">ещё</string>
     <string name="quick_settings_accessibility_level">уровень</string>
-    <string name="accessibility_desc_quick_settings_edit">Изменить быстрые настройки</string>
+    <string name="accessibility_desc_quick_settings_edit">Изменить панель настроек</string>
     <string name="quick_settings_kid_mode">Детский режим</string>
     <string name="quick_setting_launch_kid_fail">Приложения для детского режима не установлены.</string>
     <string name="quick_settings_reorder_title">Изменить быстрые настройки</string>
     <string name="quick_settings_reorder_content">Нажмите и удерживайте правый значок для переупорядочения</string>
-    <string name="quick_settings_reorder_separator">Скрытые элементы (протащите для добавления к быстрым настройкам)</string>
+    <string name="quick_settings_reorder_separator">Скрытые элементы (перетащите для добавления на панель настроек)</string>
     <string name="quick_settings_reorder_full_items">Вы можете создать до 12 наборов настроек</string>
     <string name="quick_settings_power_saver_dialog_title">Включить функцию «Энергосбережение»?</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Больше не показывать это сообщение</string>
     <string name="quick_settings_power_saver_dialog_message">"Подключение для передачи данных на странице «Энергосбережение» включен. Если этот параметр включен, передача данных, например получение электронной почты, при выключенном дисплее невозможна.
 (Во время зарядки передача данных возможна, независимо от этой настройки.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Больше не показывать это сообщение</string>
+    <string name="quick_settings_hotspot_dialog_message">Модуль Wi-Fi отключается, когда активен USB-модем или точка доступа к Мобильному интернету. Чтобы включить Wi-Fi, отключите USB-модем или точку доступа к мобильному Интернету.</string>
     <string name="quick_tips_edit_button">Нажмите, чтобы добавить и удалить быстрые настройки</string>
     <string name="quick_tips_more_button">Удерживайте элемент для перехода к странице «Настройки»</string>
     <string name="quick_settings_wifi_hotspot_cn">Точка доступа WLAN</string>
@@ -262,4 +265,68 @@
     <string name="battery_low_charging_not_enough_title">Предупреждение</string>
     <string name="battery_low_charging_not_enough_ac_title">Не удалось выполнить зарядку</string>
     <string name="battery_low_charging_not_enough_ac">Не удаётся зарядить телефон, так как он потребляет слишком большой ток. Уменьшить энергопотребление можно выключив телефон, закрыв неиспользуемые приложения или отключив экран.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Критический режим энергосбережения</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Критический режим энергосбережения продлевает время работы от аккумулятора за счет:
+- более экономного использования процессора;
+- уменьшения яркости экрана;
+- отключения виброподтверждения;
+- отключения подключения для передачи данных при выключенном экране;
+-разрешения выполнения только основных приложений;
+- выключения шагомера."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Критический режим энергосбережения продлевает время работы от аккумулятора за счет:
+- более экономного использования процессора;
+- уменьшения яркости экрана;
+- отключения виброподтверждения;
+- отключения подключения для передачи данных при выключенном экране;
+-разрешения выполнения только основных приложений."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Критическое энергосбережение</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Критическое энергосбережение продлевает время работы от аккумулятора за счет:
+- более экономного использования процессора;
+- уменьшения яркости экрана;
+- отключения виброподтверждения;
+- отключения подключения для передачи данных при выключенном экране;
+-разрешения выполнения только основных приложений."</string>
+    <string name="extreme_auto_power_saver_ask_title">Максимальное энергосбережение</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Максимальное энергосбережение продлевает время работы от аккумулятора за счет:
+- более экономного использования процессора;
+- уменьшения яркости экрана;
+- отключения виброподтверждения;
+- отключения подключения для передачи данных при выключенном экране;
+-разрешения выполнения только основных приложений."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Режим ожидания</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Режим ожидания продлевает время работы от аккумулятора за счет:
+- более экономного использования процессора;
+- уменьшения яркости экрана;
+- отключения виброподтверждения;
+- отключения подключения для передачи данных при выключенном экране;
+-разрешения выполнения только основных приложений."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Экстренный режим</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Экстренный режим продлевает время работы от аккумулятора за счет:
+- более экономного использования процессора;
+- уменьшения яркости экрана;
+- отключения виброподтверждения;
+- отключения подключения для передачи данных при выключенном экране;
+-разрешения выполнения только основных приложений."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Режим низкого энергопотребления</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Режим низкого энергопотребления продлевает время работы от аккумулятора за счет:
+- более экономного использования процессора;
+- уменьшения яркости экрана;
+- отключения виброподтверждения;
+- отключения подключения для передачи данных при выключенном экране;
+-разрешения выполнения только основных приложений."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Режим сохранения энергии</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Режим сохранения энергии продлевает время работы от аккумулятора за счет:
+- более экономного использования процессора;
+- уменьшения яркости экрана;
+- отключения виброподтверждения;
+- отключения подключения для передачи данных при выключенном экране;
+-разрешения выполнения только основных приложений."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Интеллектуальный режим энергосбережения</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Интеллектуальный режим энергосбережения продлевает время работы от аккумулятора за счет:
+- более экономного использования процессора;
+- уменьшения яркости экрана;
+- отключения виброподтверждения;
+- отключения подключения для передачи данных при выключенном экране;
+-разрешения выполнения только основных приложений."</string>
+    <string name="quick_settings_ringtone">Мелодия звонка</string>
 </resources>

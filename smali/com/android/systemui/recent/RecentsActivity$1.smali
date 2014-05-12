@@ -21,10 +21,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/recent/RecentsActivity;)V
     .locals 0
-    .parameter
 
-    .prologue
-    .line 52
     iput-object p1, p0, Lcom/android/systemui/recent/RecentsActivity$1;->this$0:Lcom/android/systemui/recent/RecentsActivity;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -36,11 +33,7 @@
 # virtual methods
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 2
-    .parameter "context"
-    .parameter "intent"
 
-    .prologue
-    .line 55
     const-string v0, "com.android.systemui.recent.action.CLOSE"
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
@@ -53,7 +46,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 56
     iget-object v0, p0, Lcom/android/systemui/recent/RecentsActivity$1;->this$0:Lcom/android/systemui/recent/RecentsActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentsActivity;->mRecentsPanel:Lcom/android/systemui/recent/RecentsPanelView;
@@ -76,7 +68,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 57
     iget-object v0, p0, Lcom/android/systemui/recent/RecentsActivity$1;->this$0:Lcom/android/systemui/recent/RecentsActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentsActivity;->mShowing:Z
@@ -95,7 +86,6 @@
 
     if-nez v0, :cond_0
 
-    .line 59
     iget-object v0, p0, Lcom/android/systemui/recent/RecentsActivity$1;->this$0:Lcom/android/systemui/recent/RecentsActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentsActivity;->mRecentsPanel:Lcom/android/systemui/recent/RecentsPanelView;
@@ -107,12 +97,10 @@
 
     invoke-virtual {v0, v1}, Lcom/android/systemui/recent/RecentsPanelView;->show(Z)V
 
-    .line 67
     :cond_0
     :goto_0
     return-void
 
-    .line 62
     :cond_1
     const-string v0, "com.android.systemui.recent.action.WINDOW_ANIMATION_START"
 
@@ -126,7 +114,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 63
     iget-object v0, p0, Lcom/android/systemui/recent/RecentsActivity$1;->this$0:Lcom/android/systemui/recent/RecentsActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentsActivity;->mRecentsPanel:Lcom/android/systemui/recent/RecentsPanelView;
@@ -136,7 +123,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 64
     iget-object v0, p0, Lcom/android/systemui/recent/RecentsActivity$1;->this$0:Lcom/android/systemui/recent/RecentsActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentsActivity;->mRecentsPanel:Lcom/android/systemui/recent/RecentsPanelView;

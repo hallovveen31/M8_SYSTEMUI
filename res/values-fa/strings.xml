@@ -190,7 +190,6 @@
     <string name="quick_settings_volume">میزان صدا</string>
     <string name="quick_settings_usage">مصرف داده</string>
     <string name="quick_settings_sync_all">همگام سازی همه</string>
-    <string name="quick_settings_ringtone">زنگ تماس</string>
     <string name="quick_settings_auto_sync">همگام سازی خودکار</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">کارت کاربر</string>
@@ -206,9 +205,11 @@
     <string name="quick_settings_music_channel">شبکه موسیقی</string>
     <string name="quick_settings_do_not_disturb">مزاحم نشوید</string>
     <string name="quick_settings_fingerprint_scan">پويش اثر انگشت</string>
+    <string name="quick_settings_power_saver_ex">حالت صرفه جویی برق شدید</string>
     <string name="quick_settings_wifi_hotspot">نقطه اتصال Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">نقطه فعال تلفن همراه</string>
     <string name="quick_settings_wifi_hotspot_jp">اشتراك اتصال اینترنت تلفن</string>
+    <string name="quick_settings_wifi_hotspot_us">نقطه فعال تلفن همراه</string>
+    <string name="quick_settings_wifi_hotspot_tmo">نقطه فعال تلفن همراه</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">شبکه مقدم</string>
     <string name="quick_settings_network_selection">انتخاب شبکه</string>
@@ -232,6 +233,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">این پیام دوباره نشان داده نشود</string>
     <string name="quick_settings_power_saver_dialog_message">"اتصال داده ها در کاهنده مصرف برق روشن شده است. اگر این گزینه روشن شود، انتقال داده نظیر دریافت ایمیل ممکن است هنگام خاموش شدن صفحه نمایش انجام نشود.
 (انتقال داده هنگام شارژ شدن و صرف نظر از این تنظيم، انجام می شود.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">این پیام دوباره نشان داده نشود</string>
+    <string name="quick_settings_hotspot_dialog_message">هنگامی که اشتراک اتصال اينترنت از تلفن از طريق USB یا نقطه فعال تلفن همراه فعال می شوند، Wi-Fi خاموش می گردد. برای روشن كردن Wi-Fi لطفاً اشتراك اتصال اينترنت تلفن از طريق USB یا نقطه فعال تلفن همراه را خاموش کنید.</string>
     <string name="quick_tips_edit_button">برای افزودن و حذف تنظیمات سریع، ضربه بزنید</string>
     <string name="quick_tips_more_button">یک آيتم را فشار داده و نگه دارید تا صفحه تنظیمات آن باز شود</string>
     <string name="quick_settings_wifi_hotspot_cn">نقطه فعال WLAN</string>
@@ -262,4 +265,68 @@
     <string name="battery_low_charging_not_enough_title">هشدار</string>
     <string name="battery_low_charging_not_enough_ac_title">عدم امكان شارژ كردن</string>
     <string name="battery_low_charging_not_enough_ac">شارژ کردن تلفن شما امکان پذیر نیست زیرا از نیروی بسیار زیادی استفاده می کند. برای رفع این مشکل، مصرف نیرو را با خاموش کردن تلفن، بستن برنامه‌هاي بدون استفاده یا خاموش کردن صفحه کاهش دهید.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">حالت صرفه جویی برق شدید</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"فعال کردن حالت صرفه جویی شدید، عمر باتری را از طریق زیر افزایش می دهد:
+-صرفه جویی در مصرف CPU.
+-کاهش روشنايی صفحه.
+-خاموش کردن بازخورد لرزشی.
+-وقتی صفحه نمایش خاموش شد اتصال داده غیرفعال می شود.
+-فقط اجازه اجرا به برنامه های ضروری داده شود.
+-خاموش کردن گام شمار."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"فعال کردن حالت صرفه جویی شدید، عمر باتری را از طریق زیر افزایش می دهد:
+-صرفه جویی در مصرف CPU.
+-کاهش روشنايی صفحه.
+-خاموش کردن بازخورد لرزشی.
+-وقتی صفحه نمایش خاموش شد اتصال داده غیرفعال می شود.
+-فقط اجازه اجرا به برنامه های ضروری داده شود."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">صرفه جویی برق شدید</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"فعال کردن صرفه جویی برق شدید عمر باتری را از طریق زیر افزایش می دهد:
+-صرفه جویی در مصرف CPU.
+-کاهش روشنايی صفحه.
+-خاموش کردن بازخورد لرزشی.
+-وقتی صفحه نمایش خاموش شد اتصال داده غیرفعال می شود.
+-فقط اجازه اجرا به برنامه های ضروری داده شود."</string>
+    <string name="extreme_auto_power_saver_ask_title">حداکثر صرفه جویی برق</string>
+    <string name="extreme_auto_power_saver_ask_msg">"فعال کردن صرفه جویی برق حداکثر، عمر باتری را از طریق زیر افزایش می دهد:
+-صرفه جویی در مصرف CPU.
+-کاهش روشنايی صفحه.
+-خاموش کردن بازخورد لرزشی.
+-وقتی صفحه نمایش خاموش شد اتصال داده غیرفعال می شود.
+-فقط اجازه اجرا به برنامه های ضروری داده شود."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">حالت آماده باش</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"فعال کردن حالت آماده باش، عمر باتری را از طریق زیر افزایش می دهد:
+-صرفه جویی در مصرف CPU.
+-کاهش روشنايی صفحه.
+-خاموش کردن بازخورد لرزشی.
+-وقتی صفحه نمایش خاموش شد اتصال داده غیرفعال می شود.
+-فقط اجازه اجرا به برنامه های ضروری داده شود."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">حالت اضطراري</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"فعال کردن حالت اضطراری، عمر باتری را از طریق زیر افزایش می دهد:
+-صرفه جویی در مصرف CPU.
+-کاهش روشنايی صفحه.
+-خاموش کردن بازخورد لرزشی.
+-وقتی صفحه نمایش خاموش شد اتصال داده غیرفعال می شود.
+-فقط اجازه اجرا به برنامه های ضروری داده شود."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">حالت کم مصرف</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"فعال کردن حالت کم مصرف، عمر باتری را از طریق زیر افزایش می دهد:
+-صرفه جویی در مصرف CPU.
+-کاهش روشنايی صفحه.
+-خاموش کردن بازخورد لرزشی.
+-وقتی صفحه نمایش خاموش شد اتصال داده غیرفعال می شود.
+-فقط اجازه اجرا به برنامه های ضروری داده شود."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">حالت صرفه جویی برق</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"فعال کردن حالت صرفه جویی برق، عمر باتری را از طریق زیر افزایش می دهد:
+-صرفه جویی در مصرف CPU.
+-کاهش روشنايی صفحه.
+-خاموش کردن بازخورد لرزشی.
+-وقتی صفحه نمایش خاموش شد اتصال داده غیرفعال می شود.
+-فقط اجازه اجرا به برنامه های ضروری داده شود."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">حالت صرفه جويی برق هوشمند</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"فعال کردن حالت صرفه جویی هوشمند، عمر باتری را از طریق زیر افزایش می دهد:
+-صرفه جویی در مصرف CPU.
+-کاهش روشنايی صفحه.
+-خاموش کردن بازخورد لرزشی.
+-وقتی صفحه نمایش خاموش شد اتصال داده غیرفعال می شود.
+-فقط اجازه اجرا به برنامه های ضروری داده شود."</string>
+    <string name="quick_settings_ringtone">زنگ تماس</string>
 </resources>

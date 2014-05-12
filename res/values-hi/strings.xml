@@ -190,7 +190,6 @@
     <string name="quick_settings_volume">वॉल्यूम</string>
     <string name="quick_settings_usage">डेटा उपयोग</string>
     <string name="quick_settings_sync_all">सभी को समन्वयित करें</string>
-    <string name="quick_settings_ringtone">रिंगटोन</string>
     <string name="quick_settings_auto_sync">स्वतः समन्वयन</string>
     <string name="quick_settings_bluetooth">ब्लुटूथ</string>
     <string name="quick_settings_user_card">उपयोगकर्ता कार्ड</string>
@@ -206,9 +205,11 @@
     <string name="quick_settings_music_channel">संगीत चैनल</string>
     <string name="quick_settings_do_not_disturb">परेशान न करें</string>
     <string name="quick_settings_fingerprint_scan">फ़िंगरप्रिंट स्कैन</string>
+    <string name="quick_settings_power_saver_ex">चरम पावर बचत मोड</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi हॉटस्पॉट</string>
-    <string name="quick_settings_wifi_hotspot_us">मोबाइल हॉटस्पॉट</string>
     <string name="quick_settings_wifi_hotspot_jp">टेदरिंग</string>
+    <string name="quick_settings_wifi_hotspot_us">मोबाइल हॉटस्पॉट</string>
+    <string name="quick_settings_wifi_hotspot_tmo">मोबाइल हॉटस्पॉट</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">पसंदीदा नेटवर्क</string>
     <string name="quick_settings_network_selection">नेटवर्क चयन</string>
@@ -232,6 +233,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">यह संदेश पुनः न दिखाएं</string>
     <string name="quick_settings_power_saver_dialog_message">"पावर सेवर में डेटा कनेक्शन चालू है। यदि यह चालू है, तो डिस्प्ले बंद रहने पर ईमेल प्राप्त करने जैसा डेटा संचार संभवतः न हो पाए।
 (इस सेटिंग के बावजूद चार्जिंग के दौरान डेटा संचार संभव होता है।)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">यह संदेश पुनः न दिखाएं</string>
+    <string name="quick_settings_hotspot_dialog_message">USB टेथरिंग या मोबाइल हॉटस्पॉट सक्रिय रहने के दौरान Wi-Fi बंद हो जाता है। Wi-Fi चालू करने के लिए, कृपया USB टेथरिंग या मोबाइल हॉटस्पॉट बंद कर दें।</string>
     <string name="quick_tips_edit_button">त्वरित सेटिंग जोड़ने और निकालने के लिए टैप करें</string>
     <string name="quick_tips_more_button">किसी आइटम का सेटिंग पृष्ठ खोलने के लिए उसे दबाएं और रोक कर रखें</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN Hotspot</string>
@@ -262,4 +265,68 @@
     <string name="battery_low_charging_not_enough_title">चेतावनी</string>
     <string name="battery_low_charging_not_enough_ac_title">चार्ज करने में असमर्थ</string>
     <string name="battery_low_charging_not_enough_ac">आपके फ़ोन को चार्ज करने में असमर्थ क्योंकि यह बहुत ज्यादा पावर का उपयोग कर रहा है। इस समस्या का समाधान करने के लिए, अपने फो़न को बंद करके, उपयोग न हो रहे एप्लिकेशन को बंद करके, या स्क्रीन बंद करके पावर का उपभोग कम करें।</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">चरम पावर बचत मोड</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"चरम पावर बचत मोड चालू करना निम्न कार्य द्वारा बैटरी जीवन बढ़ता है:
+- CPU उपयोग बचा कर रखना।
+-स्क्रीन चमक कम करना।
+-कंपन फ़ीडबैक बंद करना।
+-स्क्रीन बंद रहने के दौरान डेटा कनेक्शन बंद करना।
+-केवल जरूरी एप्लिकेशन चलने देना।
+-पेडोमीटर बंद करना।"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"चरम पावर बचत मोड चालू करना निम्न कार्य द्वारा बैटरी जीवन बढ़ता है:
+- CPU उपयोग बचा कर रखना।
+-स्क्रीन चमक कम करना।
+-कंपन फ़ीडबैक बंद करना।
+-स्क्रीन बंद रहने के दौरान डेटा कनेक्शन बंद करना।
+-केवल जरूरी एप्लिकेशन चलने देना।"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">चरम पावर रक्षक</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"चरम पावर रक्षक चालू करना निम्न कार्य द्वारा बैटरी जीवन बढ़ता है:
+- CPU उपयोग बचा कर रखना।
+-स्क्रीन चमक कम करना।
+-कंपन फ़ीडबैक बंद करना।
+-स्क्रीन बंद रहने के दौरान डेटा कनेक्शन बंद करना।
+-केवल जरूरी एप्लिकेशन चलने देना।"</string>
+    <string name="extreme_auto_power_saver_ask_title">अधिकतम पावर रक्षक</string>
+    <string name="extreme_auto_power_saver_ask_msg">"अधिकतम पावर रक्षक चालू करना निम्न कार्य द्वारा बैटरी जीवन बढ़ता है:
+- CPU उपयोग बचा कर रखना।
+-स्क्रीन चमक कम करना।
+-कंपन फ़ीडबैक बंद करना।
+-स्क्रीन बंद रहने के दौरान डेटा कनेक्शन बंद करना।
+-केवल जरूरी एप्लिकेशन चलने देना।"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">स्टैंडबाई मोड</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"स्टैंडबाई मोड चालू करना निम्न कार्य द्वारा बैटरी जीवन बढ़ता है:
+- CPU उपयोग बचा कर रखना।
+-स्क्रीन चमक कम करना।
+-कंपन फ़ीडबैक बंद करना।
+-स्क्रीन बंद रहने के दौरान डेटा कनेक्शन बंद करना।
+-केवल जरूरी एप्लिकेशन चलने देना।"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">आपातकालीन मोड</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"आपातकालीन मोड चालू करना निम्न कार्य द्वारा बैटरी जीवन बढ़ता है:
+- CPU उपयोग बचा कर रखना।
+-स्क्रीन चमक कम करना।
+-कंपन फ़ीडबैक बंद करना।
+-स्क्रीन बंद रहने के दौरान डेटा कनेक्शन बंद करना।
+-केवल जरूरी एप्लिकेशन चलने देना।"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">निम्न पावर मोड</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"निम्न पावर मोड चालू करना निम्न कार्य द्वारा बैटरी जीवन बढ़ता है:
+- CPU उपयोग बचा कर रखना।
+-स्क्रीन चमक कम करना।
+-कंपन फ़ीडबैक बंद करना।
+-स्क्रीन बंद रहने के दौरान डेटा कनेक्शन बंद करना।
+-केवल जरूरी एप्लिकेशन चलने देना।"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">पावर संरक्षण मोड</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"पावर संरक्षण मोड चालू करना निम्न कार्य द्वारा बैटरी जीवन बढ़ता है:
+- CPU उपयोग बचा कर रखना।
+-स्क्रीन चमक कम करना।
+-कंपन फ़ीडबैक बंद करना।
+-स्क्रीन बंद रहने के दौरान डेटा कनेक्शन बंद करना।
+-केवल जरूरी एप्लिकेशन चलने देना।"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">स्मार्ट पावर रक्षक मोड</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"स्मार्ट पावर रक्षक मोड चालू करना निम्न कार्य द्वारा बैटरी जीवन बढ़ता है:
+- CPU उपयोग बचा कर रखना।
+-स्क्रीन चमक कम करना।
+-कंपन फ़ीडबैक बंद करना।
+-स्क्रीन बंद रहने के दौरान डेटा कनेक्शन बंद करना।
+-केवल जरूरी एप्लिकेशन चलने देना।"</string>
+    <string name="quick_settings_ringtone">रिंगटोन</string>
 </resources>

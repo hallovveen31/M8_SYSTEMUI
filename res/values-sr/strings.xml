@@ -190,7 +190,6 @@ da se nadgleda"</string>
     <string name="quick_settings_volume">Jačina zvuka</string>
     <string name="quick_settings_usage">Korišćenje podataka</string>
     <string name="quick_settings_sync_all">Sinhronizuj sve</string>
-    <string name="quick_settings_ringtone">Ton zvona</string>
     <string name="quick_settings_auto_sync">Automatska sinhronizacija</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Korisnička kartica</string>
@@ -206,9 +205,11 @@ da se nadgleda"</string>
     <string name="quick_settings_music_channel">Muzički kanal</string>
     <string name="quick_settings_do_not_disturb">Ne uznemiravaj</string>
     <string name="quick_settings_fingerprint_scan">Skeniranje otiska prsta</string>
+    <string name="quick_settings_power_saver_ex">Ekstremni režim štednje električne energije</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi Hotspot</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Povezivanje</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Željena mreža</string>
     <string name="quick_settings_network_selection">Izbor Mreže</string>
@@ -226,12 +227,14 @@ da se nadgleda"</string>
     <string name="quick_setting_launch_kid_fail">Ne postoji instalirana aplikacija za režim za decu.</string>
     <string name="quick_settings_reorder_title">Uredi brza podešavanja</string>
     <string name="quick_settings_reorder_content">Pritisnite i zadržite prst na desnoj ikonici da biste promenili redosled</string>
-    <string name="quick_settings_reorder_separator">Skrivene stavke (prevucite da biste ih dodali u Brza podešavanja)</string>
+    <string name="quick_settings_reorder_separator">Sakrivene stavke (prevucite da biste ih dodali u Brza podešavanja)</string>
     <string name="quick_settings_reorder_full_items">Možete da imate maksimalno 12 brzih podešavanja</string>
     <string name="quick_settings_power_saver_dialog_title">Uključiti štednju električne energije?</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Ne prikazuj ovu poruku ponovo</string>
     <string name="quick_settings_power_saver_dialog_message">"Veza za prenos podataka je uključena u režimu štednje električne energije. Ako je to uključeno, prenos podataka, kao što je primanje e-pošte, možda ne može da se obavi kada je prikaz isključen.
 (Prenos podataka je moguć za vreme punjenja bez obzira na ovo podešavanje.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Ne prikazuj ovu poruku ponovo</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi je isključen kada su USB povezivanje ili mobilna vruća tačka aktivni. Da biste uključili Wi-Fi, isključite USB povezivanje ili mobilnu vruću tačku.</string>
     <string name="quick_tips_edit_button">Dodirnite da biste dodali i uklonili Brza podešavanja</string>
     <string name="quick_tips_more_button">Pritisnite i zadržite stavku da biste otvorili njenu stranicu Podešavanja</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN Hotspot</string>
@@ -262,4 +265,68 @@ da se nadgleda"</string>
     <string name="battery_low_charging_not_enough_title">Upozorenje</string>
     <string name="battery_low_charging_not_enough_ac_title">Punjenje nije moguće</string>
     <string name="battery_low_charging_not_enough_ac">Punjenje telefona nije moguće jer troši previše energije. Da biste rešili ovaj problem, možete da smanjite potrošnju energije ili da isključite telefon, zatvorite sve aplikacije koje ne koristite ili isključite ekran.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Ekstremni režim štednje električne energije</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Uključivanje ekstremnog režima štednje električne energije produžava trajanje baterije:
+-Ušteda CPU korišćenja.
+-Smanjenje osvetljenja ekrana.
+-Isključivanje vibracije kao reakcije.
+-Isključivanje veze za prenos podataka kada je ekran isključen.
+-Dozvolite samo aplikacijama od suštinske važnosti da rade.
+-Isključivanje pedometra."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Uključivanje ekstremnog režima štednje električne energije produžava trajanje baterije:
+-Ušteda CPU korišćenja.
+-Smanjenje osvetljenja ekrana.
+-Isključivanje vibracije kao reakcije.
+-Isključivanje veze za prenos podataka kada je ekran isključen.
+-Dozvolite samo aplikacijama od suštinske važnosti da rade."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Ekstremna štednja električne energije</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Uključivanje ekstremne štednje električne energije produžava trajanje baterije:
+-Ušteda CPU korišćenja.
+-Smanjenje osvetljenja ekrana.
+-Isključivanje vibracije kao reakcije.
+-Isključivanje veze za prenos podataka kada je ekran isključen.
+-Dozvolite samo aplikacijama od suštinske važnosti da rade."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maksimalna štednja električne energije</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Uključivanje maksimalne štednje električne energije produžava trajanje baterije:
+-Ušteda CPU korišćenja.
+-Smanjenje osvetljenja ekrana.
+-Isključivanje vibracije kao reakcije.
+-Isključivanje veze za prenos podataka kada je ekran isključen.
+-Dozvolite samo aplikacijama od suštinske važnosti da rade."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Režim pripravnosti</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Uključivanje režima pripravnosti produžava trajanje baterije:
+-Ušteda CPU korišćenja.
+-Smanjenje osvetljenja ekrana.
+-Isključivanje vibracije kao reakcije.
+-Isključivanje veze za prenos podataka kada je ekran isključen.
+-Dozvolite samo aplikacijama od suštinske važnosti da rade."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Režim za hitne slučajeve</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Uključivanje režima za hitne slučajeve produžava trajanje baterije:
+-Ušteda CPU korišćenja.
+-Smanjenje osvetljenja ekrana.
+-Isključivanje vibracije kao reakcije.
+-Isključivanje veze za prenos podataka kada je ekran isključen.
+-Dozvolite samo aplikacijama od suštinske važnosti da rade."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Režim niskog napajanja</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Uključivanje režima niskog napajanja produžava trajanje baterije:
+-Ušteda CPU korišćenja.
+-Smanjenje osvetljenja ekrana.
+-Isključivanje vibracije kao reakcije.
+-Isključivanje veze za prenos podataka kada je ekran isključen.
+-Dozvolite samo aplikacijama od suštinske važnosti da rade."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Režim čuvanja energije</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Uključivanje režima čuvanja energije produžava trajanje baterije:
+-Ušteda CPU korišćenja.
+-Smanjenje osvetljenja ekrana.
+-Isključivanje vibracije kao reakcije.
+-Isključivanje veze za prenos podataka kada je ekran isključen.
+-Dozvolite samo aplikacijama od suštinske važnosti da rade."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Pametni režim uštede električne energije</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Uključivanje pametnog režima uštede električne energije produžava trajanje baterije:
+-Ušteda CPU korišćenja.
+-Smanjenje osvetljenja ekrana.
+-Isključivanje vibracije kao reakcije.
+-Isključivanje veze za prenos podataka kada je ekran isključen.
+-Dozvolite samo aplikacijama od suštinske važnosti da rade."</string>
+    <string name="quick_settings_ringtone">Ton zvona</string>
 </resources>

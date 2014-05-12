@@ -82,7 +82,7 @@ Gebruik uitsluitend de bijgesloten oplader."</string>
     <string name="accessibility_wifi_one_bar">WiFi één balkje.</string>
     <string name="accessibility_wifi_two_bars">WiFi twee balkjes.</string>
     <string name="accessibility_wifi_three_bars">WiFi drie balkjes.</string>
-    <string name="accessibility_wifi_signal_full">WiFi-signaal vol.</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi signaal vol.</string>
     <string name="accessibility_no_wimax">Geen WiMAX.</string>
     <string name="accessibility_wimax_one_bar">WiMAX een balk.</string>
     <string name="accessibility_wimax_two_bars">WiMAX twee balkjes.</string>
@@ -190,7 +190,6 @@ gecontroleerd worden"</string>
     <string name="quick_settings_volume">Volume</string>
     <string name="quick_settings_usage">Gegevensgebruik</string>
     <string name="quick_settings_sync_all">Alles synchroniseren</string>
-    <string name="quick_settings_ringtone">Beltoon</string>
     <string name="quick_settings_auto_sync">Autosynchronisatie</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Gebruikerskaart</string>
@@ -206,9 +205,11 @@ gecontroleerd worden"</string>
     <string name="quick_settings_music_channel">Muziekkanaal</string>
     <string name="quick_settings_do_not_disturb">Niet storen</string>
     <string name="quick_settings_fingerprint_scan">Vingerafdrukscan</string>
+    <string name="quick_settings_power_saver_ex">Extreme energiebesparingmodus</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi hotspot</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Tethering</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile Hotspot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Voorkeur voor netwerk</string>
     <string name="quick_settings_network_selection">Netwerkselectie</string>
@@ -232,12 +233,14 @@ gecontroleerd worden"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Dit bericht niet nogmaals weergeven</string>
     <string name="quick_settings_power_saver_dialog_message">"Gegevensverbinding in Energiebesparing is AAN. Als dit AAN is, kan dataoverdracht zoals het ontvangen van e-mail niet plaatsvinden als het scherm is uitgeschakeld.
 Datatransmissie is mogelijk bij het laden ongeacht deze instelling.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Dit bericht niet nogmaals weergeven</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi wordt uitgeschakeld als USB tethering of Mobiele Hotspot geactiveerd wordt. Om Wi-Fi in te schakelen, moet je USB-tethering of Mobiele Hotspot uitschakelen.</string>
     <string name="quick_tips_edit_button">Tik om Snelle instellingen toe te voegen en te verwijderen</string>
     <string name="quick_tips_more_button">Houd een item ingedrukt om de pagina Instellingen te openen</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN-hotspot</string>
     <string name="quick_setting_wifi_hotspot_ct">WLAN-hotspot</string>
     <string name="qs_mobile_roaming_title">Let op</string>
-    <string name="qs_mobile_roaming_msg_att">Gegevensroaming toestaan? Kosten voor internationale gegevensroaming zijn van toepassing als gegevensverbindingen buiten de V.S., Puerto Rico en de Amerikaanse Maagdeneilanden worden gebruikt.</string>
+    <string name="qs_mobile_roaming_msg_att">Gegevensroaming toestaan? Kosten voor internationale gegevensroaming zijn van toepassing als dataverbindingen buiten de V.S., Puerto Rico en de Amerikaanse Maagdeneilanden worden gebruikt.</string>
     <string name="qs_mobile_roaming_msg_generic">Je roamt. Gegevensroamen kan aanzienlijke kosten met zich meebrengen. Wil je de roeming netwerkverbinding inschakelen?</string>
     <string name="qs_restrict_mode_error">Fout</string>
     <string name="qs_restrict_mode_message">Dit is geblokkeerd door je systeembeheerder. Neem contact op met de IT-afdeling voor hulp.</string>
@@ -262,4 +265,68 @@ Datatransmissie is mogelijk bij het laden ongeacht deze instelling.)"</string>
     <string name="battery_low_charging_not_enough_title">Waarschuwing</string>
     <string name="battery_low_charging_not_enough_ac_title">Kan niet opladen</string>
     <string name="battery_low_charging_not_enough_ac">Kan je telefoon niet laden omdat hij teveel energie gebruikt. Om dit probleem op te heffen, kun je het energieverbruik beperkten door de telefoon uit te schakelen, apps te sluiten die je niet gebruikt, of het scherm uit te schakelen.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Extreme energiebesparingmodus</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Het inschakelen van extreme energiebesparingmodus zorgt voor een verlenging van de batterijduur door:
+-Besparend CPU-gebruik.
+-Schermhelderheid verlagen.
+-Trilfeedback uitschakelen.
+-Dataverbinding uitschakelen wanneer scherm uit staat.
+-Alleen uitvoeren van essentiële apps toestaan.
+-Hodometer uitschakelen."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Het inschakelen van extreme energiebesparingmodus zorgt voor een verlenging van de batterijduur door:
+-Besparend CPU-gebruik.
+-Schermhelderheid verlagen.
+-Trilfeedback uitschakelen.
+-Dataverbinding uitschakelen wanneer scherm uit staat.
+-Alleen uitvoeren van essentiële apps toestaan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Extreme energiebesparing</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Het inschakelen van extreme energiebesparing zorgt voor een verlenging van de batterijduur door:
+-Besparend CPU-gebruik.
+-Schermhelderheid verlagen.
+-Trilfeedback uitschakelen.
+-Dataverbinding uitschakelen wanneer scherm uit staat.
+-Alleen uitvoeren van essentiële apps toestaan."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maximale energiebesparing</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Het inschakelen van maximale energiebesparing zorgt voor een verlenging van de batterijduur door:
+-Besparend CPU-gebruik.
+-Schermhelderheid verlagen.
+-Trilfeedback uitschakelen.
+-Dataverbinding uitschakelen wanneer scherm uit staat.
+-Alleen uitvoeren van essentiële apps toestaan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Stand-bymodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Het inschakelen van stand-bymodus zorgt voor een verlenging van de batterijduur door:
+-Besparend CPU-gebruik.
+-Schermhelderheid verlagen.
+-Trilfeedback uitschakelen.
+-Dataverbinding uitschakelen wanneer scherm uit staat.
+-Alleen uitvoeren van essentiële apps toestaan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Alarmmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Het inschakelen van alarmmodus zorgt voor een verlenging van de batterijduur door:
+-Besparend CPU-gebruik.
+-Schermhelderheid verlagen.
+-Trilfeedback uitschakelen.
+-Dataverbinding uitschakelen wanneer scherm uit staat.
+-Alleen uitvoeren van essentiële apps toestaan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Lage energiemodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Het inschakelen van lage energiemodus zorgt voor een verlenging van de batterijduur door:
+-Besparend CPU-gebruik.
+-Schermhelderheid verlagen.
+-Trilfeedback uitschakelen.
+-Dataverbinding uitschakelen wanneer scherm uit staat.
+-Alleen uitvoeren van essentiële apps toestaan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Energiebesparingmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Het inschakelen van energiebesparingmodus zorgt voor een verlenging van de batterijduur door:
+-Besparend CPU-gebruik.
+-Schermhelderheid verlagen.
+-Trilfeedback uitschakelen.
+-Dataverbinding uitschakelen wanneer scherm uit staat.
+-Alleen uitvoeren van essentiële apps toestaan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Slimme energiebesparingmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Het inschakelen van slimme energiebesparingmodus zorgt voor een verlenging van de batterijduur door:
+-Besparend CPU-gebruik.
+-Schermhelderheid verlagen.
+-Trilfeedback uitschakelen.
+-Dataverbinding uitschakelen wanneer scherm uit staat.
+-Alleen uitvoeren van essentiële apps toestaan."</string>
+    <string name="quick_settings_ringtone">Beltoon</string>
 </resources>

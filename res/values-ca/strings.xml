@@ -17,7 +17,7 @@ Feu servir només el carregador subministrat."</string>
     <string name="battery_low_why">Ús de la bateria</string>
     <string name="status_bar_settings_settings_button">Configuració</string>
     <string name="status_bar_settings_wifi_button">Wi-Fi</string>
-    <string name="status_bar_settings_airplane">Mode avió</string>
+    <string name="status_bar_settings_airplane">Mode Avió</string>
     <string name="status_bar_settings_auto_rotation">Gir automàtic de la pantalla</string>
     <string name="status_bar_settings_mute_label">SILENCI</string>
     <string name="status_bar_settings_auto_brightness_label">AUTO</string>
@@ -42,11 +42,11 @@ Feu servir només el carregador subministrat."</string>
     <string name="compat_mode_off">Estira omplint la pantalla</string>
     <string name="screenshot_saving_ticker">"S'està desant la captura de pantalla…"</string>
     <string name="screenshot_saving_title">"S'està desant la captura de pantalla…"</string>
-    <string name="screenshot_saving_text">"La captura de pantalla s'està desant."</string>
+    <string name="screenshot_saving_text">"La captura de pantalla s'està guardant."</string>
     <string name="screenshot_saved_title">Pantalla capturada.</string>
     <string name="screenshot_saved_text">Toqueu per a veure la captura de pantalla.</string>
     <string name="screenshot_failed_title">"No s'ha pogut capturar la pantalla."</string>
-    <string name="screenshot_failed_text">"No s'ha pogut desar la captura de pantalla. Pot ser que l'emmagatzematge estigui ocupat."</string>
+    <string name="screenshot_failed_text">"No s'ha pogut guardar la captura de pantalla. Pot ser que l'emmagatzematge estigui ocupat."</string>
     <string name="usb_preference_title">"Opcions de transferència de fitxers a l'USB"</string>
     <string name="use_mtp_button_title">Munta com a reproductor de mitjans (MTP)</string>
     <string name="use_ptp_button_title">Munta com a càmera (PTP)</string>
@@ -155,7 +155,7 @@ Si les torneu a habilitar, pot ser que el proveïdor faci càrrecs addicionals."
     <string name="dessert_case">Aparador de postres</string>
     <string name="start_dreams">Daydream</string>
     <string name="ethernet_label">Ethernet</string>
-    <string name="quick_settings_airplane_mode_label">Mode avió</string>
+    <string name="quick_settings_airplane_mode_label">Mode Avió</string>
     <string name="quick_settings_battery_charging_label">Carregant, %d%%</string>
     <string name="quick_settings_battery_charged_label">Carregat</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
@@ -190,7 +190,6 @@ Si les torneu a habilitar, pot ser que el proveïdor faci càrrecs addicionals."
     <string name="quick_settings_volume">Volum</string>
     <string name="quick_settings_usage">Ús de dades</string>
     <string name="quick_settings_sync_all">Sincronitza tot</string>
-    <string name="quick_settings_ringtone">So de trucada</string>
     <string name="quick_settings_auto_sync">Sincronització automàtica</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">"Targeta de l'usuari"</string>
@@ -203,12 +202,14 @@ Si les torneu a habilitar, pot ser que el proveïdor faci càrrecs addicionals."
     <string name="quick_settings_data_roaming">Dades en itinerància</string>
     <string name="quick_settings_media_output">Sortida de mitjans</string>
     <string name="quick_settings_sound_profile">Perfil de so</string>
-    <string name="quick_settings_music_channel">Canal de música</string>
+    <string name="quick_settings_music_channel">Canal Música</string>
     <string name="quick_settings_do_not_disturb">No molesteu</string>
     <string name="quick_settings_fingerprint_scan">"Escanejat d'empremtes"</string>
+    <string name="quick_settings_power_saver_ex">"Mode d'estalvi d'energia extrem"</string>
     <string name="quick_settings_wifi_hotspot">Hotspot Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Hotspot mòbil</string>
     <string name="quick_settings_wifi_hotspot_jp">Ancoratge</string>
+    <string name="quick_settings_wifi_hotspot_us">Hotspot mòbil</string>
+    <string name="quick_settings_wifi_hotspot_tmo">HotSpot mòbil</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Prefereix xarxa</string>
     <string name="quick_settings_network_selection">Selecció de xarxa</string>
@@ -232,6 +233,8 @@ Si les torneu a habilitar, pot ser que el proveïdor faci càrrecs addicionals."
     <string name="quick_settings_power_saver_dialog_chkbox">No mostris aquest missatge de nou</string>
     <string name="quick_settings_power_saver_dialog_message">"Connexió de dades amb l'estalvi d'energia està activat. Si aquesta opció està activada, la transmissió de dades com la recepció de correu electrònic no es pot fer amb la pantalla apagada.
 (Es poden transferir dades durant la càrrega independentment d'aquesta configuració.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">No mostris aquest missatge de nou</string>
+    <string name="quick_settings_hotspot_dialog_message">"Mentre l'ancoratge USB o el Hotspot Mòbil estan actius, Wi-Fi està desactivat. Per activar Wi-Fi, desactiveu l'ancoratge USB o el Hotspot Mòbil."</string>
     <string name="quick_tips_edit_button">Toqueu per afegir i eliminar configuracions ràpides</string>
     <string name="quick_tips_more_button">Mantingueu premut un element per obrir-ne la pàgina de configuració</string>
     <string name="quick_settings_wifi_hotspot_cn">Hotspot WLAN</string>
@@ -262,4 +265,68 @@ Si les torneu a habilitar, pot ser que el proveïdor faci càrrecs addicionals."
     <string name="battery_low_charging_not_enough_title">Advertiment</string>
     <string name="battery_low_charging_not_enough_ac_title">No es pot carregar</string>
     <string name="battery_low_charging_not_enough_ac">"No es pot carregar el telèfon perquè està consumint massa energia. Per resoldre aquest problema, reduïu el consum d'energia apagant el telèfon, tancant totes les aplicacions que no feu servir o apagant la pantalla."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">"Mode d'estalvi d'energia extrem"</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Si activeu el mode d'estalvi d'energia extrem, la vida de la bateria s'allarga de la forma següent:
+-Estalviant ús de la CPU.
+-Reduint la brillantor de la pantalla.
+-Desactivant la resposta amb vibracions.
+-Desactivant la connexió de dades mentre la pantalla està apagada.
+-Permetent que només s'executin les aplicacions essencials.
+-Desactivant el podòmetre."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Si activeu el mode d'estalvi d'energia extrem, la vida de la bateria s'allarga de la forma següent:
+-Estalviant ús de la CPU.
+-Reduint la brillantor de la pantalla.
+-Desactivant la resposta amb vibracions.
+-Desactivant la connexió de dades mentre la pantalla està apagada.
+-Permetent que només s'executin les aplicacions essencials."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">"Estalvi d'energia extrem"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Si activeu l'estalvi d'energia extrem, la vida de la bateria s'allarga de la forma següent:
+-Estalviant ús de la CPU.
+-Reduint la brillantor de la pantalla.
+-Desactivant la resposta amb vibracions.
+-Desactivant la connexió de dades mentre la pantalla està apagada.
+-Permetent que només s'executin les aplicacions essencials."</string>
+    <string name="extreme_auto_power_saver_ask_title">"Estalvi d'energia màxim"</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Si activeu l'estalvi d'energia màxim, la vida de la bateria s'allarga de la forma següent:
+-Estalviant ús de la CPU.
+-Reduint la brillantor de la pantalla.
+-Desactivant la resposta amb vibracions.
+-Desactivant la connexió de dades mentre la pantalla està apagada.
+-Permetent que només s'executin les aplicacions essencials."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">"Mode d'espera"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Si activeu el mode d'espera, la vida de la bateria s'allarga de la forma següent:
+-Estalviant ús de la CPU.
+-Reduint la brillantor de la pantalla.
+-Desactivant la resposta amb vibracions.
+-Desactivant la connexió de dades mentre la pantalla està apagada.
+-Permetent que només s'executin les aplicacions essencials."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">"Mode d'emergència"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Si activeu el mode d'emergència, la vida de la bateria s'allarga de la forma següent:
+-Estalviant ús de la CPU.
+-Reduint la brillantor de la pantalla.
+-Desactivant la resposta amb vibracions.
+-Desactivant la connexió de dades mentre la pantalla està apagada.
+-Permetent que només s'executin les aplicacions essencials."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Mode de baixa potència</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Si activeu el mode de baixa potència, la vida de la bateria s'allarga de la forma següent:
+-Estalviant ús de la CPU.
+-Reduint la brillantor de la pantalla.
+-Desactivant la resposta amb vibracions.
+-Desactivant la connexió de dades mentre la pantalla està apagada.
+-Permetent que només s'executin les aplicacions essencials."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">"Mode conservador d'energia"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Si activeu el mode conservador d'energia, la vida de la bateria s'allarga de la forma següent:
+-Estalviant ús de la CPU.
+-Reduint la brillantor de la pantalla.
+-Desactivant la resposta amb vibracions.
+-Desactivant la connexió de dades mentre la pantalla està apagada.
+-Permetent que només s'executin les aplicacions essencials."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">"Mode d'estalvi d'energia intel·ligent"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Si activeu el mode d'estalvi d'energia intel·ligent, la vida de la bateria s'allarga de la forma següent:
+-Estalviant ús de la CPU.
+-Reduint la brillantor de la pantalla.
+-Desactivant la resposta amb vibracions.
+-Desactivant la connexió de dades mentre la pantalla està apagada.
+-Permetent que només s'executin les aplicacions essencials."</string>
+    <string name="quick_settings_ringtone">So de trucada</string>
 </resources>

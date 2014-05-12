@@ -15,11 +15,8 @@
         <item name="android:textColor">@com.htc:color/light_primaryfont_color</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
-    <style name="fixed_htcpowermanager_03" parent="@com.htc:style/fixed_list_body_primary_xl">
+    <style name="fixed_htcpowermanager_03" parent="@com.htc:style/fixed_info_primary_m">
         <item name="android:textColor">@com.htc:color/dark_primaryfont_color</item>
-    </style>
-    <style name="fixed_htcpowermanager_04" parent="@com.htc:style/fixed_info_primary_m">
-        <item name="android:textColor">@com.htc:color/dark_secondaryfont_color</item>
     </style>
     <style name="htcpowermanager_01">
         <item name="android:textSize">@dimen/htcpowermanager_01</item>
@@ -36,11 +33,8 @@
         <item name="android:textColor">@com.htc:color/light_primaryfont_color</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
-    <style name="htcpowermanager_03" parent="@com.htc:style/list_body_primary_xl">
+    <style name="htcpowermanager_03" parent="@com.htc:style/info_primary_m">
         <item name="android:textColor">@com.htc:color/dark_primaryfont_color</item>
-    </style>
-    <style name="htcpowermanager_04" parent="@com.htc:style/info_primary_m">
-        <item name="android:textColor">@com.htc:color/dark_secondaryfont_color</item>
     </style>
     <style name="fixed_notification_01">
         <item name="android:textSize">@dimen/fixed_notification_01</item>

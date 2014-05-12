@@ -191,7 +191,6 @@
     <string name="quick_settings_volume">音量</string>
     <string name="quick_settings_usage">数据使用量</string>
     <string name="quick_settings_sync_all">全部同步</string>
-    <string name="quick_settings_ringtone">铃声</string>
     <string name="quick_settings_auto_sync">自动同步</string>
     <string name="quick_settings_bluetooth">蓝牙</string>
     <string name="quick_settings_user_card">用户卡</string>
@@ -207,9 +206,11 @@
     <string name="quick_settings_music_channel">动态歌词</string>
     <string name="quick_settings_do_not_disturb">请勿打扰</string>
     <string name="quick_settings_fingerprint_scan">指纹扫描</string>
+    <string name="quick_settings_power_saver_ex">极致节能程序模式</string>
     <string name="quick_settings_wifi_hotspot">WLAN 热点</string>
-    <string name="quick_settings_wifi_hotspot_us">移动热点</string>
     <string name="quick_settings_wifi_hotspot_jp">数据共享</string>
+    <string name="quick_settings_wifi_hotspot_us">移动热点</string>
+    <string name="quick_settings_wifi_hotspot_tmo">移动热点</string>
     <string name="quick_settings_apn">接入点名称</string>
     <string name="quick_settings_prefer_network">首选网络</string>
     <string name="quick_settings_network_selection">双卡设置</string>
@@ -233,6 +234,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">不要再显示此信息</string>
     <string name="quick_settings_power_saver_dialog_message">"节能程序的数据连接已开启。如果该功能已打开，显示器关闭时接收电邮等数据传输可能无法进行。
 （充电时，不管设置如何仍可能进行数据传输。）"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">不要再显示此信息</string>
+    <string name="quick_settings_hotspot_dialog_message">当 Internet 数据共享或移动热点激活后，WLAN 将关闭。要打开 WLAN，请关闭 Internet 数据共享或移动热点。</string>
     <string name="quick_tips_edit_button">点击以添加和删除快速设置</string>
     <string name="quick_tips_more_button">长按一个项目，打开其设置页面</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN 热点</string>
@@ -241,7 +244,7 @@
     <string name="qs_mobile_roaming_msg_att">是否允许数据漫游？在美国、波多黎各和美属维尔京群岛以外使用数据需要收取国际数据漫游费用。</string>
     <string name="qs_mobile_roaming_msg_generic">您正在漫游。数据漫游可能会产生高额费用。是否启用漫游网络连接？</string>
     <string name="qs_restrict_mode_error">错误</string>
-    <string name="qs_restrict_mode_message">这已经被您的系统管理员所阻止。请与 IT 团队联系寻求帮助。</string>
+    <string name="qs_restrict_mode_message">这被您的系统管理员阻止。请与联系 IT 团队寻求帮助。</string>
     <string name="recentapps_title">最近使用的应用程序</string>
     <string name="recentapps_clear_all">全部清除</string>
     <string name="recentapps_running_services">运行服务</string>
@@ -263,4 +266,68 @@
     <string name="battery_low_charging_not_enough_title">警告</string>
     <string name="battery_low_charging_not_enough_ac_title">无法充电</string>
     <string name="battery_low_charging_not_enough_ac">手机耗电量太大，无法充电。要解决此问题，您可以关闭手机、关闭所有当前未使用的应用程序或关闭屏幕以降低能耗。</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">极致节能程序模式</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"开启极端节能程序模式可通过以下方式延长电池使用寿命：
+-节省 CPU 使用量。
+-降低屏幕亮度。
+-关闭振动反馈。
+-屏幕关闭时关闭数据连接。
+-仅允许必要的应用程序运行。
+-关闭计步器。"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"开启极致节能程序模式可通过以下方式延长电池使用寿命：
+-节省 CPU 使用量。
+-降低屏幕亮度。
+-关闭振动反馈。
+-屏幕关闭时关闭数据连接。
+-仅允许必要的应用程序运行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">极致节能程序</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"开启极致节能程序可通过以下延长电池使用寿命：
+-节省 CPU 使用量。
+-降低屏幕亮度。
+-关闭振动反馈。
+-屏幕关闭时关闭数据连接。
+-仅允许必要的应用程序运行。"</string>
+    <string name="extreme_auto_power_saver_ask_title">最节能程序</string>
+    <string name="extreme_auto_power_saver_ask_msg">"开启最节能程序可通过以下延长电池使用寿命：
+-节省 CPU 使用量。
+-降低屏幕亮度。
+-关闭振动反馈。
+-屏幕关闭时关闭数据连接。
+-仅允许必要的应用程序运行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">待机模式</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"开启待机模式可通过以下延长电池使用寿命：
+-节省 CPU 使用量。
+-降低屏幕亮度。
+-关闭振动反馈。
+-屏幕关闭时关闭数据连接。
+-仅允许必要的应用程序运行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">紧急模式</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"开启紧急模式可通过以下延长电池使用寿命：
+-节省 CPU 使用量。
+-降低屏幕亮度。
+-关闭振动反馈。
+-屏幕关闭时关闭数据连接。
+-仅允许必要的应用程序运行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">低耗电模式</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"开启低耗电模式可通过以下延长电池使用寿命：
+-节省 CPU 使用量。
+-降低屏幕亮度。
+-关闭振动反馈。
+-屏幕关闭时关闭数据连接。
+-仅允许必要的应用程序运行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">省电模式</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"开启省电模式可通过以下延长电池使用寿命：
+-节省 CPU 使用量。
+-降低屏幕亮度。
+-关闭振动反馈。
+-屏幕关闭时关闭数据连接。
+-仅允许必要的应用程序运行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">智能节能模式</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"开启智能节能模式可通过以下延长电池使用寿命：
+-节省 CPU 使用量。
+-降低屏幕亮度。
+-关闭振动反馈。
+-屏幕关闭时关闭数据连接。
+-仅允许必要的应用程序运行。"</string>
+    <string name="quick_settings_ringtone">铃声</string>
 </resources>

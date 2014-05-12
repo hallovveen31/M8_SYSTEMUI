@@ -190,7 +190,6 @@ být monitorována"</string>
     <string name="quick_settings_volume">Hlasitost</string>
     <string name="quick_settings_usage">Používání dat</string>
     <string name="quick_settings_sync_all">Synchronizovat vše</string>
-    <string name="quick_settings_ringtone">Vyzváněcí tón</string>
     <string name="quick_settings_auto_sync">Automatická synchronizace</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Uživatelská karta</string>
@@ -206,9 +205,11 @@ být monitorována"</string>
     <string name="quick_settings_music_channel">Hudební kanál</string>
     <string name="quick_settings_do_not_disturb">Nerušit</string>
     <string name="quick_settings_fingerprint_scan">Sken otisku prstu</string>
+    <string name="quick_settings_power_saver_ex">Režim extrémní úspory energie</string>
     <string name="quick_settings_wifi_hotspot">Hotspot Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobilní hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Připojování</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobilní hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobilní HotSpot</string>
     <string name="quick_settings_apn">Název AP</string>
     <string name="quick_settings_prefer_network">Preferovat síť</string>
     <string name="quick_settings_network_selection">Výběr sítě</string>
@@ -232,6 +233,8 @@ být monitorována"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Tento dialog již příště nezobrazovat</string>
     <string name="quick_settings_power_saver_dialog_message">"Datové připojení je v úsporném režimu zapnuté. Pokud je tato funkce zapnutá, datový přenos, například příjem e-mailů, nelze provést, když je displej vypnutý.
 (Datový přenos je možný při nabíjení bez ohledu na toto nastavení.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Tento dialog již příště nezobrazovat</string>
+    <string name="quick_settings_hotspot_dialog_message">Funkce Wi-Fi je vypnutá, když je aktivní Sdílení internetu nebo Mobilní Hotspot. Pokud chcete zapnout Wi-Fi, vypněte Sdílení internetu nebo Mobilní Hotspot.</string>
     <string name="quick_tips_edit_button">Klepněte pro přidání a odebrání rychlých nastavení</string>
     <string name="quick_tips_more_button">Stiskněte a přidržte položku pro otevření její stránky Nastavení</string>
     <string name="quick_settings_wifi_hotspot_cn">Hotspot WLAN</string>
@@ -262,4 +265,68 @@ být monitorována"</string>
     <string name="battery_low_charging_not_enough_title">Upozornění</string>
     <string name="battery_low_charging_not_enough_ac_title">Nabíjení není možné</string>
     <string name="battery_low_charging_not_enough_ac">Nabíjení není možné, protože telefon používá příliš mnoho energie. Pro vyřešení tohoto problému můžete snížit spotřebu energie tak, že telefon vypnete, zavřete některé aplikace, které nepoužíváte, nebo vypnete obrazovku.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Režim extrémní úspory energie</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Zapnutím režimu extrémní úspory energie se prodlouží životnost baterie těmito způsoby:
+-šetření při používání CPU.
+-snížení jasu obrazovky.
+-vypnutí vibrační odezvy.
+-vypnutí datového připojení, když je vypnutá obrazovka.
+-umožnění běhu pouze nezbytných aplikací.
+-vypnutí krokoměru."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Zapnutím režimu extrémní úspory energie se prodlouží životnost baterie těmito způsoby:
+-šetření při používání CPU.
+-snížení jasu obrazovky.
+-vypnutí vibrační odezvy.
+-vypnutí datového připojení, když je vypnutá obrazovka.
+-umožnění běhu pouze nezbytných aplikací."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Režim extrémní úspory energie</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Zapnutím režimu extrémní úspory energie se prodlouží životnost baterie těmito způsoby:
+-šetření při používání CPU.
+-snížení jasu obrazovky.
+-vypnutí vibrační odezvy.
+-vypnutí datového připojení, když je vypnutá obrazovka.
+-umožnění běhu pouze nezbytných aplikací."</string>
+    <string name="extreme_auto_power_saver_ask_title">Režim maximální úspory energie</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Zapnutím režimu maximální úspory energie se prodlouží životnost baterie těmito způsoby:
+-šetření při používání CPU.
+-snížení jasu obrazovky.
+-vypnutí vibrační odezvy.
+-vypnutí datového připojení, když je vypnutá obrazovka.
+-umožnění běhu pouze nezbytných aplikací."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Pohotovostní režim</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Zapnutím pohotovostního režimu se prodlouží životnost baterie těmito způsoby:
+-šetření při používání CPU.
+-snížení jasu obrazovky.
+-vypnutí vibrační odezvy.
+-vypnutí datového připojení, když je vypnutá obrazovka.
+-umožnění běhu pouze nezbytných aplikací."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Nouzový režim</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Zapnutím nouzového režimu se prodlouží životnost baterie těmito způsoby:
+-šetření při používání CPU.
+-snížení jasu obrazovky.
+-vypnutí vibrační odezvy.
+-vypnutí datového připojení, když je vypnutá obrazovka.
+-umožnění běhu pouze nezbytných aplikací."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Režim nízkého napájení</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Zapnutím režimu nízkého napájení energie se prodlouží životnost baterie těmito způsoby:
+-šetření při používání CPU.
+-snížení jasu obrazovky.
+-vypnutí vibrační odezvy.
+-vypnutí datového připojení, když je vypnutá obrazovka.
+-umožnění běhu pouze nezbytných aplikací."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Režim úspory napájení</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Zapnutím režimu úspory napájení se prodlouží životnost baterie těmito způsoby:
+-šetření při používání CPU.
+-snížení jasu obrazovky.
+-vypnutí vibrační odezvy.
+-vypnutí datového připojení, když je vypnutá obrazovka.
+-umožnění běhu pouze nezbytných aplikací."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Chytrý úsporný režim</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Zapnutím chytrého úsporného režimu se prodlouží životnost baterie těmito způsoby:
+-šetření při používání CPU.
+-snížení jasu obrazovky.
+-vypnutí vibrační odezvy.
+-vypnutí datového připojení, když je vypnutá obrazovka.
+-umožnění běhu pouze nezbytných aplikací."</string>
+    <string name="quick_settings_ringtone">Vyzváněcí tón</string>
 </resources>

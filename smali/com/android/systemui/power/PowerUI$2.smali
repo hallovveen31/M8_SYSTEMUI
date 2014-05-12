@@ -21,10 +21,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/power/PowerUI;)V
     .locals 0
-    .parameter
 
-    .prologue
-    .line 228
     iput-object p1, p0, Lcom/android/systemui/power/PowerUI$2;->this$0:Lcom/android/systemui/power/PowerUI;
 
     invoke-direct {p0}, Landroid/telephony/PhoneStateListener;-><init>()V
@@ -36,11 +33,7 @@
 # virtual methods
 .method public onCallStateChanged(ILjava/lang/String;)V
     .locals 3
-    .parameter "state"
-    .parameter "incomingNumber"
 
-    .prologue
-    .line 231
     const-string v0, "PowerUI"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -63,12 +56,10 @@
 
     invoke-static {v0, v1}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 232
     iget-object v0, p0, Lcom/android/systemui/power/PowerUI$2;->this$0:Lcom/android/systemui/power/PowerUI;
 
     #calls: Lcom/android/systemui/power/PowerUI;->updateCallState(I)V
     invoke-static {v0, p1}, Lcom/android/systemui/power/PowerUI;->access$100(Lcom/android/systemui/power/PowerUI;I)V
 
-    .line 233
     return-void
 .end method

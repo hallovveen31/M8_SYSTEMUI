@@ -192,7 +192,6 @@ būti stebimas"</string>
     <string name="quick_settings_volume">Garsumas</string>
     <string name="quick_settings_usage">Duomenų naudojimas</string>
     <string name="quick_settings_sync_all">Sinchronizuoti visus</string>
-    <string name="quick_settings_ringtone">Skambėjimo garsas</string>
     <string name="quick_settings_auto_sync">Automatinis sinchronizavimas</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Vartotojo kortelė</string>
@@ -208,9 +207,11 @@ būti stebimas"</string>
     <string name="quick_settings_music_channel">Muzikos kanalas</string>
     <string name="quick_settings_do_not_disturb">Netrukdyti</string>
     <string name="quick_settings_fingerprint_scan">Piršto atspaudo nuskaitymas</string>
+    <string name="quick_settings_power_saver_ex">Ekstremalusis energijos taupymo režimas</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi interneto prieigos taškas</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobilusis interneto prieigos taškas</string>
     <string name="quick_settings_wifi_hotspot_jp">Modemo režimas</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobilusis interneto prieigos taškas</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobilieji interneto prieigos taškai</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Pageidaujamas tinklas</string>
     <string name="quick_settings_network_selection">Tinklo pasirinkimas</string>
@@ -234,6 +235,8 @@ būti stebimas"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Neberodyti šio pranešimo</string>
     <string name="quick_settings_power_saver_dialog_message">"Duomenų ryšys energijos taupymo režimu ĮJUNGTAS. Kai jis ĮJUNGTAS, išjungus ekraną negalima perduoti duomenų, pvz., priimti el. laiškų.
 (Neatsižvelgiant į šį nustatymą, duomenis galima perduoti, kai įrenginys įkraunamas.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Neberodyti šio pranešimo</string>
+    <string name="quick_settings_hotspot_dialog_message">Kai aktyvus USB modemo arba mobiliojo interneto prieigos taško ryšys, „Wi-Fi“ ryšys išjungiamas. Kad įjungtumėte „Wi-Fi“, išjunkite USB modemo arba mobiliojo interneto prieigos taško ryšį.</string>
     <string name="quick_tips_edit_button">Bakstelėkite, kad įtrauktumėte ir pašalintumėte Greitus nustatymus</string>
     <string name="quick_tips_more_button">Paspauskite ir palaikykite elementą, kad atvertumėte jo Nustatymų puslapį</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN interneto prieigos taškas</string>
@@ -264,4 +267,68 @@ būti stebimas"</string>
     <string name="battery_low_charging_not_enough_title">Įspėjimas</string>
     <string name="battery_low_charging_not_enough_ac_title">Neįmanoma įkrauti</string>
     <string name="battery_low_charging_not_enough_ac">Telefono įkrauti nepavyks, nes jis naudoja per daug energijos. Šiai problemai išspręsti sumažinkite energijos sąnaudas išjungdami savo telefoną, užverdami nenaudojamas programas arba išjungdami ekraną.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Ekstremalusis energijos taupymo režimas</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Įjungus ekstremalųjį energijos taupymo režimą, akumuliatoriaus naudojimo laikas pailgėja:
+-Mažiau apkraunamas procesorius.
+-Sumažinamas ekrano šviesumas.
+-Išjungiamas vibracijos grįžtamasis ryšys.
+-Išjungiamas duomenų ryšys, kai ekranas išjungtas.
+-Leidžiama veikti tik esminėms programoms.
+-Išjungiamas žingsniamatis."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Įjungus ekstremalųjį energijos taupymo režimą, akumuliatoriaus naudojimo laikas pailgėja:
+-Mažiau apkraunamas procesorius.
+-Sumažinamas ekrano šviesumas.
+-Išjungiamas vibracijos grįžtamasis ryšys.
+-Išjungiamas duomenų ryšys, kai ekranas išjungtas.
+-Leidžiama veikti tik esminėms programoms."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Ekstremalusis energijos taupymo režimas</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Įjungus ekstremalųjį energijos taupymo režimą, akumuliatoriaus naudojimo laikas pailgėja:
+-Mažiau apkraunamas procesorius.
+-Sumažinamas ekrano šviesumas.
+-Išjungiamas vibracijos grįžtamasis ryšys.
+-Išjungiamas duomenų ryšys, kai ekranas išjungtas.
+-Leidžiama veikti tik esminėms programoms."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maksimalusis energijos taupymo režimas</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Įjungus maksimalųjį energijos taupymo režimą, akumuliatoriaus naudojimo laikas pailgėja:
+-Mažiau apkraunamas procesorius.
+-Sumažinamas ekrano šviesumas.
+-Išjungiamas vibracijos grįžtamasis ryšys.
+-Išjungiamas duomenų ryšys, kai ekranas išjungtas.
+-Leidžiama veikti tik esminėms programoms."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Budėjimo režimas</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Įjungus budėjimo režimą, akumuliatoriaus naudojimo laikas pailgėja:
+-Mažiau apkraunamas procesorius.
+-Sumažinamas ekrano šviesumas.
+-Išjungiamas vibracijos grįžtamasis ryšys.
+-Išjungiamas duomenų ryšys, kai ekranas išjungtas.
+-Leidžiama veikti tik esminėms programoms."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Avarinis režimas</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Įjungus avarinį režimą, akumuliatoriaus naudojimo laikas pailgėja:
+-Mažiau apkraunamas procesorius.
+-Sumažinamas ekrano šviesumas.
+-Išjungiamas vibracijos grįžtamasis ryšys.
+-Išjungiamas duomenų ryšys, kai ekranas išjungtas.
+-Leidžiama veikti tik esminėms programoms."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Mažų energijos sąnaudų režimas</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Įjungus mažų energijos sąnaudų režimą, akumuliatoriaus naudojimo laikas pailgėja:
+-Mažiau apkraunamas procesorius.
+-Sumažinamas ekrano šviesumas.
+-Išjungiamas vibracijos grįžtamasis ryšys.
+-Išjungiamas duomenų ryšys, kai ekranas išjungtas.
+-Leidžiama veikti tik esminėms programoms."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Energijos taupymo režimas</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Įjungus energijos taupymo režimą, akumuliatoriaus naudojimo laikas pailgėja:
+-Mažiau apkraunamas procesorius.
+-Sumažinamas ekrano šviesumas.
+-Išjungiamas vibracijos grįžtamasis ryšys.
+-Išjungiamas duomenų ryšys, kai ekranas išjungtas.
+-Leidžiama veikti tik esminėms programoms."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Išmanusis energijos taupymo režimas</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Įjungus išmanųjį energijos taupymo režimą, akumuliatoriaus naudojimo laikas pailgėja:
+-Mažiau apkraunamas procesorius.
+-Sumažinamas ekrano šviesumas.
+-Išjungiamas vibracijos grįžtamasis ryšys.
+-Išjungiamas duomenų ryšys, kai ekranas išjungtas.
+-Leidžiama veikti tik esminėms programoms."</string>
+    <string name="quick_settings_ringtone">Skambėjimo garsas</string>
 </resources>

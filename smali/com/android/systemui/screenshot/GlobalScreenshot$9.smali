@@ -24,10 +24,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/screenshot/GlobalScreenshot;)V
     .locals 0
-    .parameter
 
-    .prologue
-    .line 739
     iput-object p1, p0, Lcom/android/systemui/screenshot/GlobalScreenshot$9;->this$0:Lcom/android/systemui/screenshot/GlobalScreenshot;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -39,12 +36,9 @@
 # virtual methods
 .method public onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 6
-    .parameter "animation"
 
-    .prologue
     const/high16 v5, 0x3f80
 
-    .line 742
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -55,8 +49,6 @@
 
     move-result v1
 
-    .line 743
-    .local v1, t:F
     const v2, 0x3f39999a
 
     iget-object v3, p0, Lcom/android/systemui/screenshot/GlobalScreenshot$9;->this$0:Lcom/android/systemui/screenshot/GlobalScreenshot;
@@ -74,8 +66,6 @@
 
     sub-float v0, v2, v3
 
-    .line 745
-    .local v0, scaleT:F
     iget-object v2, p0, Lcom/android/systemui/screenshot/GlobalScreenshot$9;->this$0:Lcom/android/systemui/screenshot/GlobalScreenshot;
 
     #getter for: Lcom/android/systemui/screenshot/GlobalScreenshot;->mBackgroundView:Landroid/widget/ImageView;
@@ -89,9 +79,8 @@
 
     mul-float/2addr v3, v4
 
-    invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setAlpha(F)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setAlpha(F)V
 
-    .line 746
     iget-object v2, p0, Lcom/android/systemui/screenshot/GlobalScreenshot$9;->this$0:Lcom/android/systemui/screenshot/GlobalScreenshot;
 
     #getter for: Lcom/android/systemui/screenshot/GlobalScreenshot;->mScreenshotView:Landroid/widget/ImageView;
@@ -101,9 +90,8 @@
 
     sub-float v3, v5, v1
 
-    invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setAlpha(F)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setAlpha(F)V
 
-    .line 747
     iget-object v2, p0, Lcom/android/systemui/screenshot/GlobalScreenshot$9;->this$0:Lcom/android/systemui/screenshot/GlobalScreenshot;
 
     #getter for: Lcom/android/systemui/screenshot/GlobalScreenshot;->mScreenshotView:Landroid/widget/ImageView;
@@ -111,9 +99,8 @@
 
     move-result-object v2
 
-    invoke-virtual {v2, v0}, Landroid/widget/ImageView;->setScaleX(F)V
+    invoke-virtual {v2, v0}, Landroid/view/View;->setScaleX(F)V
 
-    .line 748
     iget-object v2, p0, Lcom/android/systemui/screenshot/GlobalScreenshot$9;->this$0:Lcom/android/systemui/screenshot/GlobalScreenshot;
 
     #getter for: Lcom/android/systemui/screenshot/GlobalScreenshot;->mScreenshotView:Landroid/widget/ImageView;
@@ -121,8 +108,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2, v0}, Landroid/widget/ImageView;->setScaleY(F)V
+    invoke-virtual {v2, v0}, Landroid/view/View;->setScaleY(F)V
 
-    .line 749
     return-void
 .end method

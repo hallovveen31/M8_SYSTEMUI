@@ -190,7 +190,6 @@ Om du återaktiverar data kommer du att debiteras av operatören."</string>
     <string name="quick_settings_volume">Volym</string>
     <string name="quick_settings_usage">Dataanvändning</string>
     <string name="quick_settings_sync_all">Synkronisera alla</string>
-    <string name="quick_settings_ringtone">Ringsignal</string>
     <string name="quick_settings_auto_sync">Automatisk synkronisering</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Användarkort</string>
@@ -206,9 +205,11 @@ Om du återaktiverar data kommer du att debiteras av operatören."</string>
     <string name="quick_settings_music_channel">Musikkanal</string>
     <string name="quick_settings_do_not_disturb">Stör ej</string>
     <string name="quick_settings_fingerprint_scan">Fingeravtrycksinläsning</string>
+    <string name="quick_settings_power_saver_ex">Extremt energisparläge</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi Surfpunkt</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobil surfpunkt</string>
     <string name="quick_settings_wifi_hotspot_jp">Internetdelning</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobil surfpunkt</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobil Surfpunkt</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Önskat nätverk</string>
     <string name="quick_settings_network_selection">Nätverksval</string>
@@ -232,6 +233,8 @@ Om du återaktiverar data kommer du att debiteras av operatören."</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Visa inte detta meddelande igen</string>
     <string name="quick_settings_power_saver_dialog_message">"Dataanslutning i Strömsparfunktion är PÅ. Om den är PÅ, kan inte dataöverföring som t.ex. att ta emot e-post inte göras när skärmen är avstängd. 
 (Dataöverföring är möjlig vid laddning oavsett denna inställning.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Visa inte detta meddelande igen</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi är avstängt när Internetdelning via USB eller Mobil Surfpunkt är aktiv. För att slå på Wi-Fi, stäng av Internetdelning via USB eller Mobil Surfpunkt.</string>
     <string name="quick_tips_edit_button">Tryck för att lägga till och ta bort Snabbinställningar</string>
     <string name="quick_tips_more_button">Tryck på och håll ned ett objekt för att öppna dess inställningar</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN-surfpunkt</string>
@@ -262,4 +265,68 @@ Om du återaktiverar data kommer du att debiteras av operatören."</string>
     <string name="battery_low_charging_not_enough_title">Varning</string>
     <string name="battery_low_charging_not_enough_ac_title">Det går inte att ladda</string>
     <string name="battery_low_charging_not_enough_ac">Det går inte att ladda telefonen eftersom den använder för mycket ström. För att åtgärda detta problem måste du minska energiförbrukningen genom att stänga av telefonen, stänga program du inte använder eller slå av skärmen.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Extremt energisparläge</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Om du aktiverar extremt energisparläge förlängs batteritiden genom att:
+-Spara på CPU-användning.
+-Sänka skärmens ljusstyrka.
+-Stänga av vibrationsfeedback.
+-Stänga av dataanslutning när skärmen är avstängd.
+-Endast låta viktiga program köras.
+-Stänga av stegmätare."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Om du aktiverar extremt energisparläge förlängs batteritiden genom att:
+-Spara på CPU-användning.
+-Sänka skärmens ljusstyrka.
+-Stänga av vibrationsfeedback.
+-Stänga av dataanslutning när skärmen är avstängd.
+-Endast låta viktiga program köras."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Extrem strömsparfunktion</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Om du slår på extrem strömsparfunktion förlängs batteritiden genom att:
+-Spara på CPU-användning.
+-Sänka skärmens ljusstyrka.
+-Stänga av vibrationsfeedback.
+-Stänga av dataanslutning när skärmen är avstängd.
+-Endast låta viktiga program köras."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maximal strömsparfunktion</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Om du slår på maximal strömsparfunktion förlängs batteritiden genom att:
+-Spara på CPU-användning.
+-Sänka skärmens ljusstyrka.
+-Stänga av vibrationsfeedback.
+-Stänga av dataanslutning när skärmen är avstängd.
+-Endast låta viktiga program köras."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Standbyläge</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Om du aktiverar standbyläge förlängs batteritiden genom att:
+-Spara på CPU-användning.
+-Sänka skärmens ljusstyrka.
+-Stänga av vibrationsfeedback.
+-Stänga av dataanslutning när skärmen är avstängd.
+-Endast låta viktiga program köras."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Nödläge</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Om du aktiverar nödläge förlängs batteritiden genom att:
+-Spara på CPU-användning.
+-Sänka skärmens ljusstyrka.
+-Stänga av vibrationsfeedback.
+-Stänga av dataanslutning när skärmen är avstängd.
+-Endast låta viktiga program köras."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Låg ström-läge</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Om du aktiverar låg ström-läge förlängs batteritiden genom att:
+-Spara på CPU-användning.
+-Sänka skärmens ljusstyrka.
+-Stänga av vibrationsfeedback.
+-Stänga av dataanslutning när skärmen är avstängd.
+-Endast låta viktiga program köras."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Energisparläge</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Om du aktiverar energisparläge förlängs batteritiden genom att:
+-Spara på CPU-användning.
+-Sänka skärmens ljusstyrka.
+-Stänga av vibrationsfeedback.
+-Stänga av dataanslutning när skärmen är avstängd.
+-Endast låta viktiga program köras."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Smart strömsparfunktion</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Om du aktiverar smart strömsparfunktion förlängs batteritiden genom att:
+-Spara på CPU-användning.
+-Sänka skärmens ljusstyrka.
+-Stänga av vibrationsfeedback.
+-Stänga av dataanslutning när skärmen är avstängd.
+-Endast låta viktiga program köras."</string>
+    <string name="quick_settings_ringtone">Ringsignal</string>
 </resources>

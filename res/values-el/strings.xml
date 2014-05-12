@@ -190,7 +190,6 @@
     <string name="quick_settings_volume">Όγκος</string>
     <string name="quick_settings_usage">Χρήση δεδομένων</string>
     <string name="quick_settings_sync_all">Συγχρονισμός όλων</string>
-    <string name="quick_settings_ringtone">Κουδούνισμα</string>
     <string name="quick_settings_auto_sync">Αυτόματος συγχρονισμός</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Κάρτα χρήστη</string>
@@ -206,9 +205,11 @@
     <string name="quick_settings_music_channel">Κανάλι μουσικής</string>
     <string name="quick_settings_do_not_disturb">Μην ενοχλείτε</string>
     <string name="quick_settings_fingerprint_scan">Σάρωση δακτυλικού αποτυπώματος</string>
+    <string name="quick_settings_power_saver_ex">Λειτουργία απόλυτης εξοικονόμησης ενέργειας</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi Hotspot</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Κοινή χρήση Internet</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Προτίμηση δικτύου</string>
     <string name="quick_settings_network_selection">Επιλογή δικτύου</string>
@@ -232,6 +233,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">Να μην εμφανιστεί ξανά αυτό το μήνυμα</string>
     <string name="quick_settings_power_saver_dialog_message">"Η Σύνδεση δεδομένων στο Πρόγραμμα εξοικονόμησης ενέργειας είναι ενεργοποιημένη. Αν είναι ενεργοποιημένη, μπορεί να μην γίνει μετάδοση δεδομένων, όπως η λήψη e-mail, όταν η οθόνη είναι σβηστή.
 (Η μετάδοση δεδομένων είναι δυνατή όταν χρεώνεται, ανεξάρτητα από αυτήν τη ρύθμιση)."</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Να μην εμφανιστεί ξανά αυτό το μήνυμα</string>
+    <string name="quick_settings_hotspot_dialog_message">Το Wi-Fi είναι απενεργοποιημένο όταν το USB tethering ή το Mobile Hotspot είναι ενεργό. Για να ενεργοποιήσετε το Wi-Fi, πρέπει να απενεργοποιήσετε το USB tethering ή το Mobile Hotspot.</string>
     <string name="quick_tips_edit_button">Πιέστε για να προσθέσετε και να αφαιρέσετε Γρήγορες ρυθμίσεις</string>
     <string name="quick_tips_more_button">Πατήστε παρατεταμένα κάποιο στοιχείο για να ανοίξετε τη σελίδα του Ρυθμίσεις</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN Hotspot</string>
@@ -262,4 +265,68 @@
     <string name="battery_low_charging_not_enough_title">Προειδοποίηση</string>
     <string name="battery_low_charging_not_enough_ac_title">Αδύνατη η φόρτιση</string>
     <string name="battery_low_charging_not_enough_ac">Δεν είναι δυνατή η φόρτιση του τηλεφώνου σας επειδή καταναλώνει πάρα πολλή ενέργεια. Για να διορθώσετε αυτό το πρόβλημα, μειώστε την κατανάλωση ενέργειας απενεργοποιώντας το τηλέφωνο, κλείνοντας τυχόν εφαρμογές που δεν χρησιμοποιείτε ή σβήνοντας την οθόνη.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Λειτουργία απόλυτης εξοικονόμησης ενέργειας</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Η ενεργοποίηση της λειτουργίας απόλυτης εξοικονόμησης ενέργειας παρατείνει τη διάρκεια της μπαταρίας με:
+-Εξοικονόμηση χρήσης CPU.
+-Μείωση φωτεινότητας της οθόνης.
+-Απενεργοποίηση ανάδρασης με δόνηση.
+-Απενεργοποίηση σύνδεσης δεδομένων όταν η οθόνη είναι σβηστή.
+-Επιτρέπεται η εκτέλεση μόνο σημαντικών εφαρμογών.
+-Απενεργοποίηση βηματόμετρου."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Η ενεργοποίηση της λειτουργίας απόλυτης εξοικονόμησης ενέργειας παρατείνει τη διάρκεια της μπαταρίας με:
+-Εξοικονόμηση χρήσης CPU.
+-Μείωση φωτεινότητας της οθόνης.
+-Απενεργοποίηση ανάδρασης με δόνηση.
+-Απενεργοποίηση σύνδεσης δεδομένων όταν η οθόνη είναι σβηστή.
+-Επιτρέπεται η εκτέλεση μόνο σημαντικών εφαρμογών."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Πρόγραμμα απόλυτης εξοικονόμησης ενέργειας</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Η ενεργοποίηση του προγράμματος απόλυτης εξοικονόμησης ενέργειας παρατείνει τη διάρκεια της μπαταρίας με:
+-Εξοικονόμηση χρήσης CPU.
+-Μείωση φωτεινότητας της οθόνης.
+-Απενεργοποίηση ανάδρασης με δόνηση.
+-Απενεργοποίηση σύνδεσης δεδομένων όταν η οθόνη είναι σβηστή.
+-Επιτρέπεται η εκτέλεση μόνο σημαντικών εφαρμογών."</string>
+    <string name="extreme_auto_power_saver_ask_title">Πρόγραμμα μέγιστης εξοικονόμησης ενέργειας</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Η ενεργοποίηση του προγράμματος μέγιστης εξοικονόμησης ενέργειας παρατείνει τη διάρκεια της μπαταρίας με:
+-Εξοικονόμηση χρήσης CPU.
+-Μείωση φωτεινότητας της οθόνης.
+-Απενεργοποίηση ανάδρασης με δόνηση.
+-Απενεργοποίηση σύνδεσης δεδομένων όταν η οθόνη είναι σβηστή.
+-Επιτρέπεται η εκτέλεση μόνο σημαντικών εφαρμογών."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Κατάσταση αναμονής</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Η ενεργοποίηση της κατάστασης αναμονής παρατείνει τη διάρκεια της μπαταρίας με:
+-Εξοικονόμηση χρήσης CPU.
+-Μείωση φωτεινότητας της οθόνης.
+-Απενεργοποίηση ανάδρασης με δόνηση.
+-Απενεργοποίηση σύνδεσης δεδομένων όταν η οθόνη είναι σβηστή.
+-Επιτρέπεται η εκτέλεση μόνο σημαντικών εφαρμογών."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Λειτουργία έκτακτης ανάγκης</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Η ενεργοποίηση της λειτουργίας έκτακτης ανάγκης παρατείνει τη διάρκεια της μπαταρίας με:
+-Εξοικονόμηση χρήσης CPU.
+-Μείωση φωτεινότητας της οθόνης.
+-Απενεργοποίηση ανάδρασης με δόνηση.
+-Απενεργοποίηση σύνδεσης δεδομένων όταν η οθόνη είναι σβηστή.
+-Επιτρέπεται η εκτέλεση μόνο σημαντικών εφαρμογών."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Λειτουργία χαμηλής ενέργειας</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Η ενεργοποίηση της λειτουργίας χαμηλής ενέργειας παρατείνει τη διάρκεια της μπαταρίας με:
+-Εξοικονόμηση χρήσης CPU.
+-Μείωση φωτεινότητας της οθόνης.
+-Απενεργοποίηση ανάδρασης με δόνηση.
+-Απενεργοποίηση σύνδεσης δεδομένων όταν η οθόνη είναι σβηστή.
+-Επιτρέπεται η εκτέλεση μόνο σημαντικών εφαρμογών."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Λειτουργία διατήρησης ενέργειας</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Η ενεργοποίηση της λειτουργίας διατήρησης ενέργειας παρατείνει τη διάρκεια της μπαταρίας με:
+-Εξοικονόμηση χρήσης CPU.
+-Μείωση φωτεινότητας της οθόνης.
+-Απενεργοποίηση ανάδρασης με δόνηση.
+-Απενεργοποίηση σύνδεσης δεδομένων όταν η οθόνη είναι σβηστή.
+-Επιτρέπεται η εκτέλεση μόνο σημαντικών εφαρμογών."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Λειτουργία έξυπνης εξοικονόμησης ενέργειας</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Η ενεργοποίηση της λειτουργίας έξυπνης εξοικονόμησης ενέργειας παρατείνει τη διάρκεια της μπαταρίας με:
+-Εξοικονόμηση χρήσης CPU.
+-Μείωση φωτεινότητας της οθόνης.
+-Απενεργοποίηση ανάδρασης με δόνηση.
+-Απενεργοποίηση σύνδεσης δεδομένων όταν η οθόνη είναι σβηστή.
+-Επιτρέπεται η εκτέλεση μόνο σημαντικών εφαρμογών."</string>
+    <string name="quick_settings_ringtone">Κουδούνισμα</string>
 </resources>

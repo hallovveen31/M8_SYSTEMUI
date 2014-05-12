@@ -161,7 +161,7 @@ If you re-enable data, you may be charged by the operator."</string>
     <string name="dessert_case">Dessert Case</string>
     <string name="start_dreams">Daydream</string>
     <string name="ethernet_label">Ethernet</string>
-    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_airplane_mode_label">Airplane Mode</string>
     <string name="quick_settings_battery_charging_label">Charging, %d%%</string>
     <string name="quick_settings_battery_charged_label">Charged</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
@@ -197,7 +197,6 @@ be monitored"</string>
     <string name="quick_settings_volume">Volume</string>
     <string name="quick_settings_usage">Data Usage</string>
     <string name="quick_settings_sync_all">Sync All</string>
-    <string name="quick_settings_ringtone">Ringtone</string>
     <string name="quick_settings_auto_sync">Auto Sync</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">User Card</string>
@@ -213,9 +212,11 @@ be monitored"</string>
     <string name="quick_settings_music_channel">Music Channel</string>
     <string name="quick_settings_do_not_disturb">Do Not Disturb</string>
     <string name="quick_settings_fingerprint_scan">Fingerprint Scan</string>
+    <string name="quick_settings_power_saver_ex">Extreme Power Saving Mode</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi Hotspot</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Tethering</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Prefer Network</string>
     <string name="quick_settings_network_selection">Network Selection</string>
@@ -234,7 +235,7 @@ be monitored"</string>
     <string name="quick_settings_reorder_title">Edit Quick Settings</string>
     <string name="quick_settings_reorder_content">Press and hold right icon to rearrange</string>
     <string name="quick_settings_reorder_separator">Hidden items (drag to add to Quick Settings)</string>
-    <string name="quick_settings_reorder_full_items">You can have a maximum of 12 quick settings</string>
+    <string name="quick_settings_reorder_full_items">You can have a maximum of 23 quick setting tiles</string>
     <string name="quick_settings_power_saver_dialog_title">Turn on Power saver?</string>
     <string name="quick_settings_power_saver_dialog_chkbox">"Don't show this message again"</string>
     <string name="quick_settings_power_saver_dialog_message">"Data connection in Power saver is turned ON. If this is turned ON, data transmission such as receiving e-mail may not be done when display is turned off.
@@ -273,6 +274,69 @@ be monitored"</string>
     <string name="battery_low_charging_not_enough_title">Warning</string>
     <string name="battery_low_charging_not_enough_ac_title">Unable to charge</string>
     <string name="battery_low_charging_not_enough_ac">"Unable to charge your phone because it is using too much power. To fix this problem, reduce power consumption by turning off your phone, closing any apps you aren't using, or turning the screen off."</string>
-    <item type="string" name="APKTOOL_DUMMY_010d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_010e">false</item>
+    <string name="extreme_auto_power_saver_ask_title_ex">Extreme power saving mode</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Turning on extreme power saving mode extends battery life by:
+
+-Conserving CPU usage.
+-Reducing screen brightness.
+-Turning off vibration feedback.
+-Turning off data connection when screen is off.
+-Allowing only essential apps to run.
+-Turning off pedometer."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Turning on extreme power saving mode extends battery life by:
+-Conserving CPU usage.
+-Reducing screen brightness.
+-Turning off vibration feedback.
+-Turning off data connection when screen is off.
+-Allowing only essential apps to run."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Extreme power saver</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Turning on extreme power saver extends battery life by:
+-Conserving CPU usage.
+-Reducing screen brightness.
+-Turning off vibration feedback.
+-Turning off data connection when screen is off.
+-Allowing only essential apps to run."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maximum power saver</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Turning on maximum power saver extends battery life by:
+-Conserving CPU usage.
+-Reducing screen brightness.
+-Turning off vibration feedback.
+-Turning off data connection when screen is off.
+-Allowing only essential apps to run."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Standby mode</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Turning on standby mode extends battery life by:
+-Conserving CPU usage.
+-Reducing screen brightness.
+-Turning off vibration feedback.
+-Turning off data connection when screen is off.
+-Allowing only essential apps to run."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Emergency mode</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Turning on emergency mode extends battery life by:
+-Conserving CPU usage.
+-Reducing screen brightness.
+-Turning off vibration feedback.
+-Turning off data connection when screen is off.
+-Allowing only essential apps to run."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Low power mode</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Turning on low power mode extends battery life by:
+-Conserving CPU usage.
+-Reducing screen brightness.
+-Turning off vibration feedback.
+-Turning off data connection when screen is off.
+-Allowing only essential apps to run."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Power conservation mode</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Turning on power conservation mode extends battery life by:
+-Conserving CPU usage.
+-Reducing screen brightness.
+-Turning off vibration feedback.
+-Turning off data connection when screen is off.
+-Allowing only essential apps to run."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Smart power saver mode</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Turning on smart power saver mode extends battery life by:
+-Conserving CPU usage.
+-Reducing screen brightness.
+-Turning off vibration feedback.
+-Turning off data connection when screen is off.
+-Allowing only essential apps to run."</string>
+    <string name="quick_settings_flashlight">Torch</string>
 </resources>

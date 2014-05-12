@@ -189,7 +189,6 @@
     <string name="quick_settings_volume">Гучність</string>
     <string name="quick_settings_usage">Використання даних</string>
     <string name="quick_settings_sync_all" />
-    <string name="quick_settings_ringtone" />
     <string name="quick_settings_auto_sync">Автоматична синхронізація</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Карта користувача</string>
@@ -205,9 +204,11 @@
     <string name="quick_settings_music_channel">Музичний канал</string>
     <string name="quick_settings_do_not_disturb">Не турбувати</string>
     <string name="quick_settings_fingerprint_scan">Сканувати відбиток пальця</string>
+    <string name="quick_settings_power_saver_ex">Режим надзвичайного енергозбереження</string>
     <string name="quick_settings_wifi_hotspot">Точка доступу Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Мобільна точка доступу</string>
     <string name="quick_settings_wifi_hotspot_jp">Режим модема</string>
+    <string name="quick_settings_wifi_hotspot_us">Мобільна точка доступу</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Мобільна точка доступу</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Пріоритетна мережа</string>
     <string name="quick_settings_network_selection" />
@@ -231,6 +232,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">Більше не показувати це повідомлення</string>
     <string name="quick_settings_power_saver_dialog_message">"З'єднання для передавання даних у вкладці Енергозбереження увімкнено. Якщо ця опція увімкнена, передавання даних, таких як отримання електронної пошти, не може бути зроблено при вимкнутому дисплеї.
 (Передавання даних можливе, коли оплата за послуги не залежить від цього параметру)."</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Більше не показувати це повідомлення</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi відключається коли активні режим модема USB або мобільна точка доступу. Щоб включити Wi-Fi, вимкніть режим модема USB або мобільну точку доступу.</string>
     <string name="quick_tips_edit_button">Натисніть, щоб додати та видалити Швидкі налаштування</string>
     <string name="quick_tips_more_button">Натисніть і утримуйте елемент, щоб відкрити сторінку Налаштування</string>
     <string name="quick_settings_wifi_hotspot_cn">Точка доступу WLAN</string>
@@ -261,4 +264,68 @@
     <string name="battery_low_charging_not_enough_title">Увага</string>
     <string name="battery_low_charging_not_enough_ac_title">Не вдалося підзарядити</string>
     <string name="battery_low_charging_not_enough_ac">Неможливо зарядити телефон, оскільки він використовує занадто багато живлення. Щоб вирішити цю проблему, знизьте енергоспоживання за рахунок відключення телефону, закриття будь-якої програми, яку ви не використовуєте, або вимкнення екрану.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Режим надзвичайного енергозбереження</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Увімкнення режиму надзвичайного енергозбереження збільшує термін служби акумулятора шляхом:
+-Економного завантаження процесора.
+-Зменшення яскравості екрану.
+-Вимкнення вібрації.
+-Вимкнення з'єднання для передавання даних, коли екран вимкнено.
+-Дозволяє запускати тільки важливі програми.
+-Вимкнення крокоміру."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Увімкнення режиму надзвичайного енергозбереження збільшує термін служби акумулятора шляхом:
+-Економного завантаження процесора.
+-Зменшення яскравості екрану.
+-Вимкнення вібрації.
+-Вимкнення з'єднання для передавання даних, коли екран вимкнено.
+-Дозволяє запускати тільки важливі програми."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Надзвичайне енергозбереження</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Увімкнення надзвичайного енергозбереження збільшує термін служби акумулятора шляхом:
+-Економного завантаження процесора.
+-Зменшення яскравості екрану.
+-Вимкнення вібрації.
+-Вимкнення з'єднання для передавання даних, коли екран вимкнено.
+-Дозволу запускати тільки важливі програми."</string>
+    <string name="extreme_auto_power_saver_ask_title">Максимальне енергозбереження</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Увімкнення максимального енергозбереження збільшує термін служби акумулятора шляхом:
+-Економного завантаження процесора.
+-Зменшення яскравості екрану.
+-Вимкнення вібрації.
+-Вимкнення з'єднання для передавання даних, коли екран вимкнено.
+-Дозволу запускати тільки важливі програми."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Режим очікування</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Увімкнення режиму очікування збільшує термін служби акумулятора шляхом:
+-Економного завантаження процесора.
+-Зменшення яскравості екрану.
+-Вимкнення вібрації.
+-Вимкнення з'єднання для передавання даних, коли екран вимкнено.
+-Дозволу запускати тільки важливі програми."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Екстрений режим</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Увімкнення екстреного режиму збільшує термін служби акумулятора шляхом:
+-Економного завантаження процесора.
+-Зменшення яскравості екрану.
+-Вимкнення вібрації.
+-Вимкнення з'єднання для передавання даних, коли екран вимкнено.
+-Дозволу запускати тільки важливі програми."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Режим зниженого енергоспоживання</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Увімкнення режиму зниженого енергоспоживання збільшує термін служби акумулятора шляхом:
+-Економного завантаження процесора.
+-Зменшення яскравості екрану.
+-Вимкнення вібрації.
+-Вимкнення з'єднання для передавання даних, коли екран вимкнено.
+-Дозволу запускати тільки важливі програми."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Режим економії енергії</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Увімкнення режиму економії енергії збільшує термін служби акумулятора шляхом:
+-Економного завантаження процесора.
+-Зменшення яскравості екрану.
+-Вимкнення вібрації.
+-Вимкнення з'єднання для передавання даних, коли екран вимкнено.
+-Дозволу запускати тільки важливі програми."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Режим інтелектуального енергозбереження</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Увімкнення режиму інтелектуального енергозбереження збільшує термін служби акумулятора шляхом:
+-Економного завантаження процесора.
+-Зменшення яскравості екрану.
+-Вимкнення вібрації.
+-Вимкнення з'єднання для передавання даних, коли екран вимкнено.
+-Дозволу запускати тільки важливі програми."</string>
+    <string name="quick_settings_ringtone" />
 </resources>

@@ -25,12 +25,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/recent/RecentAppFxActivity$1;Landroid/view/View;Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;)V
     .locals 0
-    .parameter
-    .parameter
-    .parameter
 
-    .prologue
-    .line 152
     iput-object p1, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$1;->this$1:Lcom/android/systemui/recent/RecentAppFxActivity$1;
 
     iput-object p2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$1;->val$v:Landroid/view/View;
@@ -46,10 +41,7 @@
 # virtual methods
 .method public onAnimationCancel(Landroid/animation/Animator;)V
     .locals 3
-    .parameter "animation"
 
-    .prologue
-    .line 157
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$1;->val$v:Landroid/view/View;
 
     const/4 v1, 0x0
@@ -58,16 +50,14 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 158
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$1;->val$h:Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;
 
     iget-object v0, v0, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->text1:Landroid/widget/TextView;
 
     const/high16 v1, 0x3f80
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setAlpha(F)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 159
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$1;->val$v:Landroid/view/View;
 
     check-cast v0, Lcom/android/systemui/recent/RecentsItemView;
@@ -76,16 +66,12 @@
 
     invoke-virtual {v0, v1}, Lcom/android/systemui/recent/RecentsItemView;->setDrawableAlpha(I)V
 
-    .line 160
     return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 3
-    .parameter "animation"
 
-    .prologue
-    .line 162
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$1;->val$v:Landroid/view/View;
 
     const/4 v1, 0x0
@@ -94,16 +80,14 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 163
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$1;->val$h:Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;
 
     iget-object v0, v0, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->text1:Landroid/widget/TextView;
 
     const/high16 v1, 0x3f80
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setAlpha(F)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 164
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$1;->val$v:Landroid/view/View;
 
     check-cast v0, Lcom/android/systemui/recent/RecentsItemView;
@@ -112,16 +96,12 @@
 
     invoke-virtual {v0, v1}, Lcom/android/systemui/recent/RecentsItemView;->setDrawableAlpha(I)V
 
-    .line 165
     return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
     .locals 3
-    .parameter "animation"
 
-    .prologue
-    .line 154
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$1;->val$v:Landroid/view/View;
 
     const/4 v1, 0x2
@@ -130,6 +110,5 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 155
     return-void
 .end method

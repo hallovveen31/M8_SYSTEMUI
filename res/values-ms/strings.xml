@@ -177,7 +177,7 @@ Jika anda mendayakan semula data, anda boleh dikenakan caj oleh pengendali."</st
     <string name="quick_settings_wifi_not_connected">Tidak Disambungkan</string>
     <string name="quick_settings_wifi_no_network">Tiada Rangkaian</string>
     <string name="quick_settings_wifi_off_label">Wi-Fi Dimatikan</string>
-    <string name="quick_settings_remote_display_no_connection_label">Skrin Kas</string>
+    <string name="quick_settings_remote_display_no_connection_label">Skrin Cast</string>
     <string name="quick_settings_brightness_dialog_title">Kecerahan</string>
     <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTO</string>
     <string name="ssl_ca_cert_warning">"Rangkaian mungkin
@@ -190,7 +190,6 @@ dipantau"</string>
     <string name="quick_settings_volume">Kelantangan</string>
     <string name="quick_settings_usage">Penggunaan Data</string>
     <string name="quick_settings_sync_all">Segerakkan Semua</string>
-    <string name="quick_settings_ringtone">Nada Dering</string>
     <string name="quick_settings_auto_sync">Auto Segerak</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">User Card</string>
@@ -206,9 +205,11 @@ dipantau"</string>
     <string name="quick_settings_music_channel">Saluran Muzik</string>
     <string name="quick_settings_do_not_disturb">Jangan ganggu</string>
     <string name="quick_settings_fingerprint_scan">Imbasan Cap Jari</string>
+    <string name="quick_settings_power_saver_ex">Mod Penjimatan Kuasa Ekstrem</string>
     <string name="quick_settings_wifi_hotspot">Hotspot Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Hotspot Mudah Alih</string>
     <string name="quick_settings_wifi_hotspot_jp">Penambatan</string>
+    <string name="quick_settings_wifi_hotspot_us">Hotspot Mudah Alih</string>
+    <string name="quick_settings_wifi_hotspot_tmo">HotSpot Mudah Alih</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Rangkaian Pilihan</string>
     <string name="quick_settings_network_selection">Pemilihan Rangkaian</string>
@@ -232,6 +233,8 @@ dipantau"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Jangan tunjukkan mesej ini lagi</string>
     <string name="quick_settings_power_saver_dialog_message">"Sambungan data dalam Penjimat kuasa DIHIDUPKAN. Jika DIHIDUPKAN, penghantaran data seperti menerima e-mel mungkin tidak dilakukan semasa paparan dimatikan.
 (Penghantaran data boleh dilakukan semasa sedang mengecas tanpa mengambil kira tetapan ini.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Jangan tunjukkan mesej ini lagi</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi dimatikan semasa penambatan USB atau Hotspot Mudah Alih diaktifkan. Untuk menghidupkan Wi-Fi, sila matikan penambatan USB atau Hotspot Mudah Alih.</string>
     <string name="quick_tips_edit_button">Ketik untuk menambah dan mengalih keluar Tetapan Pantas</string>
     <string name="quick_tips_more_button">Tekan terus item untuk membuka halaman Tetapannya</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN Hotspot</string>
@@ -262,4 +265,68 @@ dipantau"</string>
     <string name="battery_low_charging_not_enough_title">Amaran</string>
     <string name="battery_low_charging_not_enough_ac_title">Tidak dapat mengecas</string>
     <string name="battery_low_charging_not_enough_ac">Tidak dapat mengecaj telefon anda kerana ia menggunakan terlalu banyak kuasa. Untuk membaiki masalah ini, kurangkan penggunaan kuasa dengan mematikan telefon anda, menutup sebarang apl yang tidak digunakan, atau mematikan skrin.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Mod penjimatan kuasa ekstrem</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Menghidupkan mod penjimatan kuasa ekstrem memanjangkan hayat bateri:
+-Menjimatkan penggunaan CPU.
+-Mengurangkan kecerahan skrin.
+-Mematikan maklum balas getaran.
+-Mematikan sambungan data semasa skrin dimatikan.
+-Hanya membenarkan apl penting sahaja dijalankan.
+-Mematikan pedometer."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Menghidupkan mod penjimatan kuasa ekstrem memanjangkan hayat bateri:
+-Menjimatkan penggunaan CPU.
+-Mengurangkan kecerahan skrin.
+-Mematikan maklum balas getaran.
+-Mematikan sambungan data semasa skrin dimatikan.
+-Hanya membenarkan apl penting sahaja dijalankan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Penjimat kuasa ekstrem</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Menghidupkan penjimat kuasa ekstrem memanjangkan hayat bateri:
+-Menjimatkan penggunaan CPU.
+-Mengurangkan kecerahan skrin.
+-Mematikan maklum balas getaran.
+-Mematikan sambungan data semasa skrin dimatikan.
+-Hanya membenarkan apl penting sahaja dijalankan."</string>
+    <string name="extreme_auto_power_saver_ask_title">Penjimat kuasa maksimum</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Menghidupkan penjimat kuasa maksimum memanjangkan hayat bateri:
+-Menjimatkan penggunaan CPU.
+-Mengurangkan kecerahan skrin.
+-Mematikan maklum balas getaran.
+-Mematikan sambungan data semasa skrin dimatikan.
+-Hanya membenarkan apl penting sahaja dijalankan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Mod tunggu sedia</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Menghidupkan mod tunggu sedia memanjangkan hayat bateri:
+-Menjimatkan penggunaan CPU.
+-Mengurangkan kecerahan skrin.
+-Mematikan maklum balas getaran.
+-Mematikan sambungan data semasa skrin dimatikan.
+-Hanya membenarkan apl penting sahaja dijalankan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Mod kecemasan</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Menghidupkan mod kecemasan memanjangkan hayat bateri:
+-Menjimatkan penggunaan CPU.
+-Mengurangkan kecerahan skrin.
+-Mematikan maklum balas getaran.
+-Mematikan sambungan data semasa skrin dimatikan.
+-Hanya membenarkan apl penting sahaja dijalankan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Mod kuasa rendah</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Menghidupkan mod kuasa rendah memanjangkan hayat bateri:
+-Menjimatkan penggunaan CPU.
+-Mengurangkan kecerahan skrin.
+-Mematikan maklum balas getaran.
+-Mematikan sambungan data semasa skrin dimatikan.
+-Hanya membenarkan apl penting sahaja dijalankan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Mod penjimatan kuasa</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Menghidupkan mod penjimatan kuasa memanjangkan hayat bateri:
+-Menjimatkan penggunaan CPU.
+-Mengurangkan kecerahan skrin.
+-Mematikan maklum balas getaran.
+-Mematikan sambungan data semasa skrin dimatikan.
+-Hanya membenarkan apl penting sahaja dijalankan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Mod penjimat kuasa pintar</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Menghidupkan mod penjimat kuasa pintar memanjangkan hayat bateri:
+-Menjimatkan penggunaan CPU.
+-Mengurangkan kecerahan skrin.
+-Mematikan maklum balas getaran.
+-Mematikan sambungan data semasa skrin dimatikan.
+-Hanya membenarkan apl penting sahaja dijalankan."</string>
+    <string name="quick_settings_ringtone">Nada Dering</string>
 </resources>

@@ -21,10 +21,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/statusbar/policy/LocationBasedServiceController;)V
     .locals 0
-    .parameter
 
-    .prologue
-    .line 134
     iput-object p1, p0, Lcom/android/systemui/statusbar/policy/LocationBasedServiceController$1;->this$0:Lcom/android/systemui/statusbar/policy/LocationBasedServiceController;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -36,17 +33,11 @@
 # virtual methods
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 4
-    .parameter "context"
-    .parameter "intent"
 
-    .prologue
-    .line 137
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 138
-    .local v0, action:Ljava/lang/String;
     const-string v1, "LbsController"
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -69,7 +60,6 @@
 
     invoke-static {v1, v2}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 139
     const-string v1, "com.htc.intent.action.QUICKBOOT_POWEROFF"
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -78,7 +68,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 140
     iget-object v1, p0, Lcom/android/systemui/statusbar/policy/LocationBasedServiceController$1;->this$0:Lcom/android/systemui/statusbar/policy/LocationBasedServiceController;
 
     iget-object v2, p0, Lcom/android/systemui/statusbar/policy/LocationBasedServiceController$1;->this$0:Lcom/android/systemui/statusbar/policy/LocationBasedServiceController;
@@ -91,7 +80,6 @@
     #calls: Lcom/android/systemui/statusbar/policy/LocationBasedServiceController;->saveState(Landroid/content/Context;I)V
     invoke-static {v1, p1, v2}, Lcom/android/systemui/statusbar/policy/LocationBasedServiceController;->access$100(Lcom/android/systemui/statusbar/policy/LocationBasedServiceController;Landroid/content/Context;I)V
 
-    .line 141
     :cond_0
     return-void
 .end method

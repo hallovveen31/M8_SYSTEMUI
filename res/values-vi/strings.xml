@@ -189,7 +189,6 @@ Nếu bạn bật lại kết nối data, bạn có thể bị tính thêm phí 
     <string name="quick_settings_volume">Âm lượng</string>
     <string name="quick_settings_usage">Lượng dữ liệu sử dụng</string>
     <string name="quick_settings_sync_all">Đồng bộ tất cả</string>
-    <string name="quick_settings_ringtone">Nhạc chuông</string>
     <string name="quick_settings_auto_sync">Tự Động Đồng Bộ</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Thẻ người dùng</string>
@@ -205,14 +204,16 @@ Nếu bạn bật lại kết nối data, bạn có thể bị tính thêm phí 
     <string name="quick_settings_music_channel">Music Channel</string>
     <string name="quick_settings_do_not_disturb">Đừng làm phiền</string>
     <string name="quick_settings_fingerprint_scan">Bảo mật vân tay</string>
+    <string name="quick_settings_power_saver_ex">Chế Độ Tiết Kiệm Pin Cao Độ</string>
     <string name="quick_settings_wifi_hotspot">Trạm phát Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Trạm phát di động</string>
     <string name="quick_settings_wifi_hotspot_jp">Chia sẻ kết nối</string>
+    <string name="quick_settings_wifi_hotspot_us">Trạm phát di động</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Trạm phát di động</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Mạng ưu thích</string>
     <string name="quick_settings_network_selection">Chọn Mạng</string>
-    <string name="quick_settings_prefer_slot1">KHE Sim 1</string>
-    <string name="quick_settings_prefer_slot2">KHE Sim 2</string>
+    <string name="quick_settings_prefer_slot1">KHE SIM 1</string>
+    <string name="quick_settings_prefer_slot2">KHE SIM 2</string>
     <string name="quick_settings_sound_profile_normal">Bình thường</string>
     <string name="quick_settings_sound_profile_silent">Yên lặng</string>
     <string name="quick_settings_sound_profile_vibrate">Rung</string>
@@ -231,8 +232,10 @@ Nếu bạn bật lại kết nối data, bạn có thể bị tính thêm phí 
     <string name="quick_settings_power_saver_dialog_chkbox">Không hiện tin nhắn này lại</string>
     <string name="quick_settings_power_saver_dialog_message">"Kết nối dữ liệu trong Tiết kiệm pin được BẬT. Nếu tính năng này được bật, việc truyền dữ liệu như việc nhận e-mail có thể không được thực hiện khi màn hình hiển thị tắt.
 (có thể truyền dữ liệu khi đang sạc dù cài đặt ở bật hay tắt.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Không hiện tin nhắn này lại</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi được tắt Chia sẻ internet hoặc Trạm Phát Di Động đang hoạt động. Để bật Wi-Fi, hãy tắt Chia sẻ internet hoặc Trạm Phát Di Động.</string>
     <string name="quick_tips_edit_button">Chạm để thêm và gỡ bỏ Cài đặt nhanh</string>
-    <string name="quick_tips_more_button">Nhấn và giữ một mục để mở trang Cài đặt của nó</string>
+    <string name="quick_tips_more_button">Nhấn và giữ vào một mục để mở trang Cài đặt liên quan</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN trạm phát di động</string>
     <string name="quick_setting_wifi_hotspot_ct">WLAN trạm phát di động</string>
     <string name="qs_mobile_roaming_title">Chú ý</string>
@@ -251,8 +254,8 @@ Nếu bạn bật lại kết nối data, bạn có thể bị tính thêm phí 
     <string name="lockscreen_missing_uim_message_short">Không có thẻ UIM</string>
     <string name="lockscreen_missing_sim_message_short">Không có thẻ SIM nào</string>
     <string name="lockscreen_missing_kddi_message_short">không có thẻ IC au</string>
-    <string name="carrier_label_sim1">(Khe 1)</string>
-    <string name="carrier_label_sim2">(Khe 2)</string>
+    <string name="carrier_label_sim1">(SIM 1)</string>
+    <string name="carrier_label_sim2">(SIM 2)</string>
     <string name="lockscreen_uimsim_fail_message">khóa thẻ UIM/SIM</string>
     <string name="lockscreen_missing_uimsim_message_short">Không có thẻ UIM/SIM</string>
     <string name="battery_low_newtitle">Pin của bạn đang yếu</string>
@@ -261,4 +264,68 @@ Nếu bạn bật lại kết nối data, bạn có thể bị tính thêm phí 
     <string name="battery_low_charging_not_enough_title">Cảnh báo</string>
     <string name="battery_low_charging_not_enough_ac_title">Không thể sạc</string>
     <string name="battery_low_charging_not_enough_ac">Không thể sạc điện thoại của bạn vì nó đang sử dụng quá nhiều nguồn. Để khắc phục vấn đề này, giảm tiêu thụ nguồn bằng cách tắt điện thoại, đóng các ứng dụng bạn đang không sử dụng, hoặc tắt màn hình.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Chế Độ Tiết Kiệm Pin Cao Độ</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Bật chế độ tiết kiệm pin cao độ sẽ kéo dài tuổi thọ pin bằng cách:
+-Giảm sử dụng CPU.
+-Giảm độ sáng màn hình.
+-Tắt phản hồi rung.
+-Tắt kết nối dữ liệu khi màn hình tắt.
+-Chỉ cho phép ứng dụng cần thiết chạy.
+-Tắt bộ đo bước."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Bật chế độ tiết kiệm pin cao độ sẽ kéo dài tuổi thọ pin bằng cách:
+-Giảm sử dụng CPU.
+-Giảm độ sáng màn hình.
+-Tắt phản hồi rung.
+-Tắt kết nối dữ liệu khi màn hình tắt.
+-Chỉ cho phép ứng dụng cần thiết chạy."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Tiết kiệm pin cao độ</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Bật tiết kiệm pin cao độ sẽ kéo dài tuổi thọ pin bằng cách:
+-Giảm sử dụng CPU.
+-Giảm độ sáng màn hình.
+-Tắt phản hồi rung.
+-Tắt kết nối dữ liệu khi màn hình tắt.
+-Chỉ cho phép ứng dụng cần thiết chạy."</string>
+    <string name="extreme_auto_power_saver_ask_title">Tiết kiệm pin tối đa</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Bật tiết kiệm pin tối đa sẽ kéo dài tuổi thọ pin bằng cách:
+-Giảm sử dụng CPU.
+-Giảm độ sáng màn hình.
+-Tắt phản hồi rung.
+-Tắt kết nối dữ liệu khi màn hình tắt.
+-Chỉ cho phép ứng dụng cần thiết chạy."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Chế độ chờ</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Bật chế độ chờ sẽ kéo dài tuổi thọ pin bằng cách:
+-Giảm sử dụng CPU.
+-Giảm độ sáng màn hình.
+-Tắt phản hồi rung.
+-Tắt kết nối dữ liệu khi màn hình tắt.
+-Chỉ cho phép ứng dụng cần thiết chạy."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Chế độ khẩn cấp</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Bật chế độ khẩn cấp sẽ kéo dài tuổi thọ pin bằng cách:
+-Giảm sử dụng CPU.
+-Giảm độ sáng màn hình.
+-Tắt phản hồi rung.
+-Tắt kết nối dữ liệu khi màn hình tắt.
+-Chỉ cho phép ứng dụng cần thiết chạy."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Chế độ pin yếu</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Bật chế độ pin yếu sẽ kéo dài tuổi thọ pin bằng cách:
+-Giảm sử dụng CPU.
+-Giảm độ sáng màn hình.
+-Tắt phản hồi rung.
+-Tắt kết nối dữ liệu khi màn hình tắt.
+-Chỉ cho phép ứng dụng cần thiết chạy."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Chế độ bảo tồn pin</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Bật chế độ tiết kiệm pin sẽ kéo dài tuổi thọ pin bằng cách:
+-Giảm sử dụng CPU.
+-Giảm độ sáng màn hình.
+-Tắt phản hồi rung.
+-Tắt kết nối dữ liệu khi màn hình tắt.
+-Chỉ cho phép ứng dụng cần thiết chạy."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Chế độ tiết kiệm pin thông minh</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Bật chế độ tiết kiệm pin thông minh sẽ kéo dài tuổi thọ pin bằng cách:
+-Giảm sử dụng CPU.
+-Giảm độ sáng màn hình.
+-Tắt phản hồi rung.
+-Tắt kết nối dữ liệu khi màn hình tắt.
+-Chỉ cho phép ứng dụng cần thiết chạy."</string>
+    <string name="quick_settings_ringtone">Nhạc chuông</string>
 </resources>

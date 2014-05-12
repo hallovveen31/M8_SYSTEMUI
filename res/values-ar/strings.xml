@@ -190,7 +190,6 @@
     <string name="quick_settings_volume">مستوى الصوت</string>
     <string name="quick_settings_usage">استخدام البيانات</string>
     <string name="quick_settings_sync_all">مزامنة الكل</string>
-    <string name="quick_settings_ringtone">نغمة الرنين</string>
     <string name="quick_settings_auto_sync">المزامنة التلقائية</string>
     <string name="quick_settings_bluetooth">بلوتوث</string>
     <string name="quick_settings_user_card">بطاقة المستخدم</string>
@@ -206,9 +205,11 @@
     <string name="quick_settings_music_channel">قناة الموسيقى</string>
     <string name="quick_settings_do_not_disturb">ممنوع الإزعاج</string>
     <string name="quick_settings_fingerprint_scan">فحص بصمة الإصبع</string>
+    <string name="quick_settings_power_saver_ex">وضع توفير الطاقة لمدة أطول</string>
     <string name="quick_settings_wifi_hotspot">واي فاي</string>
-    <string name="quick_settings_wifi_hotspot_us">نقطة اتصال الجوال</string>
     <string name="quick_settings_wifi_hotspot_jp">الربط بالإنترنت</string>
+    <string name="quick_settings_wifi_hotspot_us">نقطة اتصال الجوال</string>
+    <string name="quick_settings_wifi_hotspot_tmo">نقاط اتصال الجوال</string>
     <string name="quick_settings_apn">اسم نقطة الوصول (APN)</string>
     <string name="quick_settings_prefer_network">الشبكة المفضلة</string>
     <string name="quick_settings_network_selection">تحديد الشبكة</string>
@@ -232,6 +233,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">عدم إظهار هذه الرسالة مرة أخرى</string>
     <string name="quick_settings_power_saver_dialog_message">"تم تشغيل توصيل البيانات في موفر الطاقة. في حالة التشغيل، قد لا تتم عمليات نقل البيانات كاستلام البريد الإلكتروني في حالة إيقاف العرض،
  (من الممكن نقل البيانات عند الشحن بغض النظر عن هذا الإعداد)."</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">عدم إظهار هذه الرسالة مرة أخرى</string>
+    <string name="quick_settings_hotspot_dialog_message">عندما يكون الربط عبر USB أو نقطة اتصال الجوال نشطًا, يتم إيقاف تشغيل Wi-Fi. ولتشغيل Wi-Fi, يرجى إيقاف تشغيل الربط عبر USB أو نقطة اتصال الجوال.</string>
     <string name="quick_tips_edit_button">انقر لإضافة الإعدادات السريعة وإزالتها</string>
     <string name="quick_tips_more_button">اضغط مع الاستمرار على أحد العناصر لفتح صفحة الإعداد الخاصة به</string>
     <string name="quick_settings_wifi_hotspot_cn">نقطة اتصال WLAN</string>
@@ -262,4 +265,68 @@
     <string name="battery_low_charging_not_enough_title">تحذير</string>
     <string name="battery_low_charging_not_enough_ac_title">تعذر الشحن</string>
     <string name="battery_low_charging_not_enough_ac">يتعذر شحن الهاتف لأنه يستهلك كمية طاقة كبيرة للغاية. لحل هذه المشكلة، قلل استهلاك الطاقة بإيقاف تشغيل الهاتف وإغلاق أي تطبيقات قيد الاستخدام، أو إيقاف تشغيل الشاشة.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">وضع توفير الطاقة لمدة أطول</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"تشغيل وضع توفير الطاقة لمدة أطول يطيل العمر الافتراضي للبطارية من خلال:
+ حماية استخدام وحدة المعالجة المركزية (CPU)،
+) تقليل درجة سطوع الشاشة،
+ إيقاف تشغيل تقديم ردود الفعل بقوة الاهتزاز،
+ إيقاف تشغيل اتصال البيانات عندما تكون الشاشة مغلقة،
+ السماح فقط بتشغيل التطبيقات الضرورية،
+ إيقاف تشغيل مقياس الخطوات."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"تشغيل وضع توفير الطاقة لمدة أطول يطيل العمر الافتراضي للبطارية من خلال:
+ حماية استخدام وحدة المعالجة المركزية (CPU)،
+) تقليل درجة سطوع الشاشة،
+ إيقاف تشغيل تقديم ردود الفعل بقوة الاهتزاز،
+ إيقاف تشغيل اتصال البيانات عندما تكون الشاشة مغلقة،
+ السماح فقط بتشغيل التطبيقات الضرورية."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">وضع التوفير الشديد للطاقة</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"تشغيل وضع التوفير الشديد للطاقة يطيل عمر البطارية من خلال:
+-حفظ استخدام CPU
+-وتخفيض سطوع الشاشة
+-وإيقاف تشغيل الاستجابة بالاهتزاز
+-وإيقاف اتصال بيانات عند غلق الشاشة
+-والسماح فقط بتشغيل التطبيقات الهامة."</string>
+    <string name="extreme_auto_power_saver_ask_title">وضع توفير الطاقة القصوى</string>
+    <string name="extreme_auto_power_saver_ask_msg">"تشغيل وضع توفير الطاقة القصوى يطيل عمر البطارية من خلال:
+-حفظ استخدام CPU
+-وتخفيض سطوع الشاشة
+-وإيقاف تشغيل الاستجابة بالاهتزاز
+-وإيقاف اتصال بيانات عند غلق الشاشة
+-والسماح فقط بتشغيل التطبيقات الهامة."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">وضع الاستعداد</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"تشغيل وضع الاستعداد يطيل عمر البطارية من خلال:
+-حفظ استخدام CPU
+-وتخفيض سطوع الشاشة
+-وإيقاف تشغيل الاستجابة بالاهتزاز
+-وإيقاف اتصال بيانات عند غلق الشاشة
+-والسماح فقط بتشغيل التطبيقات الهامة."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">وضع الطوارئ</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"تشغيل وضع الطوارئ يطيل عمر البطارية من خلال:
+-حفظ استخدام CPU
+-وتخفيض سطوع الشاشة
+-وإيقاف تشغيل الاستجابة بالاهتزاز
+-وإيقاف اتصال بيانات عند غلق الشاشة
+-والسماح فقط بتشغيل التطبيقات الهامة."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">وضع توفير الطاقة</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"تشغيل وضع توفير الطاقة يطيل عمر البطارية من خلال:
+-حفظ استخدام CPU
+-وتخفيض سطوع الشاشة
+-وإيقاف تشغيل الاستجابة بالاهتزاز
+-وإيقاف اتصال بيانات عند غلق الشاشة
+-والسماح فقط بتشغيل التطبيقات الهامة."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">وضع حفظ الطاقة</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"تشغيل وضع حفظ الطاقة يطيل عمر البطارية من خلال:
+-حفظ استخدام CPU
+-وتخفيض سطوع الشاشة
+-وإيقاف تشغيل الاستجابة بالاهتزاز
+-وإيقاف اتصال بيانات عند غلق الشاشة
+-والسماح فقط بتشغيل التطبيقات الهامة."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">وضع التوفير الذكي للطاقة</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"تشغيل وضع التوفير الذكي للطاقة يطيل عمر البطارية من خلال:
+-حفظ استخدام CPU
+-وتخفيض سطوع الشاشة
+-وإيقاف تشغيل الاستجابة بالاهتزاز
+-وإيقاف اتصال بيانات عند غلق الشاشة
+-والسماح فقط بتشغيل التطبيقات الهامة."</string>
+    <string name="quick_settings_ringtone">نغمة الرنين</string>
 </resources>

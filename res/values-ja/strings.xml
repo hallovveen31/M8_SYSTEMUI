@@ -191,7 +191,6 @@
     <string name="quick_settings_volume">音量</string>
     <string name="quick_settings_usage">データ使用量</string>
     <string name="quick_settings_sync_all">すべてを同期</string>
-    <string name="quick_settings_ringtone">着信音</string>
     <string name="quick_settings_auto_sync">自動的に同期</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">ユーザー カード</string>
@@ -207,9 +206,11 @@
     <string name="quick_settings_music_channel">音楽チャンネル</string>
     <string name="quick_settings_do_not_disturb">着信拒否</string>
     <string name="quick_settings_fingerprint_scan">指紋スキャン</string>
+    <string name="quick_settings_power_saver_ex">最大省電力モード</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi テザリング</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">テザリング</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">優先ネットワーク</string>
     <string name="quick_settings_network_selection">ネットワーク選択</string>
@@ -233,6 +234,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">次回からこのメッセージを表示しない</string>
     <string name="quick_settings_power_saver_dialog_message">"省電力でのデータ接続がオンになっています。これがオンの時には、ディスプレイが切ってあると、電子メールの受信などのデータ通信は行われません。
 (充電時のデータ通信は、この設定に関係なく可能です)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">次回からこのメッセージを表示しない</string>
+    <string name="quick_settings_hotspot_dialog_message">USB テザリングまたは Mobile Hotspot がアクティブな場合は、Wi-Fi がオフになります。Wi-Fi をオンにするには、USB テザリングまたは Mobile Hotspot をオフにしてください。</string>
     <string name="quick_tips_edit_button">タップしてクイック設定を追加または削除します</string>
     <string name="quick_tips_more_button">アイテムを長押しすると、[設定] ページが開きます</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN アクセスポイント</string>
@@ -263,4 +266,68 @@
     <string name="battery_low_charging_not_enough_title">警告</string>
     <string name="battery_low_charging_not_enough_ac_title">充電できません</string>
     <string name="battery_low_charging_not_enough_ac">消費する電力が多すぎるため電話を充電できません。この問題を修正するには、電話の電源を切るか、使用していないアプリを閉じるか、スクリーンをオフにして、消費している電力を削減してください。</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">最大省電力モード</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"最大省電力モードに切り替えると、次の方法でバッテリーを長く使用できるようになります。
+-CPU の使用量を縮小する。
+-スクリーンの輝度を下げる。
+-バイブレーション フィードバックを切る。
+-スクリーンが消えているときにはデータ接続を切る。
+-必要なアプリだけを有効にする。
+-万歩計を切る。"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"最大省電力モードに切り替えると、次の方法でバッテリーを長く使用できるようになります。
+-CPU の使用量を縮小する。
+-スクリーンの輝度を下げる。
+-バイブレーション フィードバックを切る。
+-スクリーンが消えているときにはデータ接続を切る。
+-必要なアプリだけを有効にする。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">最大省電力</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"最大省電力機能に切り替えると、次の方法でバッテリーを長く使用できるようになります。
+-CPU の使用量を縮小する。
+-スクリーンの輝度を下げる。
+-バイブレーション フィードバックを切る。
+-スクリーンが消えているときにはデータ接続を切る。
+-必要なアプリだけを有効にする。"</string>
+    <string name="extreme_auto_power_saver_ask_title">最高省電力</string>
+    <string name="extreme_auto_power_saver_ask_msg">"最高省電力機能に切り替えると、次の方法でバッテリーを長く使用できるようになります。
+-CPU の使用量を縮小する。
+-スクリーンの輝度を下げる
+-バイブレーション フィードバックを切る。
+-スクリーンが消えているときにはデータ接続を切る。
+-必要なアプリだけを有効にする。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">スタンバイ モード</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"スタンバイ モードに切り替えると、次の方法でバッテリーを長く使用できるようになります。
+-CPU の使用量を縮小する。
+-スクリーンの輝度を下げる。
+-バイブレーション フィードバックを切る。
+-スクリーンが消えているときにはデータ接続を切る。
+-必要なアプリだけを有効にする。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">緊急モード</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"緊急モードに切り替えると、次の方法でバッテリーを長く使用できるようになります。
+-CPU の使用量を縮小する。
+-スクリーンの輝度を下げる。
+-バイブレーション フィードバックを切る。
+-スクリーンが消えているときにはデータ接続を切る。
+-必要なアプリだけを有効にする。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">低電力モード</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"低電力モードに切り替えると、次の方法でバッテリーを長く使用できるようになります。
+-CPU の使用量を縮小する。
+-スクリーンの輝度を下げる。
+-バイブレーション フィードバックを切る。
+-スクリーンが消えているときにはデータ接続を切る。
+-必要なアプリだけを有効にする。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">節電モード</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"節電モードに切り替えると、次の方法でバッテリーを長く使用できるようになります。
+-CPU の使用量を縮小する
+-スクリーンの輝度を下げる。
+-バイブレーション フィードバックを切る。
+-スクリーンが消えているときにはデータ接続を切る。
+-必要なアプリだけを有効にする。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">スマート省電力モード</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"スマート省電力モードに切り替えると、次の方法でバッテリーを長く使用できるようになります。
+-CPU の使用量を縮小する。
+-スクリーンの輝度を下げる。
+-バイブレーション フィードバックを切る。
+-スクリーンが消えているときにはデータ接続を切る。
+-必要なアプリだけを有効にする。"</string>
+    <string name="quick_settings_ringtone">着信音</string>
 </resources>

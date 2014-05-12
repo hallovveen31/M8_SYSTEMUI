@@ -77,12 +77,12 @@
     <string name="accessibility_data_two_bars">數據訊號為二格。</string>
     <string name="accessibility_data_three_bars">數據訊號為三格。</string>
     <string name="accessibility_data_signal_full">數據訊號滿格。</string>
-    <string name="accessibility_wifi_off">關閉 Wi-Fi。</string>
-    <string name="accessibility_no_wifi">Wifi 已中斷。</string>
-    <string name="accessibility_wifi_one_bar">Wifi 訊號為一格。</string>
-    <string name="accessibility_wifi_two_bars">Wifi 訊號為二格。</string>
-    <string name="accessibility_wifi_three_bars">Wifi 訊號為三格。</string>
-    <string name="accessibility_wifi_signal_full">Wifi 訊號滿格。</string>
+    <string name="accessibility_wifi_off">已關閉 WiFi。</string>
+    <string name="accessibility_no_wifi">WiFi 連線已中斷。</string>
+    <string name="accessibility_wifi_one_bar">WiFi 訊號強度一格。</string>
+    <string name="accessibility_wifi_two_bars">WiFi 訊號強度兩格。</string>
+    <string name="accessibility_wifi_three_bars">WiFi 訊號強度三格。</string>
+    <string name="accessibility_wifi_signal_full">WiFi 訊號滿格。</string>
     <string name="accessibility_no_wimax">沒有 WiMAX 訊號。</string>
     <string name="accessibility_wimax_one_bar">WiMAX 訊號為一格。</string>
     <string name="accessibility_wimax_two_bars">WiMAX 訊號為二格。</string>
@@ -173,10 +173,10 @@
     <string name="quick_settings_settings_label">設定</string>
     <string name="quick_settings_time_label">時間</string>
     <string name="quick_settings_user_label">我</string>
-    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
     <string name="quick_settings_wifi_not_connected">未連線</string>
     <string name="quick_settings_wifi_no_network">沒有網絡</string>
-    <string name="quick_settings_wifi_off_label">Wi-Fi 關閉</string>
+    <string name="quick_settings_wifi_off_label">關閉 WiFi</string>
     <string name="quick_settings_remote_display_no_connection_label">投放畫面</string>
     <string name="quick_settings_brightness_dialog_title">亮度</string>
     <string name="quick_settings_brightness_dialog_auto_brightness_label">自動</string>
@@ -190,7 +190,6 @@
     <string name="quick_settings_volume">音量</string>
     <string name="quick_settings_usage">數據使用量</string>
     <string name="quick_settings_sync_all">全部同步</string>
-    <string name="quick_settings_ringtone">鈴聲</string>
     <string name="quick_settings_auto_sync">自動同步</string>
     <string name="quick_settings_bluetooth">藍牙</string>
     <string name="quick_settings_user_card">使用者卡片</string>
@@ -206,11 +205,13 @@
     <string name="quick_settings_music_channel">音樂頻道</string>
     <string name="quick_settings_do_not_disturb">請勿打擾</string>
     <string name="quick_settings_fingerprint_scan">指紋掃描</string>
+    <string name="quick_settings_power_saver_ex">極致省電模式</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi 熱點</string>
-    <string name="quick_settings_wifi_hotspot_us">行動熱點</string>
     <string name="quick_settings_wifi_hotspot_jp">數據連線</string>
+    <string name="quick_settings_wifi_hotspot_us">行動熱點</string>
+    <string name="quick_settings_wifi_hotspot_tmo">行動熱點</string>
     <string name="quick_settings_apn">APN</string>
-    <string name="quick_settings_prefer_network">優先網路</string>
+    <string name="quick_settings_prefer_network">優先網絡</string>
     <string name="quick_settings_network_selection">選取網絡</string>
     <string name="quick_settings_prefer_slot1">卡 1</string>
     <string name="quick_settings_prefer_slot2">卡 2</string>
@@ -232,13 +233,15 @@
     <string name="quick_settings_power_saver_dialog_chkbox">不要再顯示此訊息</string>
     <string name="quick_settings_power_saver_dialog_message">"已開啟省電功能中的「數據連線」。如果開啟這項功能，接收電子郵件之類的資料傳輸不會在螢幕關閉時完成。
 (無論這項設定為何，進行充電時都可以進行數據傳輸。)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">不要再顯示此訊息</string>
+    <string name="quick_settings_hotspot_dialog_message">USB 數據連線或行動熱點啟動時，會關閉 Wi-Fi。若要開啟 Wi-Fi，請關閉 USB 數據連線或行動熱點。</string>
     <string name="quick_tips_edit_button">點選即可新增和移除快速設定</string>
     <string name="quick_tips_more_button">按住某項目不放，可開啟該項目的設定頁面</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN 熱點</string>
     <string name="quick_setting_wifi_hotspot_ct">WLAN 熱點</string>
     <string name="qs_mobile_roaming_title">注意</string>
     <string name="qs_mobile_roaming_msg_att">要允許數據漫遊嗎？在美國、波多黎各和美屬維京群島以外的地方使用數據可能會產生國際數據漫遊費用。</string>
-    <string name="qs_mobile_roaming_msg_generic">您目前正在漫遊。使用數據漫遊可能需要支付巨額費用。是否要啟用漫遊網路連線？</string>
+    <string name="qs_mobile_roaming_msg_generic">您目前正在漫遊。使用數據漫遊可能需要支付巨額費用。是否要啟用漫遊網絡連線？</string>
     <string name="qs_restrict_mode_error">錯誤</string>
     <string name="qs_restrict_mode_message">此內容已被您的系統管理員封鎖。請聯絡 IT 團隊，以取得協助。</string>
     <string name="recentapps_title">最近使用的應用程式</string>
@@ -262,4 +265,68 @@
     <string name="battery_low_charging_not_enough_title">警告</string>
     <string name="battery_low_charging_not_enough_ac_title">無法充電</string>
     <string name="battery_low_charging_not_enough_ac">手機目前耗電過多，因此無法充電。若要解決這個問題，可以將手機關機，或關閉不需使用的應用程式或螢幕，以便減少耗電量。</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">極致省電模式</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"以下列方式開啟極致省電模式將延長電池使用時間：
+-節省 CPU 使用量。
+-降低螢幕亮度。
+-關閉震動回應。
+-螢幕關閉時關閉數據連線。
+-僅允許必要的應用程式執行。
+-關閉計步器。"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"以下列方式開啟極致省電模式將延長電池使用時間：
+-節省 CPU 使用量。
+-降低螢幕亮度。
+-關閉震動回應。
+-螢幕關閉時關閉數據連線。
+-僅允許必要的應用程式執行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">極致省電</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"以下列方式開啟極致省電將延長電池使用時間：
+-節省 CPU 使用量。
+-降低螢幕亮度。
+-關閉震動回應。
+-螢幕關閉時關閉數據連線。
+-僅允許必要的應用程式執行。"</string>
+    <string name="extreme_auto_power_saver_ask_title">最大省電</string>
+    <string name="extreme_auto_power_saver_ask_msg">"以下列方式開啟最大省電將延長電池使用時間：
+-節省 CPU 使用量。
+-降低螢幕亮度。
+-關閉震動回應。
+-螢幕關閉時關閉數據連線。
+-僅允許必要的應用程式執行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">待機模式</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"以下列方式開啟待機模式將延長電池使用時間：
+-節省 CPU 使用量。
+-降低螢幕亮度。
+-關閉震動回應。
+-螢幕關閉時關閉數據連線。
+-僅允許必要的應用程式執行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">緊急模式</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"以下列方式開啟緊急模式將延長電池使用時間：
+-節省 CPU 使用量。
+-降低螢幕亮度。
+-關閉震動回應。
+-螢幕關閉時關閉數據連線。
+-僅允許必要的應用程式執行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">低電源模式</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"以下列方式開啟低電源模式將延長電池使用時間：
+-節省 CPU 使用量。
+-降低螢幕亮度。
+-關閉震動回應。
+-螢幕關閉時關閉數據連線。
+-僅允許必要的應用程式執行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">節電模式</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"以下列方式開啟節電模式將延長電池使用時間：
+-節省 CPU 使用量。
+-降低螢幕亮度。
+-關閉震動回應。
+-螢幕關閉時關閉數據連線。
+-僅允許必要的應用程式執行。"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">智慧型省電模式</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"以下列方式開啟智慧型省電模式將延長電池使用時間：
+-節省 CPU 使用量。
+-降低螢幕亮度。
+-關閉震動回應。
+-螢幕關閉時關閉數據連線。
+-僅允許必要的應用程式執行。"</string>
+    <string name="quick_settings_ringtone">鈴聲</string>
 </resources>

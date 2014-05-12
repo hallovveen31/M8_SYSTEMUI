@@ -190,7 +190,6 @@ morda nadzorovano"</string>
     <string name="quick_settings_volume">Glasnost</string>
     <string name="quick_settings_usage">Uporaba podatkov</string>
     <string name="quick_settings_sync_all">Sinhroniziraj vse</string>
-    <string name="quick_settings_ringtone">Ton zvonjenja</string>
     <string name="quick_settings_auto_sync">Samodejna sinhronizacija</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Kartica uporabnika</string>
@@ -206,9 +205,11 @@ morda nadzorovano"</string>
     <string name="quick_settings_music_channel">Glasbeni kanal</string>
     <string name="quick_settings_do_not_disturb">Ne moti</string>
     <string name="quick_settings_fingerprint_scan">Pregled prstnega odtisa</string>
+    <string name="quick_settings_power_saver_ex">Način radikalnega varčevanja z energijo</string>
     <string name="quick_settings_wifi_hotspot">Dostopna točka Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobilna dostopna točka</string>
     <string name="quick_settings_wifi_hotspot_jp">Posredništvo</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobilna dostopna točka</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobilna dostopna točka</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Izberi omrežje</string>
     <string name="quick_settings_network_selection">Izbira omrežja</string>
@@ -232,6 +233,8 @@ morda nadzorovano"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Tega sporočila ne pokaži več</string>
     <string name="quick_settings_power_saver_dialog_message">"Podatkovna povezava v Varčevanju z energijo je vklopljena. Če je ta možnost vklopljena, prenos podatkov, kot je prejemanje e-poštnega sporočila, morda ne bo uspel, če je zaslon izklopljen.
 (Prenos podatkov je mogoč med polnjenjem ne glede na to nastavitev.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Tega sporočila ne pokaži več</string>
+    <string name="quick_settings_hotspot_dialog_message">Brezžična povezava je izklopljena, če je aktivno posredništvo prek USB-ja ali mobilna dostopna točka. Če želite vklopiti brezžično povezavo, izklopite posredništvo prek USB-ja ali mobilno dostopno točko.</string>
     <string name="quick_tips_edit_button">Tapnite, da dodate in odstranite hitre nastavitve</string>
     <string name="quick_tips_more_button">Pritisnite element in ga pridržite, da odprete njegovo stran Nastavitve</string>
     <string name="quick_settings_wifi_hotspot_cn">Dostopna točka WLAN</string>
@@ -262,4 +265,68 @@ morda nadzorovano"</string>
     <string name="battery_low_charging_not_enough_title">Opozorilo</string>
     <string name="battery_low_charging_not_enough_ac_title">Polnjenje ni možno</string>
     <string name="battery_low_charging_not_enough_ac">Telefona ni mogoče napolniti, ker uporablja preveč energije. To težavo odpravite tako, da zmanjšate porabo energije, tako da izklopite telefon, zaprete aplikacije, ki jih ne uporabljate, ali izklopite zaslon.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Način radikalnega varčevanja z energijo</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Če vklopite način radikalnega varčevanja z energijo, boste podaljšali življenjsko dobo baterije z naslednjim:
+-Prihrankom uporabe CPE-ja.
+-Zmanjšanjem svetlosti zaslona.
+-Izklopom povratnega odziva z vibriranjem.
+-Izklopom podatkovne povezave pri izklopljenem zaslonu.
+-Dovoljenjem za izvajanjem samo nujnih aplikacij.
+-Izklopom pedometra."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Če vklopite način radikalnega varčevanje z energijo, boste podaljšali življenjsko dobo baterije z naslednjim:
+-Prihrankom uporabe CPE-ja.
+-Zmanjšanjem svetlosti zaslona.
+-Izklopom povratnega odziva z vibriranjem.
+-Izklopom podatkovne povezave pri izklopljenem zaslonu.
+-Dovoljenjem za izvajanje samo nujnih aplikacij."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Radikalno varčevanje z energijo</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Če vklopite način radikalnega varčevanja z energijo, boste podaljšali življenjsko dobo baterije z naslednjim:
+-Prihrankom uporabe CPE-ja.
+-Zmanjšanjem svetlosti zaslona.
+-Izklopom povratnega odziva z vibriranjem.
+-Izklopom podatkovne povezave pri izklopljenem zaslonu.
+-Dovoljenjem za izvajanje samo nujnih aplikacij."</string>
+    <string name="extreme_auto_power_saver_ask_title">Najvišja stopnja varčevanja z energijo</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Če vklopite najvišjo stopnjo varčevanje z energijo, boste podaljšali življenjsko dobo baterije z naslednjim:
+-Prihrankom uporabe CPE-ja.
+-Zmanjšanjem svetlosti zaslona.
+-Izklopom povratnega odziva z vibriranjem.
+-Izklopom podatkovne povezave pri izklopljenem zaslonu.
+-Dovoljenjem za izvajanje samo nujnih aplikacij."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Način pripravljenosti</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Če vklopite način pripravljenosti, boste podaljšali življenjsko dobo baterije z naslednjim:
+-Prihrankom uporabe CPE-ja.
+-Zmanjšanjem svetlosti zaslona.
+-Izklopom povratnega odziva z vibriranjem.
+-Izklopom podatkovne povezave pri izklopljenem zaslonu.
+-Dovoljenjem za izvajanje samo nujnih aplikacij."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Način klicev v sili</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Če vklopite način klicev v sili, boste podaljšali življenjsko dobo baterije z naslednjim:
+-Prihrankom uporabe CPE-ja.
+-Zmanjšanjem svetlosti zaslona.
+-Izklopom povratnega odziva z vibriranjem.
+-Izklopom podatkovne povezave pri izklopljenem zaslonu.
+-Dovoljenjem za izvajanje samo nujnih aplikacij."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Način majhne porabe energije</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Če vklopite način majhne porabe energije, boste podaljšali življenjsko dobo baterije z naslednjim:
+-Prihrankom uporabe CPE-ja.
+-Zmanjšanjem svetlosti zaslona.
+-Izklopom povratnega odziva z vibriranjem.
+-Izklopom podatkovne povezave pri izklopljenem zaslonu.
+-Dovoljenjem za izvajanje samo nujnih aplikacij."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Način varčevanja z energijo</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Če vklopite način varčevanja z energijo, boste podaljšali življenjsko dobo baterije z naslednjim:
+-Prihrankom uporabe CPE-ja.
+-Zmanjšanjem svetlosti zaslona.
+-Izklopom povratnega odziva z vibriranjem.
+-Izklopom podatkovne povezave pri izklopljenem zaslonu.
+-Dovoljenjem za izvajanje samo nujnih aplikacij."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Način pametnega varčevanja z energijo</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Če vklopite način pametnega varčevanje z energijo, boste podaljšali življenjsko dobo baterije z naslednjim:
+-Prihrankom uporabe CPE-ja.
+-Zmanjšanjem svetlosti zaslona.
+-Izklopom povratnega odziva z vibriranjem.
+-Izklopom podatkovne povezave pri izklopljenem zaslonu.
+-Dovoljenjem za izvajanje samo nujnih aplikacij."</string>
+    <string name="quick_settings_ringtone">Ton zvonjenja</string>
 </resources>

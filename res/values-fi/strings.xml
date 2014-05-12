@@ -190,7 +190,6 @@ valvoa"</string>
     <string name="quick_settings_volume">Äänenvoimakkuus</string>
     <string name="quick_settings_usage">Datan käyttö</string>
     <string name="quick_settings_sync_all">Synkronoi kaikki</string>
-    <string name="quick_settings_ringtone">Soittoääni</string>
     <string name="quick_settings_auto_sync">Automaattinen synkronointi</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Käyttäjäkortti</string>
@@ -206,9 +205,11 @@ valvoa"</string>
     <string name="quick_settings_music_channel">Musiikkikanava</string>
     <string name="quick_settings_do_not_disturb">Älä häiritse</string>
     <string name="quick_settings_fingerprint_scan">Sormenjäljen skannaus</string>
+    <string name="quick_settings_power_saver_ex">Äärimmäinen virransäästötila</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi-hotspot</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Jakaminen</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">Tukiasema</string>
     <string name="quick_settings_prefer_network">Ensisijainen verkko</string>
     <string name="quick_settings_network_selection">Verkon valinta</string>
@@ -232,6 +233,8 @@ valvoa"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Älä näytä tätä viestiä uudelleen</string>
     <string name="quick_settings_power_saver_dialog_message">"Datayhteys virransäästötilassa on kytketty PÄÄLLE. Jos tämä on kytketty PÄÄLLE, datansiirtoa, kuten sähköpostin vastaanottamista ei tapahdu, kun näyttö on kytketty pois päältä.
 (Tiedonsiirto on mahdollista latauksen aikana tästä asetuksesta riippumatta.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Älä näytä tätä viestiä uudelleen</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi on pois käytöstä, kun USB-jakaminen tai Mobile Hotspot on aktiivinen. Jos haluat kytkeä Wi-Fin päälle, kytke USB-jakaminen tai Mobile Hotspot pois päältä.</string>
     <string name="quick_tips_edit_button">Napauta lisätäksesi ja poistaaksesi pika-asetuksia</string>
     <string name="quick_tips_more_button">Pidä kohdetta painettuna avataksesi sen asetussivun</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN-verkkopiste</string>
@@ -262,4 +265,68 @@ valvoa"</string>
     <string name="battery_low_charging_not_enough_title">Varoitus</string>
     <string name="battery_low_charging_not_enough_ac_title">Ei voi ladata</string>
     <string name="battery_low_charging_not_enough_ac">Puhelinta ei voi ladata, koska se käyttää liian paljon virtaa. Voit korjata tämän ongelman vähentämällä virrankulutusta kytkemällä puhelimen pois päältä, sulkemalla käyttämättömiä sovelluksia tai sammuttamalla näytön.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Äärimmäinen virransäästötila</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Äärimmäisen virransäästötilan kytkeminen päälle säästää akun käyttöaikaa seuraavasti:
+-Suoritinkäytön vähentäminen.
+-Näytön kirkkauden pienentäminen.
+-Värinäpalautteen kytkeminen pois päältä.
+-Datayhteyden kytkeminen pois päältä, kun näyttö on pois päältä.
+-Vain oleellisten sovellusten salliminen.
+-Askelmittarin kytkeminen pois päältä."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Äärimmäisen virransäästötilan kytkeminen päälle säästää akun käyttöaikaa seuraavasti:
+-Suoritinkäytön vähentäminen.
+-Näytön kirkkauden pienentäminen.
+-Värinäpalautteen kytkeminen pois päältä.
+-Datayhteyden kytkeminen pois päältä, kun näyttö on pois päältä.
+-Vain oleellisten sovellusten salliminen."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Äärimmäinen virransäästö</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Äärimmäisen virransäästötilan kytkeminen päälle säästää akun käyttöaikaa seuraavasti:
+-Suoritinkäytön vähentäminen.
+-Näytön kirkkauden pienentäminen.
+-Värinäpalautteen kytkeminen pois päältä.
+-Datayhteyden kytkeminen pois päältä, kun näyttö on pois päältä.
+-Vain oleellisten sovellusten salliminen."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maksimivirransäästö</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Maksimivirransäästötilan kytkeminen päälle säästää akun käyttöaikaa seuraavasti:
+-Suoritinkäytön vähentäminen.
+-Näytön kirkkauden pienentäminen.
+-Värinäpalautteen kytkeminen pois päältä.
+-Datayhteyden kytkeminen pois päältä, kun näyttö on pois päältä.
+-Vain oleellisten sovellusten salliminen."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Valmiustila</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Valmiustilan kytkeminen päälle säästää akun käyttöaikaa seuraavasti:
+-Suoritinkäytön vähentäminen.
+-Näytön kirkkauden pienentäminen.
+-Värinäpalautteen kytkeminen pois päältä.
+-Datayhteyden kytkeminen pois päältä, kun näyttö on pois päältä.
+-Vain oleellisten sovellusten salliminen."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Hätätila</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Hätätilan kytkeminen päälle säästää akun käyttöaikaa seuraavasti:
+-Suoritinkäytön vähentäminen.
+-Näytön kirkkauden pienentäminen.
+-Värinäpalautteen kytkeminen pois päältä.
+-Datayhteyden kytkeminen pois päältä, kun näyttö on pois päältä.
+-Vain oleellisten sovellusten salliminen."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Alhaisen virran tila</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Alhaisen virran tilan kytkeminen päälle säästää akun käyttöaikaa seuraavasti:
+-Suoritinkäytön vähentäminen.
+-Näytön kirkkauden pienentäminen.
+-Värinäpalautteen kytkeminen pois päältä.
+-Datayhteyden kytkeminen pois päältä, kun näyttö on pois päältä.
+-Vain oleellisten sovellusten salliminen."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Virransäästötila</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Virransäästötilan kytkeminen päälle säästää akun käyttöaikaa seuraavasti:
+-Suoritinkäytön vähentäminen.
+-Näytön kirkkauden pienentäminen.
+-Värinäpalautteen kytkeminen pois päältä.
+-Datayhteyden kytkeminen pois päältä, kun näyttö on pois päältä.
+-Vain oleellisten sovellusten salliminen."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Älykäs virransäästötila</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Älykkään virransäästötilan kytkeminen päälle säästää akun käyttöaikaa seuraavasti:
+-Suoritinkäytön vähentäminen.
+-Näytön kirkkauden pienentäminen.
+-Värinäpalautteen kytkeminen pois päältä.
+-Datayhteyden kytkeminen pois päältä, kun näyttö on pois päältä.
+-Vain oleellisten sovellusten salliminen."</string>
+    <string name="quick_settings_ringtone">Soittoääni</string>
 </resources>

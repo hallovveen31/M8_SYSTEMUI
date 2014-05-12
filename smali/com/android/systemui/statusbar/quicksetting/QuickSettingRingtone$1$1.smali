@@ -32,10 +32,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone$1;)V
     .locals 0
-    .parameter
 
-    .prologue
-    .line 53
     iput-object p1, p0, Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone$1$1;->this$1:Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone$1;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
@@ -47,13 +44,9 @@
 # virtual methods
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .parameter "x0"
 
-    .prologue
-    .line 53
     check-cast p1, [Ljava/lang/Void;
 
-    .end local p1
     invoke-virtual {p0, p1}, Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone$1$1;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void;
 
     move-result-object v0
@@ -63,27 +56,20 @@
 
 .method protected varargs doInBackground([Ljava/lang/Void;)Ljava/lang/Void;
     .locals 7
-    .parameter "args"
 
-    .prologue
-    .line 57
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 59
-    .local v1, startTime:J
     invoke-static {}, Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone;->isDualModeEnable()Z
 
     move-result v0
 
-    .line 79
-    .local v0, dualModeEnable:Z
     iget-object v3, p0, Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone$1$1;->this$1:Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone$1;
 
     iget-object v3, v3, Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone$1;->this$0:Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone;
 
-    invoke-virtual {v3}, Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone;->getTag()Ljava/lang/Object;
+    invoke-virtual {v3}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -91,12 +77,11 @@
 
     if-eqz v3, :cond_0
 
-    .line 80
     iget-object v3, p0, Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone$1$1;->this$1:Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone$1;
 
     iget-object v3, v3, Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone$1;->this$0:Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone;
 
-    invoke-virtual {v3}, Lcom/android/systemui/statusbar/quicksetting/QuickSettingRingtone;->getTag()Ljava/lang/Object;
+    invoke-virtual {v3}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -108,7 +93,6 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/android/systemui/statusbar/phone/QuickSettings;->startSettingsActivity(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 84
     :cond_0
     const-string v3, "QuickSettingRingtone"
 
@@ -148,7 +132,6 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 86
     const/4 v3, 0x0
 
     return-object v3

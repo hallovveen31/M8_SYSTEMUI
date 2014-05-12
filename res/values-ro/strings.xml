@@ -190,7 +190,6 @@ fi monitorizată"</string>
     <string name="quick_settings_volume">Volum</string>
     <string name="quick_settings_usage">Utilizarea datelor</string>
     <string name="quick_settings_sync_all">Sincronizare toate</string>
-    <string name="quick_settings_ringtone">Ton de apel</string>
     <string name="quick_settings_auto_sync">Sincronizare automată</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Card utilizator</string>
@@ -206,9 +205,11 @@ fi monitorizată"</string>
     <string name="quick_settings_music_channel">Canal de muzică</string>
     <string name="quick_settings_do_not_disturb">Nu deranjaţi</string>
     <string name="quick_settings_fingerprint_scan">Scanare amprentă</string>
+    <string name="quick_settings_power_saver_ex">Modul de economisire extremă a energiei</string>
     <string name="quick_settings_wifi_hotspot">Hotspot Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Hotspot mobil</string>
     <string name="quick_settings_wifi_hotspot_jp">Utilizare ca modem</string>
+    <string name="quick_settings_wifi_hotspot_us">Hotspot mobil</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Hotspot mobil</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Reţea preferată</string>
     <string name="quick_settings_network_selection">Selectare reţea</string>
@@ -232,8 +233,10 @@ fi monitorizată"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Nu mai afişa acest mesaj</string>
     <string name="quick_settings_power_saver_dialog_message">"Conexiune de date este pornită în Modul de economisire a energiei. Când este pornită, transmisiile de date, cum ar fi primirea e-mail-urilor, nu pot fi efectuate când afişajul este oprit.
 (Transmisiile de date sunt posibile în timpul încărcării, indiferent de această setare.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Nu mai afişa acest mesaj</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi este pornit când sunt activate funcţiile Utilizare ca modem USB sau Hotspot mobil. Pentru a porni Wi-Fi, opriţi funcţiile Utilizare ca modem USB sau Hotspot mobil.</string>
     <string name="quick_tips_edit_button">Apăsaţi pentru a adăuga şi elimina Setări rapide</string>
-    <string name="quick_tips_more_button">Apăsaţi şi ţineţi apăsat un element pentru a-i deschide pagina Setări</string>
+    <string name="quick_tips_more_button">Apăsaţi şi ţineţi apăsat un element pentru a deschide pagina Setări a lui</string>
     <string name="quick_settings_wifi_hotspot_cn">Hotspot WLAN</string>
     <string name="quick_setting_wifi_hotspot_ct">Hotspot WLAN</string>
     <string name="qs_mobile_roaming_title">Atenţie</string>
@@ -262,4 +265,68 @@ fi monitorizată"</string>
     <string name="battery_low_charging_not_enough_title">Avertisment</string>
     <string name="battery_low_charging_not_enough_ac_title">Nu se poate încărca</string>
     <string name="battery_low_charging_not_enough_ac">Telefonul dvs. nu se poate încărca deoarece consumă prea multă energie. Pentru a remedia această problemă, reduceţi consumul de energie oprind telefonul, închizând ecranul sau aplicaţiile pe care nu le folosiţi.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Modul de economisire extremă a energiei</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Activarea modului de economisire extremă a energiei prelungeşte durata de funcţionare a bateriei prin:
+-Conservarea utilizării CPU.
+-Reducerea luminozităţii ecranului.
+-Dezactivarea feedbackului cu vibraţie.
+-Dezactivarea conexiunii de date când ecranul este stins.
+-Permiterea rulării numai a aplicaţiilor esenţiale.
+-Dezactivarea pedometrului."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Activarea modului de economisire extremă a energiei prelungeşte durata de funcţionare a bateriei prin:
+-Conservarea utilizării CPU.
+-Reducerea luminozităţii ecranului.
+-Dezactivarea feedbackului cu vibraţie.
+-Dezactivarea conexiunii de date când ecranul este stins.
+-Permiterea rulării numai a aplicaţiilor esenţiale."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Economisire extremă a energiei</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Activarea economisirii extreme a energiei prelungeşte durata de funcţionare a bateriei prin:
+-Conservarea utilizării CPU.
+-Reducerea luminozităţii ecranului.
+-Dezactivarea feedbackului cu vibraţie.
+-Dezactivarea conexiunii de date când ecranul este stins.
+-Permiterea rulării numai a aplicaţiilor esenţiale."</string>
+    <string name="extreme_auto_power_saver_ask_title">Economisirea maximă a energiei</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Activarea economisirii maxime a energiei prelungeşte durata de funcţionare a bateriei prin:
+-Conservarea utilizării CPU.
+-Reducerea luminozităţii ecranului.
+-Dezactivarea feedbackului cu vibraţie.
+-Dezactivarea conexiunii de date când ecranul este stins.
+-Permiterea rulării numai a aplicaţiilor esenţiale."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Mod de aşteptare</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Activarea modului de aşteptare prelungeşte durata de funcţionare a bateriei prin:
+-Conservarea utilizării CPU.
+-Reducerea luminozităţii ecranului.
+-Dezactivarea feedbackului cu vibraţie.
+-Dezactivarea conexiunii de date când ecranul este stins.
+-Permiterea rulării numai a aplicaţiilor esenţiale."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Mod de urgenţă</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Activarea modului de urgenţă prelungeşte durata de funcţionare a bateriei prin:
+-Conservarea utilizării CPU.
+-Reducerea luminozităţii ecranului.
+-Dezactivarea feedbackului cu vibraţie.
+-Dezactivarea conexiunii de date când ecranul este stins.
+-Permiterea rulării numai a aplicaţiilor esenţiale."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Mod cu consum redus de energie</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Activarea modului cu consum redus de energie prelungeşte durata de funcţionare a bateriei prin:
+-Conservarea utilizării CPU.
+-Reducerea luminozităţii ecranului.
+-Dezactivarea feedbackului cu vibraţie.
+-Dezactivarea conexiunii de date când ecranul este stins.
+-Permiterea rulării numai a aplicaţiilor esenţiale."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Modul de conservare a energiei</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Activarea modului de conservare a energiei prelungeşte durata de funcţionare a bateriei prin:
+-Conservarea utilizării CPU.
+-Reducerea luminozităţii ecranului.
+-Dezactivarea feedbackului cu vibraţie.
+-Dezactivarea conexiunii de date când ecranul este stins.
+-Permiterea rulării numai a aplicaţiilor esenţiale."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Modul de economisire inteligentă a energiei</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Activarea modului de economisire inteligentă a energiei prelungeşte durata de funcţionare a bateriei prin:
+-Conservarea utilizării CPU.
+-Reducerea luminozităţii ecranului.
+-Dezactivarea feedbackului cu vibraţie.
+-Dezactivarea conexiunii de date când ecranul este stins.
+-Permiterea rulării numai a aplicaţiilor esenţiale."</string>
+    <string name="quick_settings_ringtone">Ton de apel</string>
 </resources>

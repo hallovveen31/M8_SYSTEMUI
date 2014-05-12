@@ -190,7 +190,6 @@ pārraudzīts"</string>
     <string name="quick_settings_volume">Skaļums</string>
     <string name="quick_settings_usage">Datu lietošana</string>
     <string name="quick_settings_sync_all">Sinhronizēt visu</string>
-    <string name="quick_settings_ringtone">Zvana signāls</string>
     <string name="quick_settings_auto_sync">Automātiskā sinhronizācija</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Lietotāja karte</string>
@@ -206,9 +205,11 @@ pārraudzīts"</string>
     <string name="quick_settings_music_channel">Mūzikas kanāls</string>
     <string name="quick_settings_do_not_disturb">Netraucēt</string>
     <string name="quick_settings_fingerprint_scan">Pirkstu nospieduma skenēšana</string>
+    <string name="quick_settings_power_saver_ex">Galējs strāvas taupīšanas režīms</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi tīklājs</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Norobežošana</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Vēlamais tīkls</string>
     <string name="quick_settings_network_selection">Tīkla atlase</string>
@@ -232,6 +233,8 @@ pārraudzīts"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Šo ziņojumu vairs nerādīt</string>
     <string name="quick_settings_power_saver_dialog_message">"Datu savienojums strāvas taupīšana ir IESLĒGTA. Ja šis ir IESLĒGTS, datu pārraide kā arī saņemšana pa e-pastu var netikt veikta, kad izslēgts displejs.
 (Datu pārraide ir iespējama, kad lādējat neatkarīgi no šī iestatījuma.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Šo ziņojumu vairs nerādīt</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi ir izslēgts, kad USB norobežošana vai Mobile Hotspot ir aktīvs. Ieslēdziet Wi-Fi, lūdzu, izslēdziet USB norobežošanu vai Mobile Hotspot.</string>
     <string name="quick_tips_edit_button">Piesitiet, lai pievienotu un noņemtu ātros iestatījumus</string>
     <string name="quick_tips_more_button">Nospiediet un turiet vienumu, lai atvērtu tā Iestatījumu lapu</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN tīklājs</string>
@@ -262,4 +265,68 @@ pārraudzīts"</string>
     <string name="battery_low_charging_not_enough_title">Brīdinājums</string>
     <string name="battery_low_charging_not_enough_ac_title">Nevar uzlādēt</string>
     <string name="battery_low_charging_not_enough_ac">Nevar uzlādēt jūsu tālruni, jo tas izmanto pārāk daudz enerģijas. Lai novērstu šo problēmu, samaziniet enerģijas patēriņu, izslēdzot tālruni, aizverot lietojumprogrammas, kuras jūs neizmantojat, vai izslēdzot ekrānu.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Galējs strāvas taupīšanas režīms</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Galējā strāvas taupīšanas režīma ieslēgšanas rezultātā tiek pagarināts akumulatora kalpošanas laiks:
+-ietaupot centrālā procesora izmantošanu;
+-samazinot ekrāna spilgtumu;
+-izslēdzot vibrācijas reakciju;
+-izslēdzot datu savienojumu, kad ekrāns ir izslēgts;
+-ļaujot darboties tikai svarīgākajām lietojumprogrammām.
+-izslēdzot soļu skaitītāju."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Galējā strāvas taupīšanas režīma ieslēgšanas rezultātā tiek pagarināts akumulatora kalpošanas laiks:
+-ietaupot centrālā procesora izmantošanu;
+-samazinot ekrāna spilgtumu;
+-izslēdzot vibrācijas reakciju;
+-izslēdzot datu savienojumu, kad ekrāns ir izslēgts;
+-ļaujot darboties tikai svarīgākajām lietojumprogrammām."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Galēja strāvas taupīšana</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Galējās strāvas taupīšanas ieslēgšanas rezultātā tiek pagarināts akumulatora kalpošanas laiks:
+-ietaupot centrālā procesora izmantošanu;
+-samazinot ekrāna spilgtumu;
+-izslēdzot vibrācijas reakciju;
+-izslēdzot datu savienojumu, kad ekrāns ir izslēgts;
+-ļaujot darboties tikai svarīgākajām lietojumprogrammām."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maksimālā strāvas taupīšana</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Maksimālās strāvas taupīšanas ieslēgšanas rezultātā tiek pagarināts akumulatora kalpošanas laiks:
+-ietaupot centrālā procesora izmantošanu;
+-samazinot ekrāna spilgtumu;
+-izslēdzot vibrācijas reakciju;
+-izslēdzot datu savienojumu, kad ekrāns ir izslēgts;
+-ļaujot darboties tikai svarīgākajām lietojumprogrammām."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Gaidstāves režīms</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Gaidstāves režīma ieslēgšanas rezultātā tiek pagarināts akumulatora kalpošanas laiks:
+-ietaupot centrālā procesora izmantošanu;
+-samazinot ekrāna spilgtumu;
+-izslēdzot vibrācijas reakciju;
+-izslēdzot datu savienojumu, kad ekrāns ir izslēgts;
+-ļaujot darboties tikai svarīgākajām lietojumprogrammām."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Ārkārtas režīms</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Ārkārtas režīma ieslēgšanas rezultātā tiek pagarināts akumulatora kalpošanas laiks:
+-ietaupot centrālā procesora izmantošanu;
+-samazinot ekrāna spilgtumu;
+-izslēdzot vibrācijas reakciju;
+-izslēdzot datu savienojumu, kad ekrāns ir izslēgts;
+-ļaujot darboties tikai svarīgākajām lietojumprogrammām."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Zemas strāvas režīms</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Zemas strāvas režīma ieslēgšanas rezultātā tiek pagarināts akumulatora kalpošanas laiks:
+-ietaupot centrālā procesora izmantošanu;
+-samazinot ekrāna spilgtumu;
+-izslēdzot vibrācijas reakciju;
+-izslēdzot datu savienojumu, kad ekrāns ir izslēgts;
+-ļaujot darboties tikai svarīgākajām lietojumprogrammām."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Strāvas taupīšanas režīms</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Strāvas taupīšanas režīma ieslēgšanas rezultātā tiek pagarināts akumulatora kalpošanas laiks:
+-ietaupot centrālā procesora izmantošanu;
+-samazinot ekrāna spilgtumu;
+-izslēdzot vibrācijas reakciju;
+-izslēdzot datu savienojumu, kad ekrāns ir izslēgts;
+-ļaujot darboties tikai svarīgākajām lietojumprogrammām."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Viedais strāvas taupīšanas režīms</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Viedā strāvas taupīšanas režīma ieslēgšanas rezultātā tiek pagarināts akumulatora kalpošanas laiks:
+-ietaupot centrālā procesora izmantošanu;
+-samazinot ekrāna spilgtumu;
+-izslēdzot vibrācijas reakciju;
+-izslēdzot datu savienojumu, kad ekrāns ir izslēgts;
+-ļaujot darboties tikai svarīgākajām lietojumprogrammām."</string>
+    <string name="quick_settings_ringtone">Zvana signāls</string>
 </resources>

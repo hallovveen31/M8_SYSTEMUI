@@ -23,11 +23,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;Lcom/android/internal/util/AsyncChannel;)V
     .locals 0
-    .parameter
-    .parameter
 
-    .prologue
-    .line 302
     iput-object p1, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$1;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     iput-object p2, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$1;->val$wifiChannel:Lcom/android/internal/util/AsyncChannel;
@@ -41,26 +37,20 @@
 # virtual methods
 .method public handleMessage(Landroid/os/Message;)V
     .locals 4
-    .parameter "msg"
 
-    .prologue
-    .line 305
     iget v0, p1, Landroid/os/Message;->what:I
 
     sparse-switch v0, :sswitch_data_0
 
-    .line 325
     :cond_0
     :goto_0
     return-void
 
-    .line 307
     :sswitch_0
     iget v0, p1, Landroid/os/Message;->arg1:I
 
     if-nez v0, :cond_1
 
-    .line 308
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$1;->val$wifiChannel:Lcom/android/internal/util/AsyncChannel;
 
     const v1, 0x11001
@@ -73,7 +63,6 @@
 
     goto :goto_0
 
-    .line 311
     :cond_1
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$1;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
@@ -104,17 +93,15 @@
 
     goto :goto_0
 
-    .line 315
     :sswitch_1
     iget v0, p1, Landroid/os/Message;->arg1:I
 
     iget-object v1, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$1;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
-    iget v1, v1, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->mWifiActivity:I
+    iget v1, v1, Lcom/android/systemui/statusbar/policy/NetworkController;->mWifiActivity:I
 
     if-eq v0, v1, :cond_0
 
-    .line 316
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$1;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     const-string v1, "WIFI_ICON"
@@ -142,27 +129,23 @@
     #calls: Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->printLog(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v0, v1, v2}, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->access$000(Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 317
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$1;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     iget v1, p1, Landroid/os/Message;->arg1:I
 
-    iput v1, v0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->mWifiActivity:I
+    iput v1, v0, Lcom/android/systemui/statusbar/policy/NetworkController;->mWifiActivity:I
 
-    .line 318
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$1;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     #calls: Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->updateWifiIcon()V
     invoke-static {v0}, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->access$100(Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;)V
 
-    .line 319
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$1;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     invoke-virtual {v0}, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->refreshViews()V
 
     goto :goto_0
 
-    .line 305
     nop
 
     :sswitch_data_0

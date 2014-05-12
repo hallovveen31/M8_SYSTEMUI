@@ -25,12 +25,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/recent/RecentAppFxActivity;Landroid/view/View;Z)V
     .locals 0
-    .parameter
-    .parameter
-    .parameter
 
-    .prologue
-    .line 547
     iput-object p1, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     iput-object p2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->val$view:Landroid/view/View;
@@ -46,10 +41,7 @@
 # virtual methods
 .method public onAnimationCancel(Landroid/animation/Animator;)V
     .locals 3
-    .parameter "animation"
 
-    .prologue
-    .line 552
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->val$view:Landroid/view/View;
 
     const/4 v1, 0x0
@@ -58,16 +50,12 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 553
     return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 4
-    .parameter "animation"
 
-    .prologue
-    .line 555
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->val$view:Landroid/view/View;
 
     const/4 v1, 0x0
@@ -76,12 +64,10 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 556
     iget-boolean v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->val$isLastTask:Z
 
     if-eqz v0, :cond_1
 
-    .line 557
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->mRecentGridView:Lcom/android/systemui/recent/RecentsGridView;
@@ -91,7 +77,6 @@
 
     invoke-virtual {v0}, Lcom/android/systemui/recent/RecentsGridView;->setAllThumbnailShowed()V
 
-    .line 558
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->mRecentGridView:Lcom/android/systemui/recent/RecentsGridView;
@@ -99,9 +84,8 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/android/systemui/recent/RecentsGridView;->invalidate()V
+    invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
-    .line 559
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->mIsTextAnimNeeded:Z
@@ -111,7 +95,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 560
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->handler:Landroid/os/Handler;
@@ -128,7 +111,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 562
     :cond_0
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
@@ -148,17 +130,13 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 564
     :cond_1
     return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
     .locals 3
-    .parameter "animation"
 
-    .prologue
-    .line 549
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$6;->val$view:Landroid/view/View;
 
     const/4 v1, 0x2
@@ -167,6 +145,5 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 550
     return-void
 .end method

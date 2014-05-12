@@ -190,7 +190,6 @@ jälgida"</string>
     <string name="quick_settings_volume">Helitugevus</string>
     <string name="quick_settings_usage">Andmekasutus</string>
     <string name="quick_settings_sync_all">Sünkrooni kõik</string>
-    <string name="quick_settings_ringtone">Helin</string>
     <string name="quick_settings_auto_sync">Automaatne sünkroonimine</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Kasutajakaart</string>
@@ -206,9 +205,11 @@ jälgida"</string>
     <string name="quick_settings_music_channel">Muusikakanal</string>
     <string name="quick_settings_do_not_disturb">Mitte segada</string>
     <string name="quick_settings_fingerprint_scan">Sõrmejälje skannimine</string>
+    <string name="quick_settings_power_saver_ex">Äärmuslik energiasäästurežiim</string>
     <string name="quick_settings_wifi_hotspot">WiFi tööpunkt</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobiilne tööpunkt</string>
     <string name="quick_settings_wifi_hotspot_jp">Modemina kasutamine</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobiilne tööpunkt</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobiilne tööpunkt</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Eelistatud võrk</string>
     <string name="quick_settings_network_selection">Võrgu valik</string>
@@ -232,6 +233,8 @@ jälgida"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Ära näita seda teadet enam</string>
     <string name="quick_settings_power_saver_dialog_message">"Andmesideühendus on energiasäästjas SISSE lülitatud. Kui see on SISSE lülitatud, ei pruugi andmeedastus (nt e-posti vastuvõtmine) toimida, kui ekraan on välja lülitatud.
 (Andmeedastus on sõltumata sellest seadest laadimise ajal saadaval.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Ära näita seda teadet enam</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi on välja lülitatud, kui USB-modem või mobiilne tööpunkt on aktiivne. Wi-Fi sisselülitamiseks lülitage USB-modem või mobiilne tööpunkt välja.</string>
     <string name="quick_tips_edit_button">Toksake kiirseadete lisamiseks ja eemaldamiseks</string>
     <string name="quick_tips_more_button">Vajutage üksust ja hoidke seda all, et avada selle seadete leht</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN-i tööpunkt</string>
@@ -262,4 +265,68 @@ jälgida"</string>
     <string name="battery_low_charging_not_enough_title">Hoiatus</string>
     <string name="battery_low_charging_not_enough_ac_title">Ei saa laadida</string>
     <string name="battery_low_charging_not_enough_ac">Telefoni ei saa laadida, kuna see kasutab liiga palju toidet. Probleemi kõrvaldamiseks vähendage toitetarvet, lülitades telefoni välja, sulgedes rakendused, mida te ei kasuta, või lülitades ekraani välja.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Äärmuslik energiasäästurežiim</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Äärmusliku energiasäästurežiimi sisselülitamine pikendab aku tööaega:
+- säilitades protsessorikasutuse;
+- vähendades ekraani heledust;
+- lülitades välja värinatagasiside;
+- lülitades välja andmesideühenduse, kui ekraan on välja lülitatud;
+- lubades töötada ainult hädavajalikel rakendustel;
+- lülitades välja sammuloenduri."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Äärmusliku energiasäästurežiimi sisselülitamine pikendab aku tööaega:
+- säilitades protsessorikasutuse;
+- vähendades ekraani heledust;
+- lülitades välja värinatagasiside;
+- lülitades välja andmesideühenduse, kui ekraan on välja lülitatud;
+- lubades töötada ainult hädavajalikel rakendustel."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Äärmuslik energiasäästurežiim</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Äärmusliku energiasäästurežiimi sisselülitamine pikendab aku kasutusaega:
+- säästes protsessorikasutust;
+- vähendades ekraani heledust;
+- lülitades välja värintagasiside;
+- lülitades välja andmesideühenduse, kui ekraan on välja lülitatud;
+- lubades töötada ainult hädavajalikel rakendustel."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maksimaalne energiasäästurežiim</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Maksimaalse energiasäästurežiimi sisselülitamine pikendab aku kasutusaega:
+- säästes protsessorikasutust;
+- vähendades ekraani heledust;
+- lülitades välja värintagasiside;
+- lülitades välja andmesideühenduse, kui ekraan on välja lülitatud;
+- lubades töötada ainult hädavajalikel rakendustel."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Ooterežiim</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Ooterežiimi sisselülitamine pikendab aku kasutusaega:
+- säästes protsessorikasutust;
+- vähendades ekraani heledust;
+- lülitades välja värintagasiside;
+- lülitades välja andmesideühenduse, kui ekraan on välja lülitatud;
+- lubades töötada ainult hädavajalikel rakendustel."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Eriolukorra režiim</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Eriolukorra režiimi sisselülitamine pikendab aku kasutusaega:
+- säästes protsessorikasutust;
+- vähendades ekraani heledust;
+- lülitades välja värintagasiside;
+- lülitades välja andmesideühenduse, kui ekraan on välja lülitatud;
+- lubades töötada ainult hädavajalikel rakendustel."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Vähese toite režiim</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Vähese energia režiimi sisselülitamine pikendab aku kasutusaega:
+- säästes protsessorikasutust;
+- vähendades ekraani heledust;
+- lülitades välja värintagasiside;
+- lülitades välja andmesideühenduse, kui ekraan on välja lülitatud;
+- lubades töötada ainult hädavajalikel rakendustel."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Energiasäästurežiim</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Energiasäästurežiimi sisselülitamine pikendab aku kasutusaega:
+- säästes protsessorikasutust;
+- vähendades ekraani heledust;
+- lülitades välja värintagasiside;
+- lülitades välja andmesideühenduse, kui ekraan on välja lülitatud;
+- lubades töötada ainult hädavajalikel rakendustel."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Nutikas energiasäästurežiim</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Nutika energiasäästurežiimi sisselülitamine pikendab aku kasutusaega:
+- säästes protsessorikasutust;
+- vähendades ekraani heledust;
+- lülitades välja värintagasiside;
+- lülitades välja andmesideühenduse, kui ekraan on välja lülitatud;
+- lubades töötada ainult hädavajalikel rakendustel."</string>
+    <string name="quick_settings_ringtone">Helin</string>
 </resources>

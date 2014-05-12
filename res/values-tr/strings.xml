@@ -92,7 +92,7 @@ Yalnızca desteklenen şarj cihazını kullanın."</string>
     <string name="accessibility_wimax_signal_full">WiMAX sinyali tam.</string>
     <string name="accessibility_no_signal">Sinyal yok.</string>
     <string name="accessibility_not_connected">Bağlı değil.</string>
-    <string name="accessibility_zero_bars">Sıfır çubuk.</string>
+    <string name="accessibility_zero_bars">Zero barı.</string>
     <string name="accessibility_one_bar">Tek çubuk.</string>
     <string name="accessibility_two_bars">İki çubuk.</string>
     <string name="accessibility_three_bars">Üç çubuk.</string>
@@ -191,7 +191,6 @@ Verileri tekrar etkinleştirirseniz, operatör tarafından ücretlendirilebilirs
     <string name="quick_settings_volume">Ses</string>
     <string name="quick_settings_usage">Veri Kullanımı</string>
     <string name="quick_settings_sync_all">Tümünü eşitle</string>
-    <string name="quick_settings_ringtone">Zil sesi</string>
     <string name="quick_settings_auto_sync">Otomatik Eşitleme</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Kullanıcı Kartı</string>
@@ -207,9 +206,11 @@ Verileri tekrar etkinleştirirseniz, operatör tarafından ücretlendirilebilirs
     <string name="quick_settings_music_channel">Müzik Kanalı</string>
     <string name="quick_settings_do_not_disturb">Rahatsız Etmeyin</string>
     <string name="quick_settings_fingerprint_scan">Parmak İzi Tarama</string>
+    <string name="quick_settings_power_saver_ex">Üstün Güç Tasarrufu Modu</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi Hotspot</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobil Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Veri Bağlantısı Paylaşımı</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobil Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobil Hotspot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Tercih Edilen Ağ</string>
     <string name="quick_settings_network_selection">Ağ Seçimi</string>
@@ -233,6 +234,8 @@ Verileri tekrar etkinleştirirseniz, operatör tarafından ücretlendirilebilirs
     <string name="quick_settings_power_saver_dialog_chkbox">Bu iletiyi tekrar gösterme</string>
     <string name="quick_settings_power_saver_dialog_message">"Güç tasarrufunda Veri Bağlantısı açıldı. Bu açık olduğunda, e-posta almak gibi veri aktarımları ekran kapalıyken yapılmayabilir. 
 (Şarj edilirken veri aktarımı, bu ayar ne olursa olsun gerçekleşir.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Bu iletiyi tekrar gösterme</string>
+    <string name="quick_settings_hotspot_dialog_message">"USB veri bağlantısı paylaşımı veya Mobil Hotspot etkinleştirildiği zaman Wi-Fi erişimi kapatılır. Wi-Fi'yi etkinleştirmek için lütfen USB veri bağlantısı paylaşımı veya Mobil Hotspot özelliğini kapatın."</string>
     <string name="quick_tips_edit_button">"Hızlı Ayarlar'ı eklemek ve kaldırmak için dokunun"</string>
     <string name="quick_tips_more_button">Bir öğenin Ayarlar sayfasını açmak için öğeye dokunun ve basılı tutun</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN Hotspot</string>
@@ -263,4 +266,68 @@ Verileri tekrar etkinleştirirseniz, operatör tarafından ücretlendirilebilirs
     <string name="battery_low_charging_not_enough_title">Uyarı</string>
     <string name="battery_low_charging_not_enough_ac_title">Şarj edilemiyor</string>
     <string name="battery_low_charging_not_enough_ac">Çok fazla güç kullandığından telefonunuzu şarj edemiyorsunuz. Bu sorunu gidermek için, telefonunuzu kapatarak, kullanmadığınız uygulamaları kapatarak veya ekranı kapatarak güç tüketimini azaltın.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Üstün güç tasarrufu modu</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Üstün güç tasarrufu modunu açmak, şu yollarla pil ömrünü uzatır:
+-İşlemci kullanımını koruyarak.
+-Ekran parlaklığını azaltarak.
+-Titreşimli geri bildirimi kapatarak.
+-Ekran kapalıyken veri bağlantısını kapatarak.
+-Yalnızca gerekli uygulamaların çalışmasını sağlayarak.
+-Adım ölçeri kapatarak."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Üstün güç tasarrufu modunu açmak, şu yollarla pil ömrünü uzatır:
+-İşlemci kullanımını koruyarak.
+-Ekran parlaklığını azaltarak.
+-Titreşimli geri bildirimi kapatarak.
+-Ekran kapalıyken veri bağlantısını kapatarak.
+-Yalnızca gerekli uygulamaların çalışmasını sağlayarak."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Üstün güç tasarrufu</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Üstün güç tasarrufunu açmak, şu yollarla pil ömrünü uzatır:
+-İşlemci kullanımını koruyarak.
+-Ekran parlaklığını azaltarak.
+-Titreşimli geri bildirimi kapatarak.
+-Ekran kapalıyken veri bağlantısını kapatarak.
+-Yalnızca gerekli uygulamaların çalışmasını sağlayarak."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maksimum güç tasarrufu</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Maksimum güç tasarrufunu açmak, şu yollarla pil ömrünü uzatır:
+-İşlemci kullanımını koruyarak.
+-Ekran parlaklığını azaltarak.
+-Titreşimli geri bildirimi kapatarak.
+-Ekran kapalıyken veri bağlantısını kapatarak.
+-Yalnızca gerekli uygulamaların çalışmasını sağlayarak."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Bekleme modu</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Bekleme modunu açmak, şu yollarla pil ömrünü uzatır:
+-İşlemci kullanımını koruyarak.
+-Ekran parlaklığını azaltarak.
+-Titreşimli geri bildirimi kapatarak.
+-Ekran kapalıyken veri bağlantısını kapatarak.
+-Yalnızca gerekli uygulamaların çalışmasını sağlayarak."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Acil durum modu</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Acil durum modunu açmak, şu yollarla pil ömrünü uzatır:
+-İşlemci kullanımını koruyarak.
+-Ekran parlaklığını azaltarak.
+-Titreşimli geri bildirimi kapatarak.
+-Ekran kapalıyken veri bağlantısını kapatarak.
+-Yalnızca gerekli uygulamaların çalışmasını sağlayarak."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Düşük güç modu</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Düşük güç modunu açmak, şu yollarla pil ömrünü uzatır:
+-İşlemci kullanımını koruyarak.
+-Ekran parlaklığını azaltarak.
+-Titreşimli geri bildirimi kapatarak.
+-Ekran kapalıyken veri bağlantısını kapatarak.
+-Yalnızca gerekli uygulamaların çalışmasını sağlayarak."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Güç koruma modu</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Güç koruma modunu açmak, şu yollarla pil ömrünü uzatır:
+-İşlemci kullanımını koruyarak.
+-Ekran parlaklığını azaltarak.
+-Titreşimli geri bildirimi kapatarak.
+-Ekran kapalıyken veri bağlantısını kapatarak.
+-Yalnızca gerekli uygulamaların çalışmasını sağlayarak."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Akıllı güç tasarrufu modu</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Akıllı güç tasarrufu modunu açmak, şu yollarla pil ömrünü uzatır:
+-İşlemci kullanımını koruyarak.
+-Ekran parlaklığını azaltarak.
+-Titreşimli geri bildirimi kapatarak.
+-Ekran kapalıyken veri bağlantısını kapatarak.
+-Yalnızca gerekli uygulamaların çalışmasını sağlayarak."</string>
+    <string name="quick_settings_ringtone">Zil sesi</string>
 </resources>

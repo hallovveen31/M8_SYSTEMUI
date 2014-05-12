@@ -190,7 +190,6 @@
     <string name="quick_settings_volume">עוצמת שמע</string>
     <string name="quick_settings_usage">שימוש בתקשורת נתונים</string>
     <string name="quick_settings_sync_all">סנכרן הכל</string>
-    <string name="quick_settings_ringtone">צלצול</string>
     <string name="quick_settings_auto_sync">סנכרון אוטומטי</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">כרטיס משתמש</string>
@@ -206,9 +205,11 @@
     <string name="quick_settings_music_channel">ערוץ מוסיקה</string>
     <string name="quick_settings_do_not_disturb">נא לא להפריע</string>
     <string name="quick_settings_fingerprint_scan">סריקת טביעת אצבע</string>
+    <string name="quick_settings_power_saver_ex">מצב חיסכון רב בצריכת חשמל</string>
     <string name="quick_settings_wifi_hotspot">נקודת התחברות רשת אלחוטית</string>
-    <string name="quick_settings_wifi_hotspot_us">רשת אלחוטית סלולרית</string>
     <string name="quick_settings_wifi_hotspot_jp">שיתוף אינטרנט</string>
+    <string name="quick_settings_wifi_hotspot_us">רשת אלחוטית סלולרית</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">נקודת גישה</string>
     <string name="quick_settings_prefer_network">העדף רשת</string>
     <string name="quick_settings_network_selection">בחירת רשת</string>
@@ -226,12 +227,14 @@
     <string name="quick_setting_launch_kid_fail">לא מותקן כעת היישום מצב ילדים.</string>
     <string name="quick_settings_reorder_title">ערוך הגדרות מהירות</string>
     <string name="quick_settings_reorder_content">לחץ והחזק את הסמל הימני כדי לשנות את הסדר</string>
-    <string name="quick_settings_reorder_separator">"פריטים מוסתרים (גרור כדי להוסיף ל'הגדרות מהירות')"</string>
+    <string name="quick_settings_reorder_separator">פריטים מוסתרים (גרור כדי להוסיף להגדרות מהירות)</string>
     <string name="quick_settings_reorder_full_items">ניתן לקבוע עד 12 הגדרות מהירות</string>
     <string name="quick_settings_power_saver_dialog_title">להפעיל מצב חסכון בחשמל?</string>
     <string name="quick_settings_power_saver_dialog_chkbox">אל תציג שוב הודעה זו</string>
     <string name="quick_settings_power_saver_dialog_message">"חיבור הנתונים במצב חיסכון בצריכת חשמל פעיל. במידה והחיבור פעיל, ייתכן שהמכשיר לא ימשוך הודעות דואר אלקטרוני כאשר התצוגה כבויה.
 (שידור נתונים פעיל במהלך הטעינה ללא תלות בהגדרה זו)."</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">אל תציג שוב הודעה זו</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi כבוי כאשר השיתוף ב-USB או בנקודה אלחוטית סלולרית פועל. כדי להפעיל את Wi-Fi כבה את השיתוף ב-USB או בנקודה אלחוטית סלולרית.</string>
     <string name="quick_tips_edit_button">הקש להוספה ולהסרה של הגדרות מהירות</string>
     <string name="quick_tips_more_button">לחץ והחזק פריט כדי לפתוח את דף ההגדרות שלו</string>
     <string name="quick_settings_wifi_hotspot_cn">נקודת WLAN אלחוטית</string>
@@ -262,4 +265,22 @@
     <string name="battery_low_charging_not_enough_title">אזהרה</string>
     <string name="battery_low_charging_not_enough_ac_title">לא ניתן להטעין</string>
     <string name="battery_low_charging_not_enough_ac">לא ניתן לטעון את הטלפון משום שצריכת ההספק שלו גבוהה מדי. לתיקון הבעיה, הקטן את צריכת ההספק על ידי כיבוי הטלפון, סגירת יישומים שאינם בשימוש או כיבוי המסך.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">מצב חיסכון רב בצריכת חשמל</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">הפעלת מצב חיסכון רב בחשמל מאריכה את תוחלת חיי הסוללה על ידי:nחיסכון בשימוש במעבד.nהפחתת בהירות המסך.nכיבוי משוב הרטט.nכיבוי החיבור לרשת נתונים כשמסך כבוי.nהשבתת אפליקציות כך שרק אפליקציות חיוניות יפעלו.nכיבוי הפדומטר.</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">הפעלת מצב חיסכון רב בחשמל מאריכה את תוחלת חיי הסוללה על ידי:nחיסכון בשימוש במעבד.nהפחתת בהירות המסך.nכיבוי משוב הרטט.nכיבוי החיבור לרשת נתונים כשמסך כבוי.nהשבתת אפליקציות כך שרק אפליקציות חיוניות יפעלו.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">מצב חיסכון רב בחשמל</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">הפעלת מצב חיסכון רב בחשמל מאריכה את תוחלת חיי הסוללה על ידי:nחיסכון בשימוש במעבד.nהפחתת בהירות המסך.nכיבוי משוב הרטט.nכיבוי החיבור לרשת נתונים כשמסך כבוי.nהשבתת אפליקציות כך שרק אפליקציות חיוניות יפעלו.</string>
+    <string name="extreme_auto_power_saver_ask_title">מצב חיסכון מרבי בחשמל</string>
+    <string name="extreme_auto_power_saver_ask_msg">הפעלת מצב חיסכון מרבי בחשמל מאריכה את תוחלת חיי הסוללה על ידי:nחיסכון בשימוש במעבד.nהפחתת בהירות המסך.nכיבוי משוב הרטט.nכיבוי החיבור לרשת נתונים כשמסך כבוי.nהשבתת אפליקציות כך שרק אפליקציות חיוניות יפעלו.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">מצב המתנה</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">הפעלת מצב המתנה מאריכה את תוחלת חיי הסוללה על ידי:nחיסכון בשימוש במעבד.nהפחתת בהירות המסך.nכיבוי משוב הרטט.nכיבוי החיבור לרשת נתונים כשמסך כבוי.nהשבתת אפליקציות כך שרק אפליקציות חיוניות יפעלו.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">מצב חירום</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">הפעלת מצב חירום מאריכה את תוחלת חיי הסוללה על ידי:nחיסכון בשימוש במעבד.nהפחתת בהירות המסך.nכיבוי משוב הרטט.nכיבוי החיבור לרשת נתונים כשמסך כבוי.nהשבתת אפליקציות כך שרק אפליקציות חיוניות יפעלו.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">מצב עוצמה נמוכה</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">הפעלת מצב עוצמה נמוכה מאריכה את תוחלת חיי הסוללה על ידי:nחיסכון בשימוש במעבד.nהפחתת בהירות המסך.nכיבוי משוב הרטט.nכיבוי החיבור לרשת נתונים כשמסך כבוי.nהשבתת אפליקציות כך שרק אפליקציות חיוניות יפעלו.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">מצב חיסכון בחשמל</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">הפעלת מצב חיסכון בחשמל מאריכה את תוחלת חיי הסוללה על ידי:nחיסכון בשימוש במעבד.nהפחתת בהירות המסך.nכיבוי משוב הרטט.nכיבוי החיבור לרשת נתונים כשמסך כבוי.nהשבתת אפליקציות כך שרק אפליקציות חיוניות יפעלו.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">מצב חיסכון חכם בחשמל</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">הפעלת מצב חיסכון חכם בחשמל מאריכה את תוחלת חיי הסוללה על ידי:nחיסכון בשימוש במעבד.nהפחתת בהירות המסך.nכיבוי משוב הרטט.nכיבוי החיבור לרשת נתונים כשמסך כבוי.nהשבתת אפליקציות כך שרק אפליקציות חיוניות יפעלו.</string>
+    <string name="quick_settings_ringtone">צלצול</string>
 </resources>

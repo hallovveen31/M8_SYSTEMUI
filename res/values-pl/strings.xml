@@ -190,7 +190,6 @@ być monitorowana"</string>
     <string name="quick_settings_volume">Głośność</string>
     <string name="quick_settings_usage">Użycie danych</string>
     <string name="quick_settings_sync_all">Synchronizuj wszystko</string>
-    <string name="quick_settings_ringtone">Dzwonek</string>
     <string name="quick_settings_auto_sync">Synchronizacja automatyczna</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Karta użytkownika</string>
@@ -206,9 +205,11 @@ być monitorowana"</string>
     <string name="quick_settings_music_channel">Kanał muzyczny</string>
     <string name="quick_settings_do_not_disturb">Nie przeszkadzać</string>
     <string name="quick_settings_fingerprint_scan">Skanowanie odcisku palca</string>
+    <string name="quick_settings_power_saver_ex">Tryb ekstremalnego oszczędzania energii</string>
     <string name="quick_settings_wifi_hotspot">Hotspot Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobilny hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Udostępnianie</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobilny hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobilny hotspot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Preferowana sieć</string>
     <string name="quick_settings_network_selection">Wybór sieci</string>
@@ -232,6 +233,8 @@ być monitorowana"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Nie pokazuj więcej tego komunikatu</string>
     <string name="quick_settings_power_saver_dialog_message">"Opcja Transmisja danych funkcji Oszczędzanie energii jest włączona. Gdy opcja ta jest włączona, transmisja danych, jak w przypadku odbierania wiadomości e-mail, może nie zostać wykonana po wyłączeniu wyświetlacza.
 (Transmisja danych jest możliwa podczas ładowania niezależnie od tego ustawienia)."</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Nie pokazuj więcej tego komunikatu</string>
+    <string name="quick_settings_hotspot_dialog_message">Funkcja Wi-Fi jest wyłączana po uaktywnieniu funkcji Telefon jako modem lub Mobilny hotspot. Aby włączyć funkcję Wi-Fi, wyłącz najpierw funkcję Telefon jako modem lub Mobilny hotspot.</string>
     <string name="quick_tips_edit_button">Stuknij, aby dodać i usunąć pozycję szybkich ustawień</string>
     <string name="quick_tips_more_button">Naciśnij i przytrzymaj element, aby otworzyć jego stronę Ustawienia</string>
     <string name="quick_settings_wifi_hotspot_cn">Hotspot WLAN</string>
@@ -262,4 +265,68 @@ być monitorowana"</string>
     <string name="battery_low_charging_not_enough_title">Ostrzeżenie</string>
     <string name="battery_low_charging_not_enough_ac_title">Nie można ładować</string>
     <string name="battery_low_charging_not_enough_ac">Nie można naładować telefonu, ponieważ zużywa on zbyt dużo energii. Aby rozwiązać ten problem, ogranicz zużycie energii, wyłączając telefon, wyłączając zbędne aplikacje lub wygaszając ekran.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Tryb ekstremalnego oszczędzania energii</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Włączenie trybu ekstremalnego oszczędzania energii wydłuża żywotność baterii poprzez:
+-Oszczędzanie użycia CPU.
+-Zmniejszenie jasności ekranu.
+-Wyłączenie wibracji.
+-Wyłączenie połączenia danych przy wyłączonym ekranie.
+-Zezwolenie na uruchamianie tylko ważnych aplikacji.
+-Wyłączenie krokomierza."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Włączenie trybu ekstremalnego oszczędzania energii wydłuża żywotność baterii poprzez:
+-Oszczędzanie użycia CPU.
+-Zmniejszenie jasności ekranu.
+-Wyłączenie wibracji.
+-Wyłączenie połączenia danych przy wyłączonym ekranie.
+-Zezwolenie na uruchamianie tylko ważnych aplikacji."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Ekstremalne oszczędzanie energii</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Włączenie ekstremalnego oszczędzania energii wydłuża żywotność baterii poprzez:
+-Oszczędzanie użycia CPU.
+-Zmniejszenie jasności ekranu.
+-Wyłączenie wibracji.
+-Wyłączenie połączenia danych przy wyłączonym ekranie.
+-Zezwolenie na uruchamianie tylko ważnych aplikacji."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maksymalne oszczędzanie energii</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Włączenie maksymalnego oszczędzania energii wydłuża żywotność baterii poprzez:
+-Oszczędzanie użycia CPU.
+-Zmniejszenie jasności ekranu.
+-Wyłączenie wibracji.
+-Wyłączenie połączenia danych przy wyłączonym ekranie.
+-Zezwolenie na uruchamianie tylko ważnych aplikacji."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Tryb gotowości</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Włączenie trybu gotowości wydłuża żywotność baterii poprzez:
+-Oszczędzanie użycia CPU.
+-Zmniejszenie jasności ekranu.
+-Wyłączenie wibracji.
+-Wyłączenie połączenia danych przy wyłączonym ekranie.
+-Zezwolenie na uruchamianie tylko ważnych aplikacji."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Tryb połączeń alarmowych</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Włączenie trybu połączeń alarmowych wydłuża żywotność baterii poprzez:
+-Oszczędzanie użycia CPU.
+-Zmniejszenie jasności ekranu.
+-Wyłączenie wibracji.
+-Wyłączenie połączenia danych przy wyłączonym ekranie.
+-Zezwolenie na uruchamianie tylko ważnych aplikacji."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Tryb niskiego poboru energii</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Włączenie trybu niskiego poboru energii wydłuża żywotność baterii poprzez:
+-Oszczędzanie użycia CPU.
+-Zmniejszenie jasności ekranu.
+-Wyłączenie wibracji.
+-Wyłączenie połączenia danych przy wyłączonym ekranie.
+-Zezwolenie na uruchamianie tylko ważnych aplikacji."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Tryb oszczędzania energii</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Włączenie trybu oszczędzania energii wydłuża żywotność baterii poprzez:
+-Oszczędzanie użycia CPU.
+-Zmniejszenie jasności ekranu.
+-Wyłączenie wibracji.
+-Wyłączenie połączenia danych przy wyłączonym ekranie.
+-Zezwolenie na uruchamianie tylko ważnych aplikacji."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Tryb inteligentnego oszczędzania energii</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Włączenie trybu inteligentnego oszczędzania energii wydłuża żywotność baterii poprzez:
+-Oszczędzanie użycia CPU.
+-Zmniejszenie jasności ekranu.
+-Wyłączenie wibracji.
+-Wyłączenie połączenia danych przy wyłączonym ekranie.
+-Zezwolenie na uruchamianie tylko ważnych aplikacji."</string>
+    <string name="quick_settings_ringtone">Dzwonek</string>
 </resources>

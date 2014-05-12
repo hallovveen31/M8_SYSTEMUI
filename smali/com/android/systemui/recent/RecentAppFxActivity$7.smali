@@ -23,11 +23,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/recent/RecentAppFxActivity;Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;)V
     .locals 0
-    .parameter
-    .parameter
 
-    .prologue
-    .line 642
     iput-object p1, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     iput-object p2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->val$holder:Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;
@@ -41,10 +37,7 @@
 # virtual methods
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 5
-    .parameter "animation"
 
-    .prologue
-    .line 647
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->am:Landroid/app/ActivityManager;
@@ -64,7 +57,6 @@
 
     if-nez v2, :cond_2
 
-    .line 649
     :cond_0
     const-string v2, "RecentApps"
 
@@ -72,12 +64,10 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 682
     :cond_1
     :goto_0
     return-void
 
-    .line 653
     :cond_2
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
@@ -88,7 +78,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 654
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->phoneWindow:Landroid/view/Window;
@@ -100,7 +89,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/Window;->addFlags(I)V
 
-    .line 656
     :cond_3
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
@@ -111,7 +99,6 @@
 
     invoke-interface {v2}, Landroid/app/HtcIfActivityManager;->skipStartingWindowOnNextActivity()V
 
-    .line 659
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->val$holder:Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;
 
     iget-object v2, v2, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->td:Lcom/android/systemui/recent/TaskDescription;
@@ -120,7 +107,6 @@
 
     if-ltz v2, :cond_4
 
-    .line 660
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->am:Landroid/app/ActivityManager;
@@ -138,24 +124,21 @@
 
     invoke-virtual {v2, v3, v4}, Landroid/app/ActivityManager;->moveTaskToFront(II)V
 
-    .line 679
     :goto_1
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
-    invoke-virtual {v2}, Lcom/android/systemui/recent/RecentAppFxActivity;->isFinishing()Z
+    invoke-virtual {v2}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 680
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
-    invoke-virtual {v2}, Lcom/android/systemui/recent/RecentAppFxActivity;->finish()V
+    invoke-virtual {v2}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
-    .line 663
     :cond_4
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->val$holder:Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;
 
@@ -163,13 +146,10 @@
 
     iget-object v1, v2, Lcom/android/systemui/recent/TaskDescription;->intent:Landroid/content/Intent;
 
-    .line 665
-    .local v1, intent:Landroid/content/Intent;
     const v2, 0x10104000
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 671
     :try_start_0
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$7;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
@@ -181,15 +161,11 @@
 
     goto :goto_1
 
-    .line 673
     :catch_0
     move-exception v0
 
-    .line 675
-    .local v0, exception:Ljava/lang/Exception;
-    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 676
     const-string v2, "RecentApps"
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -202,7 +178,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v4
 

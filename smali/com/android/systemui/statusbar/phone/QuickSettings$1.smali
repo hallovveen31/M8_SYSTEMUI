@@ -21,10 +21,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/statusbar/phone/QuickSettings;)V
     .locals 0
-    .parameter
 
-    .prologue
-    .line 126
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/QuickSettings$1;->this$0:Lcom/android/systemui/statusbar/phone/QuickSettings;
 
     invoke-direct {p0}, Lcom/android/internal/view/RotationPolicy$RotationPolicyListener;-><init>()V
@@ -37,8 +34,6 @@
 .method public onChange()V
     .locals 1
 
-    .prologue
-    .line 129
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/QuickSettings$1;->this$0:Lcom/android/systemui/statusbar/phone/QuickSettings;
 
     #getter for: Lcom/android/systemui/statusbar/phone/QuickSettings;->mModel:Lcom/android/systemui/statusbar/phone/QuickSettingsModel;
@@ -48,6 +43,5 @@
 
     invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/QuickSettingsModel;->onRotationLockChanged()V
 
-    .line 130
     return-void
 .end method

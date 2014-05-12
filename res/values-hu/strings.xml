@@ -192,7 +192,6 @@ a hálózatot felügyelik"</string>
     <string name="quick_settings_volume">Hangerő</string>
     <string name="quick_settings_usage">Adathasználat</string>
     <string name="quick_settings_sync_all">Összes szinkronizálása</string>
-    <string name="quick_settings_ringtone">Csengőhang</string>
     <string name="quick_settings_auto_sync">Automatikus szinkronizálás</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Felhasználói kártya</string>
@@ -208,9 +207,11 @@ a hálózatot felügyelik"</string>
     <string name="quick_settings_music_channel">Zenei csatorna</string>
     <string name="quick_settings_do_not_disturb">Ne zavarj</string>
     <string name="quick_settings_fingerprint_scan">Ujjlenyomat-leolvasás</string>
+    <string name="quick_settings_power_saver_ex">Extrém energiatakarékos mód</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_jp">Pányvázás</string>
     <string name="quick_settings_wifi_hotspot_us">Mobil hotspot</string>
-    <string name="quick_settings_wifi_hotspot_jp">Modemként való használat</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobil Hotspot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Preferált hálózat</string>
     <string name="quick_settings_network_selection">Hálózat kiválasztása</string>
@@ -234,6 +235,8 @@ a hálózatot felügyelik"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">Többé ne jelenjen meg ez az üzenet</string>
     <string name="quick_settings_power_saver_dialog_message">"Az Adatkapcsolat az Energiatakarékos funkcióban BE van kapcsolva. Ha BE van kapcsolva, akkor az adatátvitel, mint például az e-mailek fogadása nem végezhető el, ha a képernyő ki van kapcsolva.
 (Az adatátvitel feltöltés közben végezhető el az adott beállítástól függetlenül.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Többé ne jelenjen meg ez az üzenet</string>
+    <string name="quick_settings_hotspot_dialog_message">A Wi-Fi kikapcsol, amikor az USB-modemként való használat vagy a Mobil Hotspot aktív. A Wi-Fi bekapcsolásához kapcsolja ki az USB-modemként való használatot és a Mobil Hotspotot.</string>
     <string name="quick_tips_edit_button">Érintse meg a Gyorsbeállítások hozzáadásához vagy eltávolításához</string>
     <string name="quick_tips_more_button">Tartson lenyomva egy elemet az elem Beállítások oldalának megnyitásához</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN hotspot</string>
@@ -242,7 +245,7 @@ a hálózatot felügyelik"</string>
     <string name="qs_mobile_roaming_msg_att">Engedélyezi az adatbarangolást? Az Egyesült Államokon, Puerto Rico-n és az amerikai Virgin-szigeteken kívül az adatátvitelre a nemzetközi adatbarangolási díjak vonatkoznak.</string>
     <string name="qs_mobile_roaming_msg_generic">Ön jelenleg barangol. Az adatbarangolás használata jelentős költségekkel járhat. Engedélyezni kívánja a barangolási hálózati kapcsolatot?</string>
     <string name="qs_restrict_mode_error">Hiba</string>
-    <string name="qs_restrict_mode_message">A rendszergazda blokkolta a funkciót. Kérjük, segítségért vegye fel a kapcsolatot az IT csapattal.</string>
+    <string name="qs_restrict_mode_message">A rendszergazda blokkolta a funkciót. Segítségért vegye fel a kapcsolatot az IT csapattal.</string>
     <string name="recentapps_title">Legutóbbi alkalmazások</string>
     <string name="recentapps_clear_all">Az összes törlése</string>
     <string name="recentapps_running_services">Futó szolgáltatások</string>
@@ -264,4 +267,67 @@ a hálózatot felügyelik"</string>
     <string name="battery_low_charging_not_enough_title">Figyelmeztetés</string>
     <string name="battery_low_charging_not_enough_ac_title">A töltés sikertelen</string>
     <string name="battery_low_charging_not_enough_ac">Nem lehet feltölteni a telefont, mert túl sok áramot fogyaszt. A probléma megoldásához, csökkentse az energiahasználatot azzal, hogy kikapcsolja a telefonját, bezár minden nem használt alkalmazást, vagy kikapcsolja a képernyőt.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Extrém energiatakarékos mód</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Az extrém energiatakarékos mód a következőkkel növeli az akkumulátoros üzemidőt:
+– Takarékos CPU-használat.
+– A kijelző fényerejének csökkentése.
+– A rezgő visszajelzések kikapcsolása.
+– Az adatkapcsolat leállítása, amikor a képernyő ki van kapcsolva.
+– A lépésszámláló kikapcsolása."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Az extrém energiatakarékos mód a következőkkel növeli az akkumulátor üzemidejét:
+– Takarékos CPU-használat.
+– A kijelző fényerejének csökkentése.
+– A rezgő visszajelzések kikapcsolása.
+– Az adatkapcsolat leállítása, ha a képernyő ki van kapcsolva.
+– Csak a fontos alkalmazások futtatásának engedélyezése."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Extrém energiatakarékos mód</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Az extrém energiatakarékos mód a következőkkel növeli az akkumulátoros üzemidőt:
+– Takarékos CPU-használat.
+– A kijelző fényerejének csökkentése.
+– A rezgő visszajelzések kikapcsolása.
+– Az adatkapcsolat leállítása, amikor a képernyő ki van kapcsolva.
+– Csak a fontos alkalmazások futtatásának engedélyezése."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maximálisan energiatakarékos</string>
+    <string name="extreme_auto_power_saver_ask_msg">"A maximálisan energiatakarékos mód a következőkkel növeli az akkumulátoros üzemidőt:
+– Takarékos CPU-használat.
+– A kijelző fényerejének csökkentése.
+– A rezgő visszajelzések kikapcsolása.
+– Az adatkapcsolat leállítása, amikor a képernyő ki van kapcsolva.
+– Csak a fontos alkalmazások futtatásának engedélyezése."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Készenléti mód</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"A készenléti mód a következőkkel növeli az akkumulátoros üzemidőt:
+– Takarékos CPU-használat.
+– A kijelző fényerejének csökkentése.
+– A rezgő visszajelzések kikapcsolása.
+– Az adatkapcsolat leállítása, ha a képernyő ki van kapcsolva.
+– Csak a fontos alkalmazások futtatásának engedélyezése."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Segélyhívó mód</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"A segélyhívó mód a következőkkel növeli az akkumulátor üzemidejét:
+– Takarékos CPU-használat.
+– A kijelző fényerejének csökkentése.
+– A rezgő visszajelzések kikapcsolása.
+– Az adatkapcsolat leállítása, ha a képernyő ki van kapcsolva.
+– Csak a fontos alkalmazások futtatásának engedélyezése."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Alacsony energiaigényű mód</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Az alacsony energiaigényű mód a következőkkel növeli az akkumulátor üzemidejét:
+– Takarékos CPU-használat.
+– A kijelző fényerejének csökkentése.
+– A rezgő visszajelzések kikapcsolása.
+– Az adatkapcsolat leállítása, amikor a képernyő ki van kapcsolva.
+– Csak a fontos alkalmazások futtatásának engedélyezése."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Energiatakarékos mód</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Az energiatakarékos mód a következőkkel növeli az akkumulátor üzemidejét:
+– Takarékos CPU-használat.
+– A kijelző fényerejének csökkentése.
+– A rezgő visszajelzések kikapcsolása.
+– Az adatkapcsolat leállítása, ha a képernyő ki van kapcsolva.
+– Csak a fontos alkalmazások futtatásának engedélyezése."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Intelligens energiatakarékos mód</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Az intelligens energiatakarékos mód a következőkkel növeli az akkumulátor üzemidejét:
+– Takarékos CPU-használat.
+– A kijelző fényerejének csökkentése.
+– A rezgő visszajelzések kikapcsolása.
+– Az adatkapcsolat leállítása, ha a képernyő ki van kapcsolva.
+– Csak a fontos alkalmazások futtatásának engedélyezése."</string>
+    <string name="quick_settings_ringtone">Csengőhang</string>
 </resources>

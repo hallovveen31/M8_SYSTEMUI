@@ -190,7 +190,6 @@ sea monitoreada"</string>
     <string name="quick_settings_volume">Volumen</string>
     <string name="quick_settings_usage">Uso de datos</string>
     <string name="quick_settings_sync_all">Sincronizar todo</string>
-    <string name="quick_settings_ringtone">Tono de llamada</string>
     <string name="quick_settings_auto_sync">Sincronización automática</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Tarjeta del usuario</string>
@@ -206,9 +205,11 @@ sea monitoreada"</string>
     <string name="quick_settings_music_channel">Canal de música</string>
     <string name="quick_settings_do_not_disturb">No molestar</string>
     <string name="quick_settings_fingerprint_scan">Búsqueda de huellas dactilares</string>
+    <string name="quick_settings_power_saver_ex">Modo de ahorro de energía extremo</string>
     <string name="quick_settings_wifi_hotspot">Punto de acceso Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Conexión compartida</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Red preferida</string>
     <string name="quick_settings_network_selection">Selección de red</string>
@@ -232,6 +233,8 @@ sea monitoreada"</string>
     <string name="quick_settings_power_saver_dialog_chkbox">No mostrar este mensaje de nuevo</string>
     <string name="quick_settings_power_saver_dialog_message">"La Conexión de datos en Ahorro de energía está activada. Si esta opción está activada, es posible que la transmisión de datos como la recepción de correo electrónico no se realice cuando la pantalla está desactivada.
 (La transmisión de datos es posible durante la carga, independientemente de esta configuración)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">No mostrar este mensaje de nuevo</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi se desactiva cuando la Conexión compartida USB o Mobile Hotspot están activos. Para activar Wi-Fi, active la Conexión compartida USB o Mobile Hotspot.</string>
     <string name="quick_tips_edit_button">Pulse para agregar y eliminar Configuración rápida</string>
     <string name="quick_tips_more_button">Presione durante unos segundos un elemento para abrir la página de Configuración</string>
     <string name="quick_settings_wifi_hotspot_cn">Punto de acceso WLAN</string>
@@ -262,4 +265,68 @@ sea monitoreada"</string>
     <string name="battery_low_charging_not_enough_title">Advertencia</string>
     <string name="battery_low_charging_not_enough_ac_title">No se puede cargar corriente</string>
     <string name="battery_low_charging_not_enough_ac">No es posible cargar su teléfono porque está usando demasiada energía. Para solucionar este problema, reduzca el consumo de energía apagando el teléfono, cerrado cualquier aplicación que no está usando o apagando la pantalla.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Modo de ahorro de energía extremo</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Activar el modo de ahorro de energía extremo prolonga la duración de la batería al:
+-Conservar el uso del CPU.
+-Reducir el brillo de la pantalla.
+-Desactivar Avisar con vibración.
+-Desactivar la conexión de datos cuando la pantalla está apagada.
+-Permitir que solo se ejecuten las aplicaciones esenciales.
+-Desactivar el podómetro."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Activar el modo de ahorro de energía extremo prolonga la duración de la batería al:
+-Conservar el uso del CPU.
+-Reducir el brillo de la pantalla.
+-Desactivar Avisar con vibración.
+-Desactivar la conexión de datos cuando la pantalla está apagada.
+-Permitir que solo se ejecuten las aplicaciones esenciales."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Ahorro de energía extremo</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Activar el ahorro de energía extremo prolonga la duración de la batería al:
+-Conservar el uso del CPU.
+-Reducir el brillo de la pantalla.
+-Desactivar Avisar con vibración.
+-Desactivar la conexión de datos cuando la pantalla está apagada.
+-Permitir que solo se ejecuten las aplicaciones esenciales."</string>
+    <string name="extreme_auto_power_saver_ask_title">Ahorro de energía máximo</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Activar el ahorro de energía máximo prolonga la duración de la batería al:
+-Conservar el uso del CPU.
+-Reducir el brillo de la pantalla.
+-Desactivar Avisar con vibración.
+-Desactivar la conexión de datos cuando la pantalla está apagada.
+-Permitir que solo se ejecuten las aplicaciones esenciales."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Modo de tiempo de espera</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Activar el modo de tiempo de espera prolonga la duración de la batería al:
+-Conservar el uso del CPU.
+-Reducir el brillo de la pantalla.
+-Desactivar Avisar con vibración.
+-Desactivar la conexión de datos cuando la pantalla está apagada.
+-Permitir que solo se ejecuten las aplicaciones esenciales."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Modo de emergencia</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Activar el modo de emergencia prolonga la duración de la batería al:
+-Conservar el uso del CPU.
+-Reducir el brillo de la pantalla.
+-Desactivar Avisar con vibración.
+-Desactivar la conexión de datos cuando la pantalla está apagada.
+-Permitir que solo se ejecuten las aplicaciones esenciales."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Modo de baja energía</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Activar el modo de baja energía prolonga la duración de la batería al:
+-Conservar el uso del CPU.
+-Reducir el brillo de la pantalla.
+-Desactivar Avisar con vibración.
+-Desactivar la conexión de datos cuando la pantalla está apagada.
+-Permitir que solo se ejecuten las aplicaciones esenciales."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Modo de conservación de energía</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Activar el modo de conservación de energía prolonga la duración de la batería al:
+-Conservar el uso del CPU.
+-Reducir el brillo de la pantalla.
+-Desactivar Avisar con vibración.
+-Desactivar la conexión de datos cuando la pantalla está apagada
+-Permitir que solo se ejecuten las aplicaciones esenciales."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Modo de ahorro de energía inteligente</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Activar el modo de ahorro de energía inteligente prolonga la duración de la batería al:
+-Conservar el uso del CPU.
+-Reducir el brillo de la pantalla.
+-Desactivar Avisar con vibración.
+-Desactivar la conexión de datos cuando la pantalla está apagada.
+-Permitir que solo se ejecuten las aplicaciones esenciales."</string>
+    <string name="quick_settings_ringtone">Tono de llamada</string>
 </resources>

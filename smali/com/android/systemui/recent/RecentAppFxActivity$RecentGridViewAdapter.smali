@@ -23,16 +23,11 @@
 # direct methods
 .method public constructor <init>(Lcom/android/systemui/recent/RecentAppFxActivity;Landroid/content/Context;)V
     .locals 1
-    .parameter
-    .parameter "c"
 
-    .prologue
-    .line 757
     iput-object p1, p0, Lcom/android/systemui/recent/RecentAppFxActivity$RecentGridViewAdapter;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     invoke-direct {p0}, Landroid/widget/BaseAdapter;-><init>()V
 
-    .line 758
     const-string v0, "layout_inflater"
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -43,7 +38,6 @@
 
     iput-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$RecentGridViewAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    .line 759
     return-void
 .end method
 
@@ -52,8 +46,6 @@
 .method public getCount()I
     .locals 1
 
-    .prologue
-    .line 762
     iget-object v0, p0, Lcom/android/systemui/recent/RecentAppFxActivity$RecentGridViewAdapter;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->mRecentTaskDescriptions:Ljava/util/ArrayList;
@@ -70,10 +62,7 @@
 
 .method public getItem(I)Ljava/lang/Object;
     .locals 1
-    .parameter "position"
 
-    .prologue
-    .line 766
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -83,10 +72,7 @@
 
 .method public getItemId(I)J
     .locals 2
-    .parameter "position"
 
-    .prologue
-    .line 770
     int-to-long v0, p1
 
     return-wide v0
@@ -94,16 +80,11 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 6
-    .parameter "position"
-    .parameter "convertView"
-    .parameter "parent"
 
-    .prologue
     const/4 v4, 0x0
 
     const/4 v5, 0x0
 
-    .line 775
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$RecentGridViewAdapter;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->mRecentTaskDescriptions:Ljava/util/ArrayList;
@@ -132,37 +113,28 @@
 
     check-cast v0, Lcom/android/systemui/recent/TaskDescription;
 
-    .line 777
-    .local v0, td:Lcom/android/systemui/recent/TaskDescription;
     if-nez p2, :cond_0
 
-    .line 778
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$RecentGridViewAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f04005f
+    const v3, 0x7f040061
 
     invoke-virtual {v2, v3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p2
 
-    .end local p2
     check-cast p2, Landroid/widget/FrameLayout;
 
-    .line 779
-    .restart local p2
     const/4 v2, 0x1
 
     invoke-virtual {p2, v2}, Landroid/view/View;->setClickable(Z)V
 
-    .line 781
     new-instance v1, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;
 
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$RecentGridViewAdapter;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     invoke-direct {v1, v2, v4}, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;-><init>(Lcom/android/systemui/recent/RecentAppFxActivity;Lcom/android/systemui/recent/RecentAppFxActivity$1;)V
 
-    .line 782
-    .local v1, viewHolder:Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;
     const v2, 0x7f070004
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -173,7 +145,6 @@
 
     iput-object v2, v1, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->img:Landroid/widget/ImageView;
 
-    .line 783
     const v2, 0x7f070042
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -184,16 +155,12 @@
 
     iput-object v2, v1, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->text1:Landroid/widget/TextView;
 
-    .line 785
     invoke-virtual {p2, v1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 786
     const/4 v2, 0x4
 
     invoke-virtual {p2, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 788
-    .end local v1           #viewHolder:Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;
     :cond_0
     sget-boolean v2, Lcom/android/systemui/recent/RecentAppFxActivity;->DEBUG:Z
 
@@ -231,7 +198,6 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 790
     :cond_1
     invoke-virtual {p2}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
@@ -239,11 +205,8 @@
 
     check-cast v1, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;
 
-    .line 791
-    .restart local v1       #viewHolder:Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;
     iput-object v0, v1, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->td:Lcom/android/systemui/recent/TaskDescription;
 
-    .line 792
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$RecentGridViewAdapter;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->mIsTextAnimNeeded:Z
@@ -263,19 +226,16 @@
 
     move-object v2, p2
 
-    .line 793
     check-cast v2, Lcom/android/systemui/recent/RecentsItemView;
 
     invoke-virtual {v2, v5}, Lcom/android/systemui/recent/RecentsItemView;->setDrawableAlpha(I)V
 
-    .line 794
     iget-object v2, v1, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->text1:Landroid/widget/TextView;
 
     const/4 v3, 0x0
 
-    invoke-virtual {v2, v3}, Landroid/widget/TextView;->setAlpha(F)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setAlpha(F)V
 
-    .line 797
     :cond_2
     invoke-virtual {v0}, Lcom/android/systemui/recent/TaskDescription;->getThumbnail()Landroid/graphics/drawable/Drawable;
 
@@ -289,7 +249,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 798
     sget-boolean v2, Lcom/android/systemui/recent/RecentAppFxActivity;->DEBUG:Z
 
     if-eqz v2, :cond_3
@@ -322,7 +281,6 @@
 
     invoke-static {v3, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 799
     :cond_3
     iget-object v3, v1, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->text1:Landroid/widget/TextView;
 
@@ -334,7 +292,6 @@
 
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 800
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$RecentGridViewAdapter;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     iget-object v3, v1, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->img:Landroid/widget/ImageView;
@@ -346,7 +303,6 @@
     #calls: Lcom/android/systemui/recent/RecentAppFxActivity;->updateThumbnail(Landroid/widget/ImageView;Landroid/graphics/drawable/Drawable;)V
     invoke-static {v2, v3, v4}, Lcom/android/systemui/recent/RecentAppFxActivity;->access$1200(Lcom/android/systemui/recent/RecentAppFxActivity;Landroid/widget/ImageView;Landroid/graphics/drawable/Drawable;)V
 
-    .line 802
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$RecentGridViewAdapter;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     #getter for: Lcom/android/systemui/recent/RecentAppFxActivity;->mIsCurrentOnRecent:Z
@@ -364,24 +320,19 @@
 
     if-ne p1, v2, :cond_5
 
-    .line 803
     invoke-virtual {p2, v5}, Landroid/view/View;->setVisibility(I)V
 
-    .line 804
     iput-boolean v5, v1, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->isAnimNeeded:Z
 
-    .line 811
     :cond_4
     :goto_0
     return-object p2
 
-    .line 807
     :cond_5
     iget-boolean v2, v1, Lcom/android/systemui/recent/RecentAppFxActivity$ViewHolder;->isAnimNeeded:Z
 
     if-eqz v2, :cond_4
 
-    .line 808
     iget-object v2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$RecentGridViewAdapter;->this$0:Lcom/android/systemui/recent/RecentAppFxActivity;
 
     invoke-virtual {v2, p2, v5}, Lcom/android/systemui/recent/RecentAppFxActivity;->playAlphaAnimate(Landroid/view/View;Z)V

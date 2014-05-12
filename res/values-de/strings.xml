@@ -190,7 +190,6 @@ Wenn Sie die Daten neu aktivieren, werden dafür möglicherweise vom Netzbetreib
     <string name="quick_settings_volume">Lautstärke</string>
     <string name="quick_settings_usage">Datennutzung</string>
     <string name="quick_settings_sync_all">Alle synchronisieren</string>
-    <string name="quick_settings_ringtone">Klingelton</string>
     <string name="quick_settings_auto_sync">Autom. Synchronisierung</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Benutzerkarte</string>
@@ -206,9 +205,11 @@ Wenn Sie die Daten neu aktivieren, werden dafür möglicherweise vom Netzbetreib
     <string name="quick_settings_music_channel">Music Channel</string>
     <string name="quick_settings_do_not_disturb">Nicht stören</string>
     <string name="quick_settings_fingerprint_scan">Fingerabdruck scannen</string>
+    <string name="quick_settings_power_saver_ex">Extremer Energiesparmodus</string>
     <string name="quick_settings_wifi_hotspot">WLAN-Hotspot</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobiler Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Tethering</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobiler Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Bevorzugtes Netzwerk</string>
     <string name="quick_settings_network_selection">Netzauswahl</string>
@@ -232,6 +233,8 @@ Wenn Sie die Daten neu aktivieren, werden dafür möglicherweise vom Netzbetreib
     <string name="quick_settings_power_saver_dialog_chkbox">Diese Meldung nicht wieder anzeigen</string>
     <string name="quick_settings_power_saver_dialog_message">"Datenverbindung wenn Energieeinsparung EIN geschaltet ist. Wenn dies EIN geschaltet ist, werden Datenübertragungen wie z.B. der Abruf von E-Mails möglicherweise nicht ausgeführt, wenn das Display ausgeschaltet ist.
 (Datenübertragung ist unabhängig von dieser Einstellung beim Aufladen möglich.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Diese Meldung nicht wieder anzeigen</string>
+    <string name="quick_settings_hotspot_dialog_message">WLAN ist deaktiviert, wenn USB-Anbindung oder Mobile Hotspot aktiviert ist. Wenn Sie WLAN aktivieren möchten, deaktivieren Sie bitte USB-Anbindung oder Mobile Hotspot.</string>
     <string name="quick_tips_edit_button">Antippen, um Schnelleinstellungen hinzuzufügen oder zu entfernen</string>
     <string name="quick_tips_more_button">Halten Sie ein Element gedrückt, um seine Einstellungsseite aufzurufen</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN Hotspot</string>
@@ -262,4 +265,67 @@ Wenn Sie die Daten neu aktivieren, werden dafür möglicherweise vom Netzbetreib
     <string name="battery_low_charging_not_enough_title">Warnhinweis</string>
     <string name="battery_low_charging_not_enough_ac_title">Laden nicht möglich</string>
     <string name="battery_low_charging_not_enough_ac">Telefon kann nicht geladen werden, da es zu viel Strom verbraucht. Um dieses Problem zu beheben, können Sie den Stromverbrauch Ihres Telefons verringern, indem Sie es ausschalten, nicht verwendete Apps schließen oder den Bildschirm ausschalten.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Extremer Energiesparmodus</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Die Aktivierung des extremen Energiesparmodus verlängert die Akkulaufzeit durch:
+-Einschränkung der CPU-Nutzung.
+-Reduzierung der Bildschirmhelligkeit.
+-Deaktivierung von Vibrationsfeedback.
+-Deaktivierung der Datenverbindung, wenn der Bildschirm ausgeschaltet ist.
+-Nur dringend benötigte Apps werden ausgeführt.
+-Ausschalten des Pedometers."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Die Aktivierung des extremen Energiesparmodus verlängert die Akkulaufzeit durch:
+-Einschränkung der CPU-Nutzung.
+-Reduzierung der Bildschirmhelligkeit.
+-Deaktivierung von Vibrationsfeedback.
+-Deaktivierung der Datenverbindung, wenn der Bildschirm ausgeschaltet ist.
+-Nur dringend benötigte Apps werden ausgeführt."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Extremes Energiesparen</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Die Aktivierung des extremen Energiesparmodus verlängert die Akkulaufzeit durch:
+-Einschränkung der CPU-Nutzung.
+-Reduzierung der Bildschirmhelligkeit.
+-Deaktivierung von Vibrationsfeedback.
+-Deaktivierung der Datenverbindung, wenn der Bildschirm ausgeschaltet ist.
+-Nur dringend benötigte Apps werden ausgeführt."</string>
+    <string name="extreme_auto_power_saver_ask_title">Maximaler Energiesparmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Die Aktivierung des maximalen Energiesparmodus verlängert die Akkulaufzeit durch:
+-Einschränkung der CPU-Nutzung.
+-Reduzierung der Bildschirmhelligkeit.
+-Deaktivierung der Datenverbindung, wenn der Bildschirm ausgeschaltet ist.
+-Nur dringend benötigte Apps werden ausgeführt."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Standbymodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Die Aktivierung des Standbymodus verlängert die Akkulaufzeit durch:
+-Einschränkung der CPU-Nutzung.
+-Reduzierung der Bildschirmhelligkeit.
+-Deaktivierung von Vibrationsfeedback.
+-Deaktivierung der Datenverbindung, wenn der Bildschirm ausgeschaltet ist.
+-Nur dringend benötigte Apps werden ausgeführt."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Notrufmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Die Aktivierung des Notrufmodus verlängert die Akkulaufzeit durch:
+-Einschränkung der CPU-Nutzung.
+-Reduzierung der Bildschirmhelligkeit.
+-Deaktivierung von Vibrationsfeedback.
+-Deaktivierung der Datenverbindung, wenn der Bildschirm ausgeschaltet ist.
+-Nur dringend benötigte Apps werden ausgeführt."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Niedrigstrommodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Die Aktivierung des Niedrigstrommodus verlängert die Akkulaufzeit durch:
+-Einschränkung der CPU-Nutzung.
+-Reduzierung der Bildschirmhelligkeit.
+-Deaktivierung von Vibrationsfeedback.
+-Deaktivierung der Datenverbindung, wenn der Bildschirm ausgeschaltet ist.
+-Nur dringend benötigte Apps werden ausgeführt."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Stromsparmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Die Aktivierung des Stromsparmodus verlängert die Akkulaufzeit durch:
+-Einschränkung der CPU-Nutzung.
+-Reduzierung der Bildschirmhelligkeit.
+-Deaktivierung von Vibrationsfeedback.
+-Deaktivierung der Datenverbindung, wenn der Bildschirm ausgeschaltet ist.
+-Nur dringend benötigte Apps werden ausgeführt."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Intelligenter Energiesparmodus</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Die Aktivierung des intelligenten Energiesparmodus verlängert die Akkulaufzeit durch:
+-Einschränkung der CPU-Nutzung.
+-Reduzierung der Bildschirmhelligkeit.
+-Deaktivierung von Vibrationsfeedback.
+-Deaktivierung der Datenverbindung, wenn der Bildschirm ausgeschaltet ist.
+-Nur dringend benötigte Apps werden ausgeführt."</string>
+    <string name="quick_settings_ringtone">Klingelton</string>
 </resources>

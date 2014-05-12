@@ -26,11 +26,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/recent/RecentAppFxActivity$1;Landroid/view/View;)V
     .locals 0
-    .parameter
-    .parameter
 
-    .prologue
-    .line 167
     iput-object p1, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$2;->this$1:Lcom/android/systemui/recent/RecentAppFxActivity$1;
 
     iput-object p2, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$2;->val$v:Landroid/view/View;
@@ -44,10 +40,7 @@
 # virtual methods
 .method public onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 3
-    .parameter "animator"
 
-    .prologue
-    .line 169
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -66,8 +59,6 @@
 
     move-result-object v0
 
-    .line 170
-    .local v0, alpha:Ljava/lang/Float;
     iget-object v1, p0, Lcom/android/systemui/recent/RecentAppFxActivity$1$2;->val$v:Landroid/view/View;
 
     check-cast v1, Lcom/android/systemui/recent/RecentsItemView;
@@ -78,6 +69,5 @@
 
     invoke-virtual {v1, v2}, Lcom/android/systemui/recent/RecentsItemView;->setDrawableAlpha(I)V
 
-    .line 171
     return-void
 .end method

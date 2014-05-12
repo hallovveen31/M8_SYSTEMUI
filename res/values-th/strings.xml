@@ -189,7 +189,6 @@
     <string name="quick_settings_volume">ปริมาตร</string>
     <string name="quick_settings_usage">การใช้ข้อมูล</string>
     <string name="quick_settings_sync_all">ซิงค์ทั้งหมด</string>
-    <string name="quick_settings_ringtone">เสียงเรียกเข้า</string>
     <string name="quick_settings_auto_sync">ซิงค์อัตโนมัติ</string>
     <string name="quick_settings_bluetooth">บลูทูธ</string>
     <string name="quick_settings_user_card">การ์ดสำหรับผู้ใช้</string>
@@ -205,9 +204,11 @@
     <string name="quick_settings_music_channel">Music Channel</string>
     <string name="quick_settings_do_not_disturb">ห้ามรบกวน</string>
     <string name="quick_settings_fingerprint_scan">สแกนลายนิ้วมือ</string>
+    <string name="quick_settings_power_saver_ex">โหมดประหยัดพลังงานอย่างดีเยี่ยม</string>
     <string name="quick_settings_wifi_hotspot">ฮอตสปอต Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">โมบายล์ฮอตสปอต</string>
     <string name="quick_settings_wifi_hotspot_jp">การเชื่อมโยง</string>
+    <string name="quick_settings_wifi_hotspot_us">โมบายล์ฮอตสปอต</string>
+    <string name="quick_settings_wifi_hotspot_tmo">ฮอตสปอตระบบพกพา</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">เครือข่ายที่เลือกไว้</string>
     <string name="quick_settings_network_selection">การเลือกเครือข่าย</string>
@@ -231,6 +232,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">อย่าแสดงข้อความนี้อีก</string>
     <string name="quick_settings_power_saver_dialog_message">"การเชื่อมต่อข้อมูล เมื่อมีการเปิดใช้ระบบประหยัดพลังงาน หากมีการเปิดใช้ การถ่ายโอนข้อมูล เช่น การรับอีเมล์ อาจไม่สามารถใช้งานได้ หากมีการปิดใช้การแสดงผล
 (สามารถถ่ายโอนข้อมูลในระหว่างการชาร์ท โดยไม่ขึ้นกับการตั้งค่านี้)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">อย่าแสดงข้อความนี้อีก</string>
+    <string name="quick_settings_hotspot_dialog_message">มีการปิดใช้ Wi-Fi อยู่ เมื่อมีการเปิดใช้การปล่อยสัญญาณ USB หรือฮอตสปอตระบบพกพา เพื่อเปิดใช้ Wi-Fi โปรดปิดใช้การปล่อยสัญญาณ USB หรือฮอตสปอตระบบพกพา</string>
     <string name="quick_tips_edit_button">แตะเพื่อเพิ่มและลบการตั้งค่าอย่างรวดเร็ว</string>
     <string name="quick_tips_more_button">กดรายการค้างไว้เพื่อเปิดเพจการตั้งค่า</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN ฮอตสปอต</string>
@@ -261,4 +264,68 @@
     <string name="battery_low_charging_not_enough_title">การเตือน</string>
     <string name="battery_low_charging_not_enough_ac_title">ไม่สามารถชาร์จได้</string>
     <string name="battery_low_charging_not_enough_ac">ไม่สามารถชาร์จโทรศัพท์ของคุณได้เนื่องจากมีการใช้ไฟมากเกินไป เพื่อแก้ไขปัญหานี้ คุณสามารถลดระดับการใช้ไฟโดยการปิดเครื่องโทรศัพท์ของคุณ ปิดแอพพลิเคชันใดๆ ที่คุณไม่ใช้ หรือปิดใช้หน้าจอ</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">โหมดประหยัดพลังงานอย่างดีเยี่ยม</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"เปิดใช้โหมดประหยัดพลังงานอย่างดีเยี่ยมเพื่อยืดอายุการใช้งานแบตเตอรี่โดย:
+-ใช้งาน CPU เท่าที่จำเป็น
+-ลดความสว่างของหน้าจอ
+-ปิดฟีดแบ็กระบบสั่น
+-ปิดใช้การเชื่อมต่อข้อมูลเมื่อปิดหน้าจอ
+-อนุญาตให้ใช้งานเฉพาะแอพพลิเคชันที่จำเป็นเท่านั้น
+-ปิดใช้มาตรวัดจำนวนก้าว"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"เปิดใช้โหมดประหยัดพลังงานอย่างดีเยี่ยมเพื่อยืดอายุการใช้งานแบตเตอรี่โดย:
+-ใช้งาน CPU เท่าที่จำเป็น
+-ลดความสว่างของหน้าจอ
+-ปิดฟีดแบ็กระบบสั่น
+-ปิดใช้การเชื่อมต่อข้อมูลเมื่อปิดหน้าจอ
+-อนุญาตให้ใช้งานเฉพาะแอพพลิเคชันที่จำเป็นเท่านั้น"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">ประหยัดพลังงานอย่างดีเยี่ยม</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"เปิดใช้โหมดประหยัดแพลังงานอย่างดีเยี่ยมเพื่อยืดอายุการใช้งานแบตเตอรี่โดย:
+-ใช้งาน CPU เท่าที่จำเป็น
+-ลดความสว่างของหน้าจอ
+-ปิดฟีดแบ็กระบบสั่น
+-ปิดใช้การเชื่อมต่อข้อมูลเมื่อปิดหน้าจอ
+-อนุญาตให้ใช้งานเฉพาะแอพพลิเคชันที่จำเป็นเท่านั้น"</string>
+    <string name="extreme_auto_power_saver_ask_title">ประหยัดพลังงานสูงสุด</string>
+    <string name="extreme_auto_power_saver_ask_msg">"เปิดใช้โหมดประหยัดพลังงานสูงสุดเพื่อยืดอายุการใช้งานแบตเตอรี่โดย:
+-ใช้งาน CPU เท่าที่จำเป็น
+-ลดความสว่างของหน้าจอ
+-ปิดฟีดแบ็กระบบสั่น
+-ปิดใช้การเชื่อมต่อข้อมูลเมื่อปิดหน้าจอ
+-อนุญาตให้ใช้งานเฉพาะแอพพลิเคชันที่จำเป็นเท่านั้น"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">โหมดสแตนด์บาย</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"เปิดใช้โหมดสแตนด์บายเพื่อยืดอายุการใช้งานแบตเตอรี่โดย:
+-ใช้งาน CPU เท่าที่จำเป็น
+-ลดความสว่างของหน้าจอ
+-ปิดฟีดแบ็กระบบสั่น
+-ปิดใช้การเชื่อมต่อข้อมูลเมื่อปิดหน้าจอ
+-อนุญาตให้ใช้งานเฉพาะแอพพลิเคชันที่จำเป็นเท่านั้น"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">โหมดฉุกเฉิน</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"เปิดใช้โหมดฉุกเฉินเพื่อยืดอายุการใช้งานแบตเตอรี่โดย:
+-ใช้งาน CPU เท่าที่จำเป็น
+-ลดความสว่างของหน้าจอ
+-ปิดฟีดแบ็กระบบสั่น
+-ปิดใช้การเชื่อมต่อข้อมูลเมื่อปิดหน้าจอ
+-อนุญาตให้ใช้งานเฉพาะแอพพลิเคชันที่จำเป็นเท่านั้น"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">โหมดใช้พลังงานต่ำ</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"เปิดใช้โหมดใช้พลังงานต่ำเพื่อยืดอายุการใช้งานแบตเตอรี่โดย:
+-ใช้งาน CPU เท่าที่จำเป็น
+-ลดความสว่างของหน้าจอ
+-ปิดฟีดแบ็กระบบสั่น
+-ปิดใช้การเชื่อมต่อข้อมูลเมื่อปิดหน้าจอ
+-อนุญาตให้ใช้งานเฉพาะแอพพลิเคชันที่จำเป็นเท่านั้น"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">โหมดรักษาพลังงาน</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"เปิดใช้โหมดรักษาพลังงานเพื่อยืดอายุการใช้งานแบตเตอรี่โดย:
+-ใช้งาน CPU เท่าที่จำเป็น
+-ลดความสว่างของหน้าจอ
+-ปิดฟีดแบ็กระบบสั่น
+-ปิดใช้การเชื่อมต่อข้อมูลเมื่อปิดหน้าจอ
+-อนุญาตให้ใช้งานเฉพาะแอพพลิเคชันที่จำเป็นเท่านั้น"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">โหมดประหยัดพลังงานอย่างชาญฉลาด</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"เปิดใช้โหมดประหยัดพลังงานอย่างชาญฉลาดเพื่อยืดอายุการใช้งานแบตเตอรี่โดย:
+-ใช้งาน CPU เท่าที่จำเป็น
+-ลดความสว่างของหน้าจอ
+-ปิดฟีดแบ็กระบบสั่น
+-ปิดใช้การเชื่อมต่อข้อมูลเมื่อปิดหน้าจอ
+-อนุญาตให้ใช้งานเฉพาะแอพพลิเคชันที่จำเป็นเท่านั้น"</string>
+    <string name="quick_settings_ringtone">เสียงเรียกเข้า</string>
 </resources>

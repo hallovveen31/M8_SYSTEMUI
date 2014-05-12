@@ -21,10 +21,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;)V
     .locals 0
-    .parameter
 
-    .prologue
-    .line 381
     iput-object p1, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$2;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -36,21 +33,15 @@
 # virtual methods
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 8
-    .parameter "context"
-    .parameter "intent"
 
-    .prologue
     const/4 v4, 0x1
 
     const/4 v5, 0x0
 
-    .line 384
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 385
-    .local v0, action:Ljava/lang/String;
     iget-object v3, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$2;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -74,7 +65,6 @@
     #calls: Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->printLog(Ljava/lang/String;)V
     invoke-static {v3, v6}, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->access$200(Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;Ljava/lang/String;)V
 
-    .line 386
     const-string v3, "android.provider.Telephony.SECRET_CODE"
 
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -83,7 +73,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 387
     iget-object v6, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$2;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     iget-object v3, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$2;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
@@ -101,7 +90,6 @@
     #setter for: Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->isHkCslIconEnabled:Z
     invoke-static {v6, v3}, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->access$302(Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;Z)Z
 
-    .line 388
     iget-object v3, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$2;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     #getter for: Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->isHkCslIconEnabled:Z
@@ -113,15 +101,11 @@
 
     move v2, v4
 
-    .line 389
-    .local v2, state:I
     :goto_1
     invoke-static {p1}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object v1
 
-    .line 390
-    .local v1, sp:Landroid/content/SharedPreferences;
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v3
@@ -134,7 +118,6 @@
 
     invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 391
     iget-object v3, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$2;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -158,38 +141,30 @@
     #calls: Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->printLog(Ljava/lang/String;)V
     invoke-static {v3, v4}, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->access$200(Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;Ljava/lang/String;)V
 
-    .line 392
     iget-object v3, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$2;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     #calls: Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->updateDataNetType()V
     invoke-static {v3}, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->access$400(Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;)V
 
-    .line 393
     iget-object v3, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$2;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     #calls: Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->updateDataIcon()V
     invoke-static {v3}, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->access$500(Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;)V
 
-    .line 394
     iget-object v3, p0, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController$2;->this$0:Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;
 
     invoke-virtual {v3}, Lcom/android/systemui/statusbar/policy/HtcGenericNetworkController;->refreshViews()V
 
-    .line 396
-    .end local v1           #sp:Landroid/content/SharedPreferences;
-    .end local v2           #state:I
     :cond_0
     return-void
 
     :cond_1
     move v3, v5
 
-    .line 387
     goto :goto_0
 
     :cond_2
     move v2, v5
 
-    .line 388
     goto :goto_1
 .end method

@@ -192,7 +192,6 @@
     <string name="quick_settings_volume">볼륨</string>
     <string name="quick_settings_usage">데이터 사용</string>
     <string name="quick_settings_sync_all">모두 동기화</string>
-    <string name="quick_settings_ringtone">벨소리</string>
     <string name="quick_settings_auto_sync">자동 동기화</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">사용자 카드</string>
@@ -208,9 +207,11 @@
     <string name="quick_settings_music_channel">음악 채널</string>
     <string name="quick_settings_do_not_disturb">응답 거부</string>
     <string name="quick_settings_fingerprint_scan">지문 스캔</string>
+    <string name="quick_settings_power_saver_ex">익스트림 전원 절약 모드</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi 핫스팟</string>
-    <string name="quick_settings_wifi_hotspot_us">모바일 핫스팟</string>
     <string name="quick_settings_wifi_hotspot_jp">테더링</string>
+    <string name="quick_settings_wifi_hotspot_us">모바일 핫스팟</string>
+    <string name="quick_settings_wifi_hotspot_tmo">모바일 핫스폿</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">선호하는 네트워크</string>
     <string name="quick_settings_network_selection">네트워크 선택</string>
@@ -234,6 +235,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">이 메시지를 다시 표시 안 함</string>
     <string name="quick_settings_power_saver_dialog_message">"전원 절약기에서 데이터 연결이 켜졌습니다. 이 기능이 켜지면, 디스플레이가 꺼졌을 때 이메일 수신 같은 데이터 전송이 이루어지지 않습니다.
 (충전 중에는 이 설정에 관계없이 데이터 전송이 가능합니다.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">이 메시지를 다시 표시 안 함</string>
+    <string name="quick_settings_hotspot_dialog_message">USB 테더링 또는 모바일 핫스폿이 활성화될 때 Wi-Fi가 꺼집니다. Wi-Fi를 켜려면 USB 테더링 또는 모바일 핫스폿을 끄십시오.</string>
     <string name="quick_tips_edit_button">눌러서 빠른 설정 추가 및 제거</string>
     <string name="quick_tips_more_button">항목을 길게 눌러 해당 설정 페이지 열기</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN 핫스팟</string>
@@ -264,4 +267,68 @@
     <string name="battery_low_charging_not_enough_title">경고</string>
     <string name="battery_low_charging_not_enough_ac_title">충전할 수 없음</string>
     <string name="battery_low_charging_not_enough_ac">휴대폰이 너무 많은 전력을 사용 중이어서 충전할 수 없습니다. 이 문제를 해결하려면 휴대폰을 끄거나, 사용하지 않는 앱을 닫거나, 화면을 끄거나 해서 전력 소모를 줄이십시오.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">익스트림 전원 절약 모드</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"익스트림 전원 절약 모드를 켜면 다음과 같이 배터리 수명이 연장됩니다:
+-CPU 사용량 절약.
+-화면 밝기 줄이기.
+-진동 피드백 끄기.
+-화면이 꺼질 때 데이터 연결 끄기.
+-필수 앱들만 실행 허용.
+-보수계 끄기."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"익스트림 전원 절약 모드를 켜면 다음과 같이 배터리 수명이 연장됩니다:
+-CPU 사용량 절약.
+-화면 밝기 줄이기.
+-진동 피드백 끄기.
+-화면이 꺼질 때 데이터 연결 끄기.
+-필수 앱들만 실행 허용."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">익스트림 전원 절약기</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"익스트림 전원 절약기를 켜면 다음과 같이 배터리 수명이 연장됩니다:
+-CPU 사용량 절약.
+-화면 밝기 줄이기.
+-진동 피드백 끄기.
+-화면이 꺼질 때 데이터 연결 끄기.
+-필수 앱들만 실행 허용."</string>
+    <string name="extreme_auto_power_saver_ask_title">최대 전원 절약기</string>
+    <string name="extreme_auto_power_saver_ask_msg">"최대 전원 절약기를 켜면 다음과 같이 배터리 수명이 연장됩니다:
+-CPU 사용량 절약.
+-화면 밝기 줄이기.
+-진동 피드백 끄기.
+-화면이 꺼질 때 데이터 연결 끄기.
+-필수 앱들만 실행 허용."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">대기 모드</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"대기 모드를 켜면 다음과 같이 배터리 수명이 연장됩니다:
+-CPU 사용량 절약.
+-화면 밝기 줄이기.
+-진동 피드백 끄기.
+-화면이 꺼질 때 데이터 연결 끄기.
+-필수 앱들만 실행 허용."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">긴급 모드</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"긴급 모드를 켜면 다음과 같이 배터리 수명이 연장됩니다:
+-CPU 사용량 절약.
+-화면 밝기 줄이기.
+-진동 피드백 끄기.
+-화면이 꺼질 때 데이터 연결 끄기.
+-필수 앱들만 실행 허용."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">저전력 모드</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"저전력 모드를 켜면 다음과 같이 배터리 수명이 연장됩니다:
+-CPU 사용량 절약.
+-화면 밝기 줄이기.
+-진동 피드백 끄기.
+-화면이 꺼질 때 데이터 연결 끄기.
+-필수 앱들만 실행 허용."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">전원 절약 모드</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"전원 절약 모드를 켜면 다음과 같이 배터리 수명이 연장됩니다:
+-CPU 사용량 절약.
+-화면 밝기 줄이기.
+-진동 피드백 끄기.
+-화면이 꺼질 때 데이터 연결 끄기.
+-필수 앱들만 실행 허용."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">스마트 전원 절약기 모드</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"스마트 전원 절약기 모드를 켜면 다음과 같이 배터리 수명이 연장됩니다:
+-CPU 사용량 절약.
+-화면 밝기 줄이기.
+-진동 피드백 끄기.
+-화면이 꺼질 때 데이터 연결 끄기.
+-필수 앱들만 실행 허용."</string>
+    <string name="quick_settings_ringtone">벨소리</string>
 </resources>

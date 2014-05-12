@@ -190,7 +190,6 @@
     <string name="quick_settings_volume">Ուժգնություն</string>
     <string name="quick_settings_usage">Տվյալների օգտագործում</string>
     <string name="quick_settings_sync_all">Համաժամել բոլորը</string>
-    <string name="quick_settings_ringtone">Ձայներանգ</string>
     <string name="quick_settings_auto_sync">Ինքնահամաժամեցում</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Օգտվողի քարտ</string>
@@ -206,9 +205,11 @@
     <string name="quick_settings_music_channel">Երաժշտական ալիք</string>
     <string name="quick_settings_do_not_disturb">Չանհանգստացնել</string>
     <string name="quick_settings_fingerprint_scan">Մատնահետքի սկան</string>
+    <string name="quick_settings_power_saver_ex">Բացառիկ հոսանքի պահպանման կերպ</string>
     <string name="quick_settings_wifi_hotspot">Wi-Fi Hotspot</string>
-    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
     <string name="quick_settings_wifi_hotspot_jp">Կապում</string>
+    <string name="quick_settings_wifi_hotspot_us">Mobile Hotspot</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Mobile HotSpot</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Նախընտրել ցանց</string>
     <string name="quick_settings_network_selection">Ցանցի ընտրություն</string>
@@ -232,6 +233,8 @@
     <string name="quick_settings_power_saver_dialog_chkbox">Այլևս չցուցադրել այս ուղերձը</string>
     <string name="quick_settings_power_saver_dialog_message">"Տվյալների կապակցումը Հոսանքի պահպանում ընտրանքում ՄԻԱՑ է: Եթե այն ՄԻԱՑ է, տվյալների փոխանցումը, օրինակ՝ էլ. փստի ստացումը, չի կատարվի անջատած ցուցադրիչով:
 (Տվյալների փոխանցումը հնարավոր է լիցքավորման ընթացքում՝ անկախ այս կարգավորումից:)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Այլևս չցուցադրել այս ուղերձը</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi-ն անջատած է, երբ USB կապումը Mobile Hotspot-ում գործուն է: Wi-Fi միացնելու համար անջատեք USB կապումը Mobile Hotspot-ում:</string>
     <string name="quick_tips_edit_button">Հպեք՝ Արագ կարգավորումները հավելելու և հեռացնելու համար</string>
     <string name="quick_tips_more_button">Սեղմեք և պահեք միավորը՝ իր Կարգավորումների էջը բացելու համար</string>
     <string name="quick_settings_wifi_hotspot_cn">WLAN Hotspot</string>
@@ -262,4 +265,68 @@
     <string name="battery_low_charging_not_enough_title">Զգուշացում</string>
     <string name="battery_low_charging_not_enough_ac_title">Անհնար է լիցքավորել</string>
     <string name="battery_low_charging_not_enough_ac">Անհնար է լիցքավորել ձեր հեռախոսը, քանի որ այն օգտագործում է չափազանց շատ հոսանք: Խնդիրը շտկելու համար նվազեցրեք հոսանքի ծախսը՝ անջատելով հեռախոսը, փակելով չօգտագործվող գործադիրները կամ միացնելով/անջատելով էկրանը:</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Բացառիկ հոսանքի պահպանման կերպ</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Բացառիկ հոսանքի պահպանման կերպը երկարացնում է մարտկոցի կյանքը՝
+-Նվազեցնելով CPU օգտագործումը:
+-Նվազեցնելով էկրանը պայծառությունը:
+-Անջատելով թրթռման արձագանքը:
+-Անջատելով տվյալների կապակցումը, երբ էկրանն անջատած է:
+-Թույլատրելով միայն անհրաժեշտ գործադիրների օգտագործումը:
+-Անջատելով քայլաչափը:"</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Բացառիկ հոսանքի պահպանման կերպը երկարացնում է մարտկոցի կյանքը՝
+-Նվազեցնելով CPU օգտագործումը:
+-Նվազեցնելով էկրանը պայծառությունը:
+-Անջատելով թրթռման արձագանքը:
+-Անջատելով տվյալների կապակցումը, երբ էկրանն անջատած է:
+-Թույլատրելով միայն անհրաժեշտ գործադիրների օգտագործումը:"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Բացառիկ հոսանքի պահպանում</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Բացառիկ հոսանքի պահպանման կերպը երկարացնում է մարտկոցի կյանքը՝
+-Նվազեցնելով CPU օգտագործումը:
+-Նվազեցնելով էկրանը պայծառությունը:
+-Անջատելով թրթռման արձագանքը:
+-Անջատելով տվյալների կապակցումը, երբ էկրանն անջատած է:
+-Թույլատրելով միայն անհրաժեշտ գործադիրների օգտագործումը:"</string>
+    <string name="extreme_auto_power_saver_ask_title">Առավելագույն հոսանքի պահպանում</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Առավելագույն հոսանքի պահպանման կերպը երկարացնում է մարտկոցի կյանքը՝
+-Նվազեցնելով CPU օգտագործումը:
+-Նվազեցնելով էկրանը պայծառությունը:
+-Անջատելով թրթռման արձագանքը:
+-Անջատելով տվյալների կապակցումը, երբ էկրանն անջատած է:
+-Թույլատրելով միայն անհրաժեշտ գործադիրների օգտագործումը:"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Նիրհման կերպ</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Նիրհման կերպը երկարացնում է մարտկոցի կյանքը՝
+-Նվազեցնելով CPU օգտագործումը:
+-Նվազեցնելով էկրանը պայծառությունը:
+-Անջատելով թրթռման արձագանքը:
+-Անջատելով տվյալների կապակցումը, երբ էկրանն անջատած է:
+-Թույլատրելով միայն անհրաժեշտ գործադիրների օգտագործումը:"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Հրատապ կերպ</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Հրատապ կերպը երկարացնում է մարտկոցի կյանքը՝
+-Նվազեցնելով CPU օգտագործումը:
+-Նվազեցնելով էկրանը պայծառությունը:
+-Անջատելով թրթռման արձագանքը:
+-Անջատելով տվյալների կապակցումը, երբ էկրանն անջատած է:
+-Թույլատրելով միայն անհրաժեշտ գործադիրների օգտագործումը:"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Ցածր հոսանքի կերպ</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Ցածր հոսանքի կերպը երկարացնում է մարտկոցի կյանքը՝
+-Նվազեցնելով CPU օգտագործումը:
+-Նվազեցնելով էկրանը պայծառությունը:
+-Անջատելով թրթռման արձագանքը:
+-Անջատելով տվյալների կապակցումը, երբ էկրանն անջատած է:
+-Թույլատրելով միայն անհրաժեշտ գործադիրների օգտագործումը:"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Հոսանքի պահպանման կարպ</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Հոսանքի պահպանման կերպը երկարացնում է մարտկոցի կյանքը՝
+-Նվազեցնելով CPU օգտագործումը:
+-Նվազեցնելով էկրանը պայծառությունը:
+-Անջատելով թրթռման արձագանքը:
+-Անջատելով տվյալների կապակցումը, երբ էկրանն անջատած է:
+-Թույլատրելով միայն անհրաժեշտ գործադիրների օգտագործումը:"</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Խելացի հոսանքի պահպանման կերպ</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Խելացի հոսանքի պահպանման կերպը երկարացնում է մարտկոցի կյանքը՝
+-Նվազեցնելով CPU օգտագործումը:
+-Նվազեցնելով էկրանը պայծառությունը:
+-Անջատելով թրթռման արձագանքը:
+-Անջատելով տվյալների կապակցումը, երբ էկրանն անջատած է:
+-Թույլատրելով միայն անհրաժեշտ գործադիրների օգտագործումը:"</string>
+    <string name="quick_settings_ringtone">Ձայներանգ</string>
 </resources>

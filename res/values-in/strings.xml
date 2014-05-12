@@ -189,7 +189,6 @@ Jika Anda mengaktifkan ulang data, mungkin Anda akan dikenai biaya oleh operator
     <string name="quick_settings_volume">Volume</string>
     <string name="quick_settings_usage">Penggunaan Data</string>
     <string name="quick_settings_sync_all">Sinkronkan Semua</string>
-    <string name="quick_settings_ringtone">Nada dering</string>
     <string name="quick_settings_auto_sync">Sinkronisasi Otomatis</string>
     <string name="quick_settings_bluetooth">Bluetooth</string>
     <string name="quick_settings_user_card">Kartu Pengguna</string>
@@ -205,9 +204,11 @@ Jika Anda mengaktifkan ulang data, mungkin Anda akan dikenai biaya oleh operator
     <string name="quick_settings_music_channel">Saluran Music</string>
     <string name="quick_settings_do_not_disturb">Jangan Ganggu</string>
     <string name="quick_settings_fingerprint_scan">Pemindaian Sidik Jari</string>
+    <string name="quick_settings_power_saver_ex">Mode Penghematan Daya Ekstrem</string>
     <string name="quick_settings_wifi_hotspot">Hotspot Wi-Fi</string>
-    <string name="quick_settings_wifi_hotspot_us">Hotspot Seluler</string>
     <string name="quick_settings_wifi_hotspot_jp">Penambatan</string>
+    <string name="quick_settings_wifi_hotspot_us">Hotspot Seluler</string>
+    <string name="quick_settings_wifi_hotspot_tmo">Hotspot Seluler</string>
     <string name="quick_settings_apn">APN</string>
     <string name="quick_settings_prefer_network">Jaringan Pilihan</string>
     <string name="quick_settings_network_selection">Pilihan Jaringan</string>
@@ -231,6 +232,8 @@ Jika Anda mengaktifkan ulang data, mungkin Anda akan dikenai biaya oleh operator
     <string name="quick_settings_power_saver_dialog_chkbox">Jangan tampilkan pesan ini kepada saya lagi</string>
     <string name="quick_settings_power_saver_dialog_message">"Sambungan data di Penghemat daya HIDUP. Jika HIDUP, transmisi data seperti menerima email mungkin tidak dapat dilakukan ketika tampilan dimatikan.
 (Transmisi data dapat dilakukan ketika sedang mengisi apa pun setelannya.)"</string>
+    <string name="quick_settings_hotspot_dialog_chkbox">Jangan tampilkan pesan ini ke lagi</string>
+    <string name="quick_settings_hotspot_dialog_message">Wi-Fi dimatikan ketika Penambatan USB atau Hotspot Seluler aktif. Untuk Menghidupkan Wi-Fi, matikan penambatan USB atau Hotspot Seluler.</string>
     <string name="quick_tips_edit_button">Ketuk untuk menambah dan menghapus Setelan Cepat</string>
     <string name="quick_tips_more_button">Tekan dan tahan sebuah item untuk membuka halaman Setelan</string>
     <string name="quick_settings_wifi_hotspot_cn">Hotspot WLAN</string>
@@ -261,4 +264,68 @@ Jika Anda mengaktifkan ulang data, mungkin Anda akan dikenai biaya oleh operator
     <string name="battery_low_charging_not_enough_title">Peringatan</string>
     <string name="battery_low_charging_not_enough_ac_title">Tidak dapat mengisi</string>
     <string name="battery_low_charging_not_enough_ac">Tidak dapat mengisi telepon karena menggunakan terlalu banyak daya. Untuk memperbaiki masalah ini, kurangi konsumsi daya dengan mematikan telepon, menutup apl yang tidak sedang Anda gunakan, atau mematikan layar.</string>
+    <string name="extreme_auto_power_saver_ask_title_ex">Mode penghematan daya ekstrem</string>
+    <string name="extreme_auto_power_saver_ask_eps_msg">"Menghidupkan mode penghematan daya ekstrem memperpanjang masa pakai baterai dengan:
+-Memperpanjang penggunaan CPU.
+-Mengurangi kecerahan layar.
+-Mematikan umpan balik getaran.
+-Mematikan sambungan data ketika layar mati.
+-Hanya memungkinkan aplikasi penting untuk berjalan.
+-Mematikan pedometer."</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex">"Menghidupkan penghemat daya ekstrem memperpanjang masa pakai baterai dengan:
+-Memperpanjang penggunaan CPU.
+-Mengurangi kecerahan layar.
+-Mematikan umpan balik getaran.
+-Mematikan sambungan data ketika layar mati.
+-Hanya memungkinkan aplikasi penting untuk berjalan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex1">Penghemat daya ekstrem</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex1">"Menghidupkan penghemat daya ekstrem memperpanjang masa pakai baterai dengan:
+-Memperpanjang penggunaan CPU.
+-Mengurangi kecerahan layar.
+-Mematikan umpan balik getaran.
+-Mematikan sambungan data ketika layar mati.
+-Hanya memungkinkan aplikasi penting untuk berjalan."</string>
+    <string name="extreme_auto_power_saver_ask_title">Penghemat daya maksimum</string>
+    <string name="extreme_auto_power_saver_ask_msg">"Menghidupkan penghemat daya maksimum memperpanjang masa pakai baterai dengan:
+-Memperpanjang penggunaan CPU.
+-Mengurangi kecerahan layar.
+-Mematikan umpan balik getaran.
+-Mematikan data sambungan data ketika layar mati.
+-Hanya memungkinkan aplikasi penting untuk berjalan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex2">Mode siaga</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex2">"Menghidupkan mode siaga memperpanjang masa pakai baterai dengan:
+-Memperpanjang penggunaan CPU.
+-Mengurangi kecerahan layar.
+-Mematikan umpan balik getaran.
+-Mematikan data sambungan data ketika layar mati.
+-Hanya memungkinkan aplikasi penting untuk berjalan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex3">Mode darurat</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex3">"Menghidupkan mode darurat memperpanjang masa pakai baterai dengan:
+-Memperpanjang penggunaan CPU.
+-Mengurangi kecerahan layar.
+-Mematikan umpan balik getaran.
+-Mematikan data sambungan data ketika layar mati.
+-Hanya memungkinkan aplikasi penting untuk berjalan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex4">Mode daya rendah</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex4">"Menghidupkan mode daya rendah memperpanjang masa pakai baterai dengan:
+-Memperpanjang penggunaan CPU.
+-Mengurangi kecerahan layar.
+-Mematikan umpan balik getaran.
+-Mematikan data sambungan data ketika layar mati.
+-Hanya memungkinkan aplikasi penting untuk berjalan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex5">Mode konservasi daya</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex5">"Menghidupkan mode konservasi daya memperpanjang masa pakai baterai dengan:
+-Memperpanjang penggunaan CPU.
+-Mengurangi kecerahan layar.
+-Mematikan umpan balik getaran.
+-Mematikan data sambungan data ketika layar mati.
+-Hanya memungkinkan aplikasi penting untuk berjalan."</string>
+    <string name="extreme_auto_power_saver_ask_title_ex6">Mode penghemat daya cerdas</string>
+    <string name="extreme_auto_power_saver_ask_msg_ex6">"Menghidupkan mode penghemat daya cerdas memperpanjang masa pakai baterai dengan:
+-Memperpanjang penggunaan CPU.
+-Mengurangi kecerahan layar.
+-Mematikan umpan balik getaran.
+-Mematikan data sambungan data ketika layar mati.
+-Hanya memungkinkan aplikasi penting untuk berjalan."</string>
+    <string name="quick_settings_ringtone">Nada dering</string>
 </resources>
